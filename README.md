@@ -9,6 +9,7 @@ For documentation (in progress), please see the [Plumage wiki](https://github.co
 #Licenses
 
 *[ASL V2.0](http://www.apache.org/licenses/LICENSE-2.0) (code)
+
 *[CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) (documentation)
 
 See [License Information](https://github.com/codingatty/Plumage/wiki/License-Information) for license details.
