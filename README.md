@@ -1,6 +1,6 @@
 Plumage
 =======
-**Plumage** is a library to obtain trademark status and other information from the United States Patent & Trademark Office's (PTO) [Trademark Status & Document Retrieval](http://tsdr.uspto.gov/) (TSDR) system.  It takes as input either a 7-digit registration number ("r") or an 8-digit application serial number ("s"), fetches the corresponding XML data from the PTO's TSDR website, and returns a dictionary of data associated with the specified TSDR entry.
+**Plumage** is an open source library to obtain trademark status and other information from the United States Patent & Trademark Office's (PTO) [Trademark Status & Document Retrieval](http://tsdr.uspto.gov/) (TSDR) system.  It takes as input either a 7-digit registration number ("r") or an 8-digit application serial number ("s"), fetches the corresponding XML data from the PTO's TSDR website, and returns a dictionary of data associated with the specified TSDR entry.
 
 Plumage  currently has two implementations, each in its own repository:
 * [Plumage-py](https://github.com/codingatty/Plumage-py), an implementation in Python (2.7)
@@ -18,11 +18,7 @@ Plumage supports both ST.66 and ST.96 format files provided by the USPTO.  Most 
 For documentation (in progress), please see the [Plumage wiki](https://github.com/codingatty/Plumage/wiki).
 
 #Licenses
-
-* [ASL V2.0](http://www.apache.org/licenses/LICENSE-2.0) (code)
-* [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) (documentation)
-
-See [License Information](https://github.com/codingatty/Plumage/wiki/License-Information) for license details.
+Plumage is open source, licensed under [ASL V2.0](http://www.apache.org/licenses/LICENSE-2.0) (code) and [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) (documentation).  See the [Plumage wiki](https://github.com/codingatty/Plumage/wiki) for details.
 
 
 
