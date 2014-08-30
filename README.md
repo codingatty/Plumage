@@ -1,6 +1,6 @@
 Plumage
 =======
-**Plumage** is an open source library to obtain trademark status and other information from the United States Patent & Trademark Office's (PTO) [Trademark Status & Document Retrieval](http://tsdr.uspto.gov/) (TSDR) system.  It takes as input either a 7-digit registration number ("r") or an 8-digit application serial number ("s"), fetches the corresponding XML data from the PTO's TSDR website, and returns a dictionary of data associated with the specified TSDR entry.
+**Plumage** is an open source library to obtain trademark status and other information from the United States Patent & Trademark Office's (PTO) [Trademark Status & Document Retrieval](http://tsdr.uspto.gov/) (TSDR) system.  It takes as input either a registration number or application serial number, fetches the corresponding XML data from the PTO's TSDR website, and returns a dictionary of data associated with the specified TSDR entry.
 
 Plumage  currently has two implementations, each in its own repository:
 * [Plumage-py](https://github.com/codingatty/Plumage-py), an implementation in Python (2.7)
