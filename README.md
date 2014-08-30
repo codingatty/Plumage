@@ -17,8 +17,4 @@ Plumage supports both ST.66 and ST.96 format files provided by the USPTO.  Most 
 
 For documentation (in progress), please see the [Plumage wiki](https://github.com/codingatty/Plumage/wiki).
 
-#Licenses
-Plumage is open source, licensed under [ASL V2.0](http://www.apache.org/licenses/LICENSE-2.0) (code) and [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) (documentation).  See the [Plumage wiki](https://github.com/codingatty/Plumage/wiki) for details.
-
-
-
+Plumage is open source, licensed under [ASL V2.0](http://www.apache.org/licenses/LICENSE-2.0) (code) and [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) (documentation).
