@@ -5,6 +5,7 @@ Plumage
 Plumage  currently has two implementations, each in its own repository:
 * [Plumage-py](https://github.com/codingatty/Plumage-py), an implementation in Python (2.7)
 * [Plumage-dotnet](https://github.com/codingatty/Plumage-dotnet), a C# implementation for .NET (C#, VisualBasic, etc.)
+Pick whichever implementation bfits your needs.
 
 Plumage provides the following data:
 * Status information: dozens of individual data items about the status of the registration application, including application and registration numbers and dates; applicant and representative contact information, historical data on all events recorded in the application; and history of any recorded assignments.  
