@@ -9,12 +9,12 @@
 <xsl:template match="tmk:Trademark">
 <xsl:text/>DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"<xsl:text/>
 DiagnosticInfoXSLTLocation,"$XSLTLOCATION$"<xsl:text/>
-DiagnosticInfoXSLTVersion,"0.9.4"<xsl:text/>
+DiagnosticInfoXSLTVersion,"1.0.0"<xsl:text/>
 DiagnosticInfoXSLTDate,"2016-04-19"<xsl:text/>
 DiagnosticInfoXSLTFormat,"ST.96"<xsl:text/>
 DiagnosticInfoXSLTAuthor,"Terry Carroll"<xsl:text/>
 DiagnosticInfoXSLTURL,"https://github.com/codingatty/Plumage"<xsl:text/>
-DiagnosticInfoXSLTCopyright,"Copyright 2014, 2016 Terry Carroll"<xsl:text/>
+DiagnosticInfoXSLTCopyright,"Copyright 2014-2016 Terry Carroll"<xsl:text/>
 DiagnosticInfoXSLTLicense,"Apache License, version 2.0 (January 2004)"<xsl:text/>
 DiagnosticInfoXSLTLicenseURL,"http://www.apache.org/licenses/LICENSE-2.0"<xsl:text/>
 DiagnosticInfoImplementationName,"$IMPLEMENTATIONNAME$"<xsl:text/>
