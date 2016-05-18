@@ -17,6 +17,6 @@ Plumage provides the following data:
 
 Plumage supports both ST.66 and ST.96 format files provided by the USPTO.  Most of the extraction logic is performed using XSLT.  By default, it determines the XML format and extracts data using the appropriate supplied XSLT transform.  A developer can override this by supplying her own XSLT file (either a modification of the standard transforms, or a completely new transform).  This may be desirable to adapt to changes made by the USPTO, or to extract additional data elements not currently provided by Plumage.
 
-For documentation (in progress), please see the [Plumage wiki](https://github.com/codingatty/Plumage/wiki).
+For documentation (in progress), please see the [Plumage wiki](https://github.com/codingatty/Plumage/wiki/Plumage-Home).
 
 Plumage is open source, licensed under [ASL V2.0](http://www.apache.org/licenses/LICENSE-2.0) (code) and [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) (documentation).
