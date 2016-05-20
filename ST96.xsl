@@ -9,8 +9,8 @@
 <xsl:template match="tmk:Trademark">
 <xsl:text/>DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"<xsl:text/>
 DiagnosticInfoXSLTLocation,"$XSLTLOCATION$"<xsl:text/>
-DiagnosticInfoXSLTVersion,"1.0.0"<xsl:text/>
-DiagnosticInfoXSLTDate,"2016-04-19"<xsl:text/>
+DiagnosticInfoXSLTVersion,"1.0.1"<xsl:text/>
+DiagnosticInfoXSLTDate,"2016-05-20"<xsl:text/>
 DiagnosticInfoXSLTFormat,"ST.96"<xsl:text/>
 DiagnosticInfoXSLTAuthor,"Terry Carroll"<xsl:text/>
 DiagnosticInfoXSLTURL,"https://github.com/codingatty/Plumage"<xsl:text/>
@@ -165,8 +165,8 @@ ApplicantCountryCode,"<xsl:value-of select="com:CountryCode"/>"<xsl:text/>
 
 <xsl:template match="tmk:MarkEvent">
 BeginRepeatedField,"MarkEvent"<xsl:text/>
-MarkEventDate,"<xsl:value-of select="substring(tmk:MarkEventDate,1,10)"/>"<xsl:text/>
-MarkEventDateTruncated,"<xsl:value-of select="tmk:MarkEventDate"/>"<xsl:text/>
+MarkEventDate,"<xsl:value-of select="tmk:MarkEventDate"/>"<xsl:text/>
+MarkEventDateTruncated,"<xsl:value-of select="substring(tmk:MarkEventDate,1,10)"/>"<xsl:text/>
 MarkEventDescription,"<xsl:value-of select="tmk:NationalMarkEvent/tmk:MarkEventDescriptionText"/>"<xsl:text/>
 MarkEventEntryNumber,"<xsl:value-of select="tmk:NationalMarkEvent/tmk:MarkEventEntryNumber"/>"<xsl:text/>
 EndRepeatedField,"MarkEvent"<xsl:text/>
