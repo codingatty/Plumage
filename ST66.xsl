@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+
+   Plumage: XSLT to transform USPTO TSDR XML to CSV format
+   https://github.com/codingatty/Plumage
+   
+   ST96.xsl - ST.96 transform
+   Version 1.0.0, 2016-04-19
+   Copyright 2014-2016 Terry Carroll
+   carroll@tjc.com
+
+   This program is licensed under Apache License, version 2.0 (January 2004),
+   http://www.apache.org/licenses/LICENSE-2.0
+
+   SPX-License-Identifier: Apache-2.0
+
+   Anyone who makes use of, or who modifies, this code is encouraged
+   (but not required) to notify the author.
+
+-->
+
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tm="http://www.wipo.int/standards/XMLSchema/trademarks" xmlns:pto="urn:us:gov:doc:uspto:trademark:status">
 <xsl:output method="text" encoding="utf-8"/>
 <xsl:variable name='NL'><xsl:text>&#10;</xsl:text></xsl:variable><!-- NL = newline character X'0A' -->
+
 <xsl:template match="tm:Transaction">
 <xsl:apply-templates select=".//tm:TradeMark"/>
 <xsl:apply-templates select=".//tm:Applicant"/>
@@ -19,6 +41,7 @@ DiagnosticInfoXSLTAuthor,"Terry Carroll"<xsl:text/>
 DiagnosticInfoXSLTURL,"https://github.com/codingatty/Plumage"<xsl:text/>
 DiagnosticInfoXSLTCopyright,"Copyright 2014-2016 Terry Carroll"<xsl:text/>
 DiagnosticInfoXSLTLicense,"Apache License, version 2.0 (January 2004)"<xsl:text/>
+DiagnosticInfoXSLTSPDXLicenseIdentifier,"Apache-2.0"<xsl:text/>
 DiagnosticInfoXSLTLicenseURL,"http://www.apache.org/licenses/LICENSE-2.0"<xsl:text/>
 DiagnosticInfoImplementationName,"$IMPLEMENTATIONNAME$"<xsl:text/>
 DiagnosticInfoImplementationVersion,"$IMPLEMENTATIONVERSION$"<xsl:text/>
@@ -27,6 +50,7 @@ DiagnosticInfoImplementationAuthor,"$IMPLEMENTATIONAUTHOR$"<xsl:text/>
 DiagnosticInfoImplementationURL,"$IMPLEMENTATIONURL$"<xsl:text/>
 DiagnosticInfoImplementationCopyright,"$IMPLEMENTATIONCOPYRIGHT$"<xsl:text/>
 DiagnosticInfoImplementationLicense,"$IMPLEMENTATIONLICENSE$"<xsl:text/>
+DiagnosticInfoImplementationSPDXLicenseIdentifier,"$IMPLEMENTATIONSPDXLID$"<xsl:text/>
 DiagnosticInfoImplementationLicenseURL,"$IMPLEMENTATIONLICENSEURL$"<xsl:text/>
 DiagnosticInfoExecutionDateTime,"$EXECUTIONDATETIME$"<xsl:text/>
 DiagnosticInfoXMLSource,"$XMLSOURCE$"<xsl:text/>
