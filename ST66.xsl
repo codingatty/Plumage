@@ -5,14 +5,13 @@
    Plumage: XSLT to transform USPTO TSDR XML to CSV format
    https://github.com/codingatty/Plumage
    
-   ST96.xsl - ST.96 transform
-   Version 1.0.0, 2016-04-19
-   Copyright 2014-2016 Terry Carroll
+   ST66.xsl - ST.66 transform
+   Version 1.1.1, 2017-03-15
+   Copyright 2014-2017 Terry Carroll
    carroll@tjc.com
 
-   This program is licensed under Apache License, version 2.0 (January 2004),
-   http://www.apache.org/licenses/LICENSE-2.0
-
+   This program is licensed under Apache License, version 2.0 (January 2004);
+   see http://www.apache.org/licenses/LICENSE-2.0
    SPX-License-Identifier: Apache-2.0
 
    Anyone who makes use of, or who modifies, this code is encouraged
@@ -34,12 +33,12 @@
 <xsl:template match="tm:TradeMark">
 <xsl:text/>DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"<xsl:text/>
 DiagnosticInfoXSLTLocation,"$XSLTLOCATION$"<xsl:text/>
-DiagnosticInfoXSLTVersion,"1.0.0"<xsl:text/>
-DiagnosticInfoXSLTDate,"2016-04-19"<xsl:text/>
+DiagnosticInfoXSLTVersion,"1.1.1"<xsl:text/>
+DiagnosticInfoXSLTDate,"2017-03-15"<xsl:text/>
 DiagnosticInfoXSLTFormat,"ST.66"<xsl:text/>
 DiagnosticInfoXSLTAuthor,"Terry Carroll"<xsl:text/>
 DiagnosticInfoXSLTURL,"https://github.com/codingatty/Plumage"<xsl:text/>
-DiagnosticInfoXSLTCopyright,"Copyright 2014-2016 Terry Carroll"<xsl:text/>
+DiagnosticInfoXSLTCopyright,"Copyright 2014-2017 Terry Carroll"<xsl:text/>
 DiagnosticInfoXSLTLicense,"Apache License, version 2.0 (January 2004)"<xsl:text/>
 DiagnosticInfoXSLTSPDXLicenseIdentifier,"Apache-2.0"<xsl:text/>
 DiagnosticInfoXSLTLicenseURL,"http://www.apache.org/licenses/LICENSE-2.0"<xsl:text/>
