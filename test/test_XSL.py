@@ -75,7 +75,7 @@ class TestUM(unittest.TestCase):
     def test_B003_reg_date_times(self): # Only ST.66 uses time on reg date
         self.confirm_content(["regdatetimes"], ["rn2178784", "rn2713476"], XSLformats=["ST66"])
 
-    def test_B004_reg_date_only(self): # Only ST.96 does not use time  
+    def test_B004_reg_date_only(self): # ST.96 does not use time  
         self.confirm_content(["regdatesonly"], ["rn2178784", "rn2713476"], XSLformats=["ST96"]) 
        
 if __name__ == '__main__':
