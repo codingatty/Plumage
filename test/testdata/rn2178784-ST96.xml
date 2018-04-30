@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:TrademarkTransaction xmlns:ns1="http://www.wipo.int/standards/XMLSchema/ST96/Common" xmlns:ns2="http://www.wipo.int/standards/XMLSchema/ST96/Trademark" xmlns:ns3="urn:us:gov:doc:uspto:trademark">
+    <ns2:TrademarkTransactionBody>
+        <ns2:TransactionContentBag>
+            <ns1:TransactionCategory>National trademark registration</ns1:TransactionCategory>
+            <ns2:TransactionData>
+                <ns2:TrademarkBag>
+                    <ns2:Trademark>
+                        <ns1:RegistrationOfficeCode>US</ns1:RegistrationOfficeCode>
+                        <ns1:ApplicationNumber>
+                            <ns1:IPOfficeCode>US</ns1:IPOfficeCode>
+                            <ns1:ApplicationNumberText>74631225</ns1:ApplicationNumberText>
+                        </ns1:ApplicationNumber>
+                        <ns1:RegistrationNumber>2178784</ns1:RegistrationNumber>
+                        <ns2:ApplicationDate>1995-02-07-05:00</ns2:ApplicationDate>
+                        <ns1:RegistrationDate>1998-08-04</ns1:RegistrationDate>
+                        <ns1:FilingPlace>US</ns1:FilingPlace>
+                        <ns2:MarkCurrentStatusCode>800</ns2:MarkCurrentStatusCode>
+                        <ns2:MarkCurrentStatusDate>2008-08-11</ns2:MarkCurrentStatusDate>
+                        <ns2:AssociatedMarkBag/>
+                        <ns2:MarkCategory>Trademark</ns2:MarkCategory>
+                        <ns2:MarkRepresentation>
+                            <ns2:MarkReproduction>
+<ns2:WordMarkSpecification>
+    <ns2:MarkVerbalElementText>JAVA</ns2:MarkVerbalElementText>
+    <ns2:MarkSignificantVerbalElementText>JAVA</ns2:MarkSignificantVerbalElementText>
+    <ns2:MarkTranslationText ns1:sequenceNumber="1"/>
+    <ns2:MarkTransliteration/>
+    <ns2:MarkStandardCharacterIndicator>false</ns2:MarkStandardCharacterIndicator>
+</ns2:WordMarkSpecification>
+<ns2:MarkImageBag>
+    <ns2:MarkImage>
+        <ns1:FileName>No image available</ns1:FileName>
+        <ns2:MarkImageColourClaimedText ns1:sequenceNumber="1"/>
+        <ns2:MarkImageColourPartClaimedText ns1:sequenceNumber="1"/>
+        <ns2:NationalDesignSearchCodeBag/>
+        <ns1:ColourIndicator>false</ns1:ColourIndicator>
+    </ns2:MarkImage>
+</ns2:MarkImageBag>
+<ns2:MarkSoundBag>
+    <ns2:MarkSound/>
+</ns2:MarkSoundBag>
+                            </ns2:MarkReproduction>
+                            <ns2:MarkDescriptionBag>
+<ns2:MarkDescriptionText/>
+<ns2:NationalMarkDescription>
+    <ns2:MarkFeatureCode>1</ns2:MarkFeatureCode>
+</ns2:NationalMarkDescription>
+                            </ns2:MarkDescriptionBag>
+                        </ns2:MarkRepresentation>
+                        <ns2:MarkDisclaimerBag>
+                            <ns2:MarkDisclaimerText ns1:sequenceNumber="1"/>
+                        </ns2:MarkDisclaimerBag>
+                        <ns2:GoodsServicesBag>
+                            <ns2:GoodsServices>
+<ns2:GoodsServicesClassificationBag>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Primary</ns2:ClassificationKindCode>
+        <ns2:ClassNumber>009</ns2:ClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Nice</ns2:ClassificationKindCode>
+        <ns2:ClassNumber>009</ns2:ClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>021</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>023</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>026</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>036</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>038</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+</ns2:GoodsServicesClassificationBag>
+<ns2:NationalFilingBasis>
+    <ns2:CurrentBasis>
+        <ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+        <ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+        <ns2:BasisUseIndicator>false</ns2:BasisUseIndicator>
+        <ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+        <ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
+    </ns2:CurrentBasis>
+    <ns2:FirstUsedDate>19960100</ns2:FirstUsedDate>
+    <ns2:FirstUsedCommerceDate>19960100</ns2:FirstUsedCommerceDate>
+</ns2:NationalFilingBasis>
+<ns2:ClassDescriptionBag>
+    <ns2:ClassDescription>
+        <ns2:ClassNumber>009</ns2:ClassNumber>
+        <ns2:GoodsServicesDescriptionText ns1:sequenceNumber="1">computer programs for use in developing and executing other computer programs on computers, computer networks, and global communications networks, and instruction manuals sold therewith; computer programs for use in navigating, browsing, transferring information, and distributing and viewing other computer programs on computers, computer networks and global communications networks, and instruction manuals sold therewith</ns2:GoodsServicesDescriptionText>
+    </ns2:ClassDescription>
+    <ns2:ClassDescription>
+        <ns2:NationalStatusBag>
+            <ns2:NationalStatus>
+                <ns2:NationalStatusCategory>National class status</ns2:NationalStatusCategory>
+                <ns2:NationalStatusCode>6</ns2:NationalStatusCode>
+                <ns2:NationalStatusExternalDescriptionText>ACTIVE</ns2:NationalStatusExternalDescriptionText>
+            </ns2:NationalStatus>
+        </ns2:NationalStatusBag>
+    </ns2:ClassDescription>
+</ns2:ClassDescriptionBag>
+                            </ns2:GoodsServices>
+                        </ns2:GoodsServicesBag>
+                        <ns2:PublicationBag>
+                            <ns2:Publication>
+<ns1:PublicationIdentifier>USPTO Official Gazette for Trademarks (OG)</ns1:PublicationIdentifier>
+<ns1:PublicationDate>1996-10-08</ns1:PublicationDate>
+                            </ns2:Publication>
+                        </ns2:PublicationBag>
+                        <ns2:ApplicantBag>
+                            <ns2:Applicant ns1:sequenceNumber="31">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>DE</ns1:IncorporationState>
+<ns1:Version>
+    <ns1:CommentText ns1:sequenceNumber="1">SUBSEQUENT OWNER AFTER REGISTRATION</ns1:CommentText>
+</ns1:Version>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:EntityName>Oracle America, Inc.</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">500 ORACLE PARKWAY</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>REDWOOD SHORES</ns1:CityName>
+                <ns1:GeographicRegionName>CALIFORNIA</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>94065</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="30">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>DE</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">ORIGINAL REGISTRANT</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>Sun Microsystems, Inc.</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>Sun Microsystems, Inc.</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">4150 NETWORK CIRCLE</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>SANTA CLARA</ns1:CityName>
+                <ns1:GeographicRegionName>CALIFORNIA</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>95054</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="20">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>DE</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">OWNER AT PUBLICATION</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>Sun Microsystems, Inc.</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>Sun Microsystems, Inc.</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">2550 Garcia Avenue</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>Mountain View</ns1:CityName>
+                <ns1:GeographicRegionName>CALIFORNIA</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>94043</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="10">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>DE</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">ORIGINAL APPLICANT</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>Sun Microsystems, Inc.</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>Sun Microsystems, Inc.</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">2550 Garcia Avenue</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>Mountain View</ns1:CityName>
+                <ns1:GeographicRegionName>CALIFORNIA</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>94043</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                        </ns2:ApplicantBag>
+                        <ns2:NationalRepresentative>
+                            <ns1:Contact>
+<ns1:Name>
+    <ns1:PersonName/>
+</ns1:Name>
+<ns1:FaxNumberBag>
+    <ns1:FaxNumber/>
+</ns1:FaxNumberBag>
+<ns1:EmailAddressBag/>
+<ns1:PhoneNumberBag>
+    <ns1:PhoneNumber/>
+</ns1:PhoneNumberBag>
+                            </ns1:Contact>
+                        </ns2:NationalRepresentative>
+                        <ns2:NationalCorrespondent>
+                            <ns1:Contact>
+<ns1:Name>
+    <ns1:PersonName>
+        <ns1:PersonFullName>Andrew Roppel</ns1:PersonFullName>
+    </ns1:PersonName>
+    <ns1:OrganizationName>
+        <ns1:OrganizationStandardName>Holland &amp; Hart LLP</ns1:OrganizationStandardName>
+    </ns1:OrganizationName>
+</ns1:Name>
+<ns1:PostalAddressBag>
+    <ns1:PostalAddress>
+        <ns1:PostalStructuredAddress>
+            <ns1:AddressLineText ns1:sequenceNumber="1">PO Box 8749</ns1:AddressLineText>
+            <ns1:AddressLineText ns1:sequenceNumber="2">Attn. Tracy Baker</ns1:AddressLineText>
+            <ns1:CityName>Denver</ns1:CityName>
+            <ns1:GeographicRegionName>COLORADO</ns1:GeographicRegionName>
+            <ns1:CountryCode>US</ns1:CountryCode>
+            <ns1:PostalCode>80201</ns1:PostalCode>
+        </ns1:PostalStructuredAddress>
+    </ns1:PostalAddress>
+</ns1:PostalAddressBag>
+<ns1:FaxNumberBag>
+    <ns1:FaxNumber>303-473-2720</ns1:FaxNumber>
+</ns1:FaxNumberBag>
+<ns1:EmailAddressBag>
+    <ns1:EmailAddressText ns1:emailAddressPurposeCategory="Main">docket@hollandhart.com</ns1:EmailAddressText>
+</ns1:EmailAddressBag>
+<ns1:PhoneNumberBag>
+    <ns1:PhoneNumber>303-473-2709</ns1:PhoneNumber>
+</ns1:PhoneNumberBag>
+                            </ns1:Contact>
+                        </ns2:NationalCorrespondent>
+                        <ns2:RecordAttorney>
+                            <ns1:Contact>
+<ns1:Name>
+    <ns1:PersonName>
+        <ns1:PersonFullName>Andrew Roppel</ns1:PersonFullName>
+    </ns1:PersonName>
+</ns1:Name>
+                            </ns1:Contact>
+                            <ns1:CommentText ns1:sequenceNumber="1">Attorney of Record</ns1:CommentText>
+                        </ns2:RecordAttorney>
+                        <ns1:StaffBag/>
+                        <ns2:MarkEventBag>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CORV6</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REVIEW OF CORRESPONDENCE COMPLETE - INFORMATION MADE OF RECORD</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>33</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>67149</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2011-12-29</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>MAILI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>PAPER RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>32</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2011-12-19</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>A7OKO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>AMENDMENT UNDER SECTION 7 - ISSUED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>31</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>59136</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2011-11-21</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>APREA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CASE ASSIGNED TO POST REGISTRATION PARALEGAL</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>30</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>59136</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2011-10-28</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>ES7RI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS SECTION 7 REQUEST RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>29</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2011-10-26</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>ARAAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ATTORNEY REVOKED AND/OR APPOINTED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>28</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-08-17</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>REAPI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS REVOKE/APPOINT ATTORNEY RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>27</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-08-17</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>ASGNI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>AUTOMATIC UPDATE OF ASSIGNMENT OF OWNERSHIP</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>26</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-05-06</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>RNL1Q</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED AND RENEWED (FIRST RENEWAL - 10 YRS)</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>25</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>59807</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2008-08-11</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>89AGO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED - SEC. 8 (10-YR) ACCEPTED/SEC. 9 GRANTED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>24</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2008-08-11</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>PLGLA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ASSIGNED TO PARALEGAL</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>23</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>59807</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2008-08-11</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>E89RI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS SECTION 8 &amp; 9 RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>22</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2008-08-04</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CFITO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CASE FILE IN TICRS</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>21</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2007-08-08</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>C15AO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED - SEC. 8 (6-YR) ACCEPTED &amp; SEC. 15 ACK.</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>20</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2003-11-06</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>815FI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED - SEC. 8 (6-YR) &amp; SEC. 15 FILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>19</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2003-09-15</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>MAILI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>PAPER RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>18</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2003-09-15</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>TCCAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS CHANGE OF CORRESPONDENCE RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>17</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2003-04-11</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>R.PRA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED-PRINCIPAL REGISTER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>16</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1998-08-04</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNPRP</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ALLOWED PRINCIPAL REGISTER - SOU ACCEPTED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>15</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1998-05-26</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>SUPCI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>STATEMENT OF USE PROCESSING COMPLETE</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>14</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1998-05-05</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>IUAFS</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>USE AMENDMENT FILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>13</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1998-04-08</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>EX2GS</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>EXTENSION 2 GRANTED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>12</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1998-02-12</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>EXT2S</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>EXTENSION 2 FILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>11</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1997-12-23</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>EX1GS</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>EXTENSION 1 GRANTED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>10</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1997-07-21</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>EXT1S</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>EXTENSION 1 FILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>9</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1997-06-27</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>NOAMO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NOA MAILED - SOU REQUIRED FROM APPLICANT</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>8</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1996-12-31</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>PUBOA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>PUBLISHED FOR OPPOSITION</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>7</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1996-10-08</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>NPUBO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NOTICE OF PUBLICATION</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>6</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1996-09-06</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNSAP</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>APPROVED FOR PUB - PRINCIPAL REGISTER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>5</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1996-07-11</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CRFAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CORRESPONDENCE RECEIVED IN LAW OFFICE</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>4</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1996-04-05</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNRTF</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NON-FINAL ACTION MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>3</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1995-11-20</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>DOCKD</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ASSIGNED TO EXAMINER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>2</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>61804</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1995-07-06</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>DOCKD</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ASSIGNED TO EXAMINER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>1</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>70738</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>1995-07-03</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                        </ns2:MarkEventBag>
+                        <ns2:AssignmentBag>
+                            <ns2:Assignment>
+<ns2:AssignmentIdentifier>41910383</ns2:AssignmentIdentifier>
+<ns2:AssignmentConveyanceCategory>CHANGE OF NAME</ns2:AssignmentConveyanceCategory>
+<ns1:PageTotalQuantity>12</ns1:PageTotalQuantity>
+<ns2:AssignmentReceivedDate>2010-04-23</ns2:AssignmentReceivedDate>
+<ns2:AssignmentMailedDate>2010-04-26</ns2:AssignmentMailedDate>
+<ns2:AssignmentRecordedDate>2010-04-23</ns2:AssignmentRecordedDate>
+<ns2:AssignmentExecutedDate>2010-02-15</ns2:AssignmentExecutedDate>
+<ns2:AssignorBag>
+    <ns2:Assignor>
+        <ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+        <ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+        <ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+        <ns1:IncorporationState>DELAWARE</ns1:IncorporationState>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:EntityName>SUN MICROSYSTEMS, INC.</ns1:EntityName>
+            </ns1:Name>
+        </ns1:Contact>
+    </ns2:Assignor>
+</ns2:AssignorBag>
+<ns2:AssigneeBag>
+    <ns2:Assignee>
+        <ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+        <ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+        <ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+        <ns1:IncorporationState>DELAWARE</ns1:IncorporationState>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:OrganizationName>
+                    <ns1:OrganizationStandardName>ORACLE AMERICA, INC.</ns1:OrganizationStandardName>
+                </ns1:OrganizationName>
+                <ns1:EntityName>ORACLE AMERICA, INC.</ns1:EntityName>
+            </ns1:Name>
+            <ns1:PostalAddressBag>
+                <ns1:PostalAddress>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">500 ORACLE PARKWAY</ns1:PostalAddressText>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">REDWOOD SHORES, CALIFORNIA 94065</ns1:PostalAddressText>
+                </ns1:PostalAddress>
+            </ns1:PostalAddressBag>
+        </ns1:Contact>
+    </ns2:Assignee>
+</ns2:AssigneeBag>
+<ns2:Registrant>
+    <ns1:Contact>
+        <ns1:Name>
+            <ns1:EntityName>Sun Microsystems, Inc.</ns1:EntityName>
+        </ns1:Name>
+    </ns1:Contact>
+</ns2:Registrant>
+<ns2:NationalRepresentative/>
+<ns2:NationalCorrespondent>
+    <ns1:CommentText ns1:sequenceNumber="1">Correspondent</ns1:CommentText>
+    <ns1:Contact>
+        <ns1:Name>
+            <ns1:EntityName>ORACLE AMERICA, INC.</ns1:EntityName>
+        </ns1:Name>
+        <ns1:PostalAddressBag>
+            <ns1:PostalAddress>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">500 ORACLE PARKWAY</ns1:PostalAddressText>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">LEGAL: TRADEMARKS</ns1:PostalAddressText>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">REDWOOD SHORES, CA 94065</ns1:PostalAddressText>
+            </ns1:PostalAddress>
+        </ns1:PostalAddressBag>
+    </ns1:Contact>
+</ns2:NationalCorrespondent>
+<ns2:AssignmentGroupCategory>Ownership and Name Change</ns2:AssignmentGroupCategory>
+<ns2:AssignmentDocumentBag>
+    <ns2:TrademarkDocument>
+        <ns2:DocumentCreatedDate>2010-04-23</ns2:DocumentCreatedDate>
+        <ns2:TrademarkDocumentDescriptionText>http://assignments.uspto.gov/assignments/assignment-tm-4191-0383.pdf</ns2:TrademarkDocumentDescriptionText>
+        <ns1:PageTotalQuantity>12</ns1:PageTotalQuantity>
+        <ns1:DocumentIdentifier>http://assignments.uspto.gov/assignments/assignment-tm-4191-0383.pdf</ns1:DocumentIdentifier>
+    </ns2:TrademarkDocument>
+</ns2:AssignmentDocumentBag>
+                            </ns2:Assignment>
+                            <ns2:NationalAssignmentTotalQuantity>1</ns2:NationalAssignmentTotalQuantity>
+                        </ns2:AssignmentBag>
+                        <ns2:NationalTrademarkInformation>
+                            <ns2:RegisterCategory>Primary</ns2:RegisterCategory>
+                            <ns2:AmendedPrincipalRegisterIndicator>false</ns2:AmendedPrincipalRegisterIndicator>
+                            <ns2:AmendedSupplementalRegisterIndicator>false</ns2:AmendedSupplementalRegisterIndicator>
+                            <ns2:MarkCurrentStatusExternalDescriptionText>The registration has been renewed.</ns2:MarkCurrentStatusExternalDescriptionText>
+                            <ns2:PreviouslyRegisteredMarkPublicationIndicator>false</ns2:PreviouslyRegisteredMarkPublicationIndicator>
+                            <ns2:FiledAsPlusApplicationIndicator>false</ns2:FiledAsPlusApplicationIndicator>
+                            <ns2:CurrentlyPlusApplicationIndicator>false</ns2:CurrentlyPlusApplicationIndicator>
+                            <ns2:RegistrationChangeIndicator>true</ns2:RegistrationChangeIndicator>
+                            <ns2:AllowanceNoticeDate>1996-12-31</ns2:AllowanceNoticeDate>
+                            <ns2:RenewalDate>2008-08-04</ns2:RenewalDate>
+                            <ns2:RegistationCertificateAmendmentText>In the statement, column 1, lines 1 through 5 is deleted, and &quot;ORACLE AMERICA, INC. (DELAWARE CORPORATION) 500 ORACLE PARKWAY, REDWOOD SHORES, CA 94065&quot; is inserted.</ns2:RegistationCertificateAmendmentText>
+                            <ns2:MaintenanceFilingBag>
+<ns2:MaintenanceFiling>
+    <ns2:SectionText>8</ns2:SectionText>
+    <ns2:SectionDescriptionText>Affidavit of Continued Use</ns2:SectionDescriptionText>
+    <ns2:DecisionStatusCategory>Accepted</ns2:DecisionStatusCategory>
+</ns2:MaintenanceFiling>
+<ns2:MaintenanceFiling>
+    <ns2:SectionText>15</ns2:SectionText>
+    <ns2:SectionDescriptionText>Affidavit of Incontestability</ns2:SectionDescriptionText>
+    <ns2:DecisionStatusCategory>Accepted</ns2:DecisionStatusCategory>
+</ns2:MaintenanceFiling>
+                            </ns2:MaintenanceFilingBag>
+                            <ns2:NationalCaseLocation>
+<ns2:LawOfficeAssignedText>LAW OFFICE 102</ns2:LawOfficeAssignedText>
+<ns2:LawOfficeAssignedDescriptionCode>L20</ns2:LawOfficeAssignedDescriptionCode>
+<ns2:CurrentLocationText>POST REGISTRATION</ns2:CurrentLocationText>
+<ns2:CurrentLocationCode>830</ns2:CurrentLocationCode>
+<ns2:CurrentLocationDate>2011-11-21-05:00</ns2:CurrentLocationDate>
+<ns2:PhysicalLocation>900 - FILE REPOSITORY (FRANCONIA)</ns2:PhysicalLocation>
+<ns2:PhysicalLocationDate>2007-08-10-04:00</ns2:PhysicalLocationDate>
+                            </ns2:NationalCaseLocation>
+                            <ns3:FiledAsReducedFeeApplicationIndicator>false</ns3:FiledAsReducedFeeApplicationIndicator>
+                            <ns3:CurrentlyReducedFeeApplicationIndicator>false</ns3:CurrentlyReducedFeeApplicationIndicator>
+                        </ns2:NationalTrademarkInformation>
+                        <ns2:NationalGoodsServices>
+                            <ns2:ActiveClassTotalQuantity>1</ns2:ActiveClassTotalQuantity>
+                            <ns2:NationalClassTotalQuantity>5</ns2:NationalClassTotalQuantity>
+                        </ns2:NationalGoodsServices>
+                        <ns2:NationalFilingBasis>
+                            <ns2:FilingBasis>
+<ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+<ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+<ns2:BasisUseIndicator>false</ns2:BasisUseIndicator>
+<ns2:BasisIntentToUseIndicator>true</ns2:BasisIntentToUseIndicator>
+<ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
+<ns2:BasisInternationalRegistrationIndicator>false</ns2:BasisInternationalRegistrationIndicator>
+                            </ns2:FilingBasis>
+                            <ns2:CurrentBasis>
+<ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+<ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+<ns2:BasisUseIndicator>true</ns2:BasisUseIndicator>
+<ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+<ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
+<ns2:BasisInternationalRegistrationIndicator>false</ns2:BasisInternationalRegistrationIndicator>
+                            </ns2:CurrentBasis>
+                            <ns2:AmendedBasis>
+<ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+<ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+<ns2:BasisUseIndicator>false</ns2:BasisUseIndicator>
+<ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+                            </ns2:AmendedBasis>
+                        </ns2:NationalFilingBasis>
+                    </ns2:Trademark>
+                </ns2:TrademarkBag>
+            </ns2:TransactionData>
+        </ns2:TransactionContentBag>
+    </ns2:TrademarkTransactionBody>
+</ns2:TrademarkTransaction>

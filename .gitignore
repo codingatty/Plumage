@@ -1,0 +1,7 @@
+# files to ignore for unit testing
+
+# entire working directory (used for output of test runs)
+test/working
+
+# executables in utilities
+test/utils/*.exe

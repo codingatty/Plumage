@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:TrademarkTransaction xmlns:ns1="http://www.wipo.int/standards/XMLSchema/ST96/Common" xmlns:ns2="http://www.wipo.int/standards/XMLSchema/ST96/Trademark" xmlns:ns3="urn:us:gov:doc:uspto:trademark">
+    <ns2:TrademarkTransactionBody>
+        <ns2:TransactionContentBag>
+            <ns1:TransactionCategory>National trademark registration</ns1:TransactionCategory>
+            <ns2:TransactionData>
+                <ns2:TrademarkBag>
+                    <ns2:Trademark>
+                        <ns1:RegistrationOfficeCode>US</ns1:RegistrationOfficeCode>
+                        <ns1:ApplicationNumber>
+                            <ns1:IPOfficeCode>US</ns1:IPOfficeCode>
+                            <ns1:ApplicationNumberText>78002299</ns1:ApplicationNumberText>
+                        </ns1:ApplicationNumber>
+                        <ns1:RegistrationNumber>2713476</ns1:RegistrationNumber>
+                        <ns2:ApplicationDate>2000-04-03-04:00</ns2:ApplicationDate>
+                        <ns1:RegistrationDate>2003-05-06</ns1:RegistrationDate>
+                        <ns1:FilingPlace>US</ns1:FilingPlace>
+                        <ns2:MarkCurrentStatusCode>800</ns2:MarkCurrentStatusCode>
+                        <ns2:MarkCurrentStatusDate>2013-03-23</ns2:MarkCurrentStatusDate>
+                        <ns2:AssociatedMarkBag/>
+                        <ns2:MarkCategory>Trademark</ns2:MarkCategory>
+                        <ns2:MarkRepresentation>
+                            <ns2:MarkReproduction>
+<ns2:WordMarkSpecification>
+    <ns2:MarkVerbalElementText>MYSQL</ns2:MarkVerbalElementText>
+    <ns2:MarkSignificantVerbalElementText>MYSQL</ns2:MarkSignificantVerbalElementText>
+    <ns2:MarkTranslationText ns1:sequenceNumber="1"/>
+    <ns2:MarkTransliteration/>
+    <ns2:MarkStandardCharacterIndicator>false</ns2:MarkStandardCharacterIndicator>
+</ns2:WordMarkSpecification>
+<ns2:MarkImageBag>
+    <ns2:MarkImage>
+        <ns1:FileName>78002299.png</ns1:FileName>
+        <ns2:MarkImageColourClaimedText ns1:sequenceNumber="1"/>
+        <ns2:MarkImageColourPartClaimedText ns1:sequenceNumber="1"/>
+        <ns2:NationalDesignSearchCodeBag/>
+        <ns1:ColourIndicator>false</ns1:ColourIndicator>
+    </ns2:MarkImage>
+</ns2:MarkImageBag>
+<ns2:MarkSoundBag>
+    <ns2:MarkSound/>
+</ns2:MarkSoundBag>
+                            </ns2:MarkReproduction>
+                            <ns2:MarkDescriptionBag>
+<ns2:MarkDescriptionText/>
+<ns2:NationalMarkDescription>
+    <ns2:MarkFeatureCode>1</ns2:MarkFeatureCode>
+</ns2:NationalMarkDescription>
+                            </ns2:MarkDescriptionBag>
+                        </ns2:MarkRepresentation>
+                        <ns2:MarkDisclaimerBag>
+                            <ns2:MarkDisclaimerText ns1:sequenceNumber="1"/>
+                        </ns2:MarkDisclaimerBag>
+                        <ns2:GoodsServicesBag>
+                            <ns2:GoodsServices>
+<ns2:GoodsServicesClassificationBag>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Primary</ns2:ClassificationKindCode>
+        <ns2:ClassNumber>009</ns2:ClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Nice</ns2:ClassificationKindCode>
+        <ns2:ClassNumber>009</ns2:ClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>021</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>023</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>026</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>036</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>038</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+</ns2:GoodsServicesClassificationBag>
+<ns2:NationalFilingBasis>
+    <ns2:CurrentBasis>
+        <ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+        <ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+        <ns2:BasisUseIndicator>false</ns2:BasisUseIndicator>
+        <ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+        <ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
+    </ns2:CurrentBasis>
+    <ns2:FirstUsedDate>19961130</ns2:FirstUsedDate>
+    <ns2:FirstUsedCommerceDate>19961130</ns2:FirstUsedCommerceDate>
+</ns2:NationalFilingBasis>
+<ns2:ClassDescriptionBag>
+    <ns2:ClassDescription>
+        <ns2:ClassNumber>009</ns2:ClassNumber>
+        <ns2:GoodsServicesDescriptionText ns1:sequenceNumber="1">COMPUTER SOFTWARE FOR INFORMATION PROCESSING, NAMELY, DATABASE MANAGEMENT AND DEVELOPMENT, ALL FOR GENERAL USE, AND USER MANUALS DISTRIBUTED AS A UNIT THEREWITH</ns2:GoodsServicesDescriptionText>
+    </ns2:ClassDescription>
+    <ns2:ClassDescription>
+        <ns2:NationalStatusBag>
+            <ns2:NationalStatus>
+                <ns2:NationalStatusCategory>National class status</ns2:NationalStatusCategory>
+                <ns2:NationalStatusCode>6</ns2:NationalStatusCode>
+                <ns2:NationalStatusExternalDescriptionText>ACTIVE</ns2:NationalStatusExternalDescriptionText>
+            </ns2:NationalStatus>
+        </ns2:NationalStatusBag>
+    </ns2:ClassDescription>
+</ns2:ClassDescriptionBag>
+                            </ns2:GoodsServices>
+                        </ns2:GoodsServicesBag>
+                        <ns2:PublicationBag>
+                            <ns2:Publication>
+<ns1:PublicationIdentifier>USPTO Official Gazette for Trademarks (OG)</ns1:PublicationIdentifier>
+<ns1:PublicationDate>2003-02-11</ns1:PublicationDate>
+                            </ns2:Publication>
+                        </ns2:PublicationBag>
+                        <ns2:ApplicantBag>
+                            <ns2:Applicant ns1:sequenceNumber="30">
+<ns1:LegalEntityName>A COMPANY (AN &quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>SE</ns1:IncorporationCountryCode>
+<ns1:Version>
+    <ns1:CommentText ns1:sequenceNumber="1">ORIGINAL REGISTRANT</ns1:CommentText>
+</ns1:Version>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>MySQL AB</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">Bangårdsgatan 8</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>Uppsala</ns1:CityName>
+                <ns1:CountryCode>SE</ns1:CountryCode>
+                <ns1:PostalCode>SE-75320</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="20">
+<ns1:LegalEntityName>A COMPANY (AN &quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>SE</ns1:IncorporationCountryCode>
+<ns1:CommentText ns1:sequenceNumber="1">OWNER AT PUBLICATION</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>MySQL AB</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>MySQL AB</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">c/o Erik Granstrom</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2">Trunstaberg 1</ns1:AddressLineText>
+                <ns1:CityName>741 90, KNIVSTA</ns1:CityName>
+                <ns1:CountryCode>SE</ns1:CountryCode>
+                <ns1:PostalCode></ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="17">
+<ns1:LegalEntityName>A COMPANY (AN &quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>SE</ns1:IncorporationCountryCode>
+<ns1:CommentText ns1:sequenceNumber="1">SUBSEQUENT OWNER BEFORE PUBLICATION</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>MySQL AB</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>MySQL AB</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">c/o Erik Granstrom</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2">Trunstaberg 1</ns1:AddressLineText>
+                <ns1:CityName>741 90, KNIVSTA</ns1:CityName>
+                <ns1:CountryCode>SE</ns1:CountryCode>
+                <ns1:PostalCode></ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="15">
+<ns1:LegalEntityName>(AN &quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>SE</ns1:IncorporationCountryCode>
+<ns1:CommentText ns1:sequenceNumber="1">SUBSEQUENT OWNER BEFORE PUBLICATION</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>Open Ocean AB</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>Open Ocean AB</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">c/o Erik Granstrom</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2">Trunstaberg 1</ns1:AddressLineText>
+                <ns1:CityName>741 90, KNIVSTA</ns1:CityName>
+                <ns1:CountryCode>SE</ns1:CountryCode>
+                <ns1:PostalCode></ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="13">
+<ns1:LegalEntityName>COMPANY (AN &quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>SE</ns1:IncorporationCountryCode>
+<ns1:CommentText ns1:sequenceNumber="1">SUBSEQUENT OWNER BEFORE PUBLICATION</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>Aktiebolaget Grundstenen 92817</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>Aktiebolaget Grundstenen 92817</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">c/o Erik Granstrom</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2">Trunstaberg 1</ns1:AddressLineText>
+                <ns1:CityName>741 90, KNIVSTA</ns1:CityName>
+                <ns1:CountryCode>SE</ns1:CountryCode>
+                <ns1:PostalCode></ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="11">
+<ns1:LegalEntityName>A COMPANY (&quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>SE</ns1:IncorporationCountryCode>
+<ns1:CommentText ns1:sequenceNumber="1">SUBSEQUENT OWNER BEFORE PUBLICATION</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>MySQL AB</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>MySQL AB</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">Box 6434</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>113 82, Stockholm</ns1:CityName>
+                <ns1:CountryCode>SE</ns1:CountryCode>
+                <ns1:PostalCode></ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="10">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>SE</ns1:IncorporationCountryCode>
+<ns1:CommentText ns1:sequenceNumber="1">ORIGINAL APPLICANT</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>T.C.X DataKonsult AB</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>T.C.X DataKonsult AB</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">Box 6434</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>Stockholm</ns1:CityName>
+                <ns1:CountryCode>SE</ns1:CountryCode>
+                <ns1:PostalCode>S-11382</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                        </ns2:ApplicantBag>
+                        <ns2:NationalRepresentative>
+                            <ns1:Contact>
+<ns1:Name>
+    <ns1:PersonName>
+        <ns1:PersonFullName>WHITEFORD, TAYLOR &amp; PRESTON, L.L.P.</ns1:PersonFullName>
+    </ns1:PersonName>
+</ns1:Name>
+<ns1:FaxNumberBag>
+    <ns1:FaxNumber/>
+</ns1:FaxNumberBag>
+<ns1:EmailAddressBag/>
+<ns1:PhoneNumberBag>
+    <ns1:PhoneNumber/>
+</ns1:PhoneNumberBag>
+                            </ns1:Contact>
+                        </ns2:NationalRepresentative>
+                        <ns2:NationalCorrespondent>
+                            <ns1:Contact>
+<ns1:Name>
+    <ns1:PersonName>
+        <ns1:PersonFullName>Andrew Roppel</ns1:PersonFullName>
+    </ns1:PersonName>
+    <ns1:OrganizationName>
+        <ns1:OrganizationStandardName>Holland &amp; Hart LLP</ns1:OrganizationStandardName>
+    </ns1:OrganizationName>
+</ns1:Name>
+<ns1:PostalAddressBag>
+    <ns1:PostalAddress>
+        <ns1:PostalStructuredAddress>
+            <ns1:AddressLineText ns1:sequenceNumber="1">PO Box 8749</ns1:AddressLineText>
+            <ns1:AddressLineText ns1:sequenceNumber="2">Attn. Trademark Docketing</ns1:AddressLineText>
+            <ns1:CityName>Denver</ns1:CityName>
+            <ns1:GeographicRegionName>COLORADO</ns1:GeographicRegionName>
+            <ns1:CountryCode>US</ns1:CountryCode>
+            <ns1:PostalCode>80201</ns1:PostalCode>
+        </ns1:PostalStructuredAddress>
+    </ns1:PostalAddress>
+</ns1:PostalAddressBag>
+<ns1:FaxNumberBag>
+    <ns1:FaxNumber>303-473-2720</ns1:FaxNumber>
+</ns1:FaxNumberBag>
+<ns1:EmailAddressBag>
+    <ns1:EmailAddressText ns1:emailAddressPurposeCategory="Main">docket@hollandhart.com</ns1:EmailAddressText>
+</ns1:EmailAddressBag>
+<ns1:PhoneNumberBag>
+    <ns1:PhoneNumber>303-473-2709</ns1:PhoneNumber>
+</ns1:PhoneNumberBag>
+                            </ns1:Contact>
+                        </ns2:NationalCorrespondent>
+                        <ns2:RecordAttorney>
+                            <ns1:Contact>
+<ns1:Name>
+    <ns1:PersonName>
+        <ns1:PersonFullName>Andrew Roppel</ns1:PersonFullName>
+    </ns1:PersonName>
+</ns1:Name>
+                            </ns1:Contact>
+                            <ns2:DocketText>26762-00070</ns2:DocketText>
+                            <ns1:CommentText ns1:sequenceNumber="1">Attorney of Record</ns1:CommentText>
+                        </ns2:RecordAttorney>
+                        <ns1:StaffBag/>
+                        <ns2:MarkEventBag>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CHANI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>APPLICANT/CORRESPONDENCE CHANGES (NON-RESPONSIVE) ENTERED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>30</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>88888</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2014-12-04</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>COARI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS CHANGE OF OWNER ADDRESS RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>29</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2014-12-04</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CHANI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>APPLICANT/CORRESPONDENCE CHANGES (NON-RESPONSIVE) ENTERED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>28</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>88888</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2013-07-02</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>COARI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS CHANGE OF OWNER ADDRESS RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>27</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2013-07-02</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>NA89E</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NOTICE OF ACCEPTANCE OF SEC. 8 &amp; 9 - E-MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>26</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2013-03-23</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>RNL1Q</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED AND RENEWED (FIRST RENEWAL - 10 YRS)</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>25</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>75461</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2013-03-23</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>89AGO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED - SEC. 8 (10-YR) ACCEPTED/SEC. 9 GRANTED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>24</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>75461</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2013-03-23</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>APREA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CASE ASSIGNED TO POST REGISTRATION PARALEGAL</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>23</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>75461</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2013-03-23</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>E89RI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS SECTION 8 &amp; 9 RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>22</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2013-03-12</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>C15AO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED - SEC. 8 (6-YR) ACCEPTED &amp; SEC. 15 ACK.</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>21</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>66607</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-06-22</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>PLGLA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ASSIGNED TO PARALEGAL</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>20</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>66607</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-06-08</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>E815I</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS SECTION 8 &amp; 15 RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>19</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-06-03</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>ARAAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ATTORNEY REVOKED AND/OR APPOINTED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>18</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2008-07-16</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>REAPI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS REVOKE/APPOINT ATTORNEY RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>17</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2008-07-16</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CFITO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CASE FILE IN TICRS</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>16</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2008-04-03</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>R.PRA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED-PRINCIPAL REGISTER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>15</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2003-05-06</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>PUBOA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>PUBLISHED FOR OPPOSITION</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>14</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2003-02-11</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>NPUBO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NOTICE OF PUBLICATION</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>13</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2003-01-22</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNSAO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>APPROVED FOR PUB - PRINCIPAL REGISTER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>12</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2002-08-26</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNEAO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>EXAMINERS AMENDMENT MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>11</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2002-08-26</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNFRO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>FINAL REFUSAL MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>10</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2002-08-21</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CRFAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CORRESPONDENCE RECEIVED IN LAW OFFICE</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>9</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2002-04-12</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CRFAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CORRESPONDENCE RECEIVED IN LAW OFFICE</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>8</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2002-01-31</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CRFAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CORRESPONDENCE RECEIVED IN LAW OFFICE</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>7</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2002-01-17</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>UNPRI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>UNRESPONSIVE/DUPLICATE PAPER RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>6</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2001-07-19</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNRTF</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NON-FINAL ACTION MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>5</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2001-06-28</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CRFAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CORRESPONDENCE RECEIVED IN LAW OFFICE</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>4</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2001-02-21</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNRTF</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NON-FINAL ACTION MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>3</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2000-08-28</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>DOCKD</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ASSIGNED TO EXAMINER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>2</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>74845</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2000-08-18</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>DOCKD</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ASSIGNED TO EXAMINER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>1</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>74845</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2000-08-18</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                        </ns2:MarkEventBag>
+                        <ns2:AssignmentBag>
+                            <ns2:Assignment>
+<ns2:AssignmentIdentifier>24170910</ns2:AssignmentIdentifier>
+<ns2:AssignmentConveyanceCategory>CHANGE OF NAME</ns2:AssignmentConveyanceCategory>
+<ns1:PageTotalQuantity>4</ns1:PageTotalQuantity>
+<ns2:AssignmentReceivedDate>2002-01-08</ns2:AssignmentReceivedDate>
+<ns2:AssignmentMailedDate>2002-02-25</ns2:AssignmentMailedDate>
+<ns2:AssignmentRecordedDate>2001-12-27</ns2:AssignmentRecordedDate>
+<ns2:AssignmentExecutedDate>2001-01-23</ns2:AssignmentExecutedDate>
+<ns2:AssignorBag>
+    <ns2:Assignor>
+        <ns1:LegalEntityName>A SWEDISH COMPANY (AN AKTIEBOLAG)</ns1:LegalEntityName>
+        <ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:OrganizationName>
+                    <ns1:OrganizationStandardName>T.C.X. DATAKONSULT AB</ns1:OrganizationStandardName>
+                </ns1:OrganizationName>
+            </ns1:Name>
+        </ns1:Contact>
+    </ns2:Assignor>
+</ns2:AssignorBag>
+<ns2:AssigneeBag>
+    <ns2:Assignee>
+        <ns1:LegalEntityName>A SWEDISH COMPANY (AN AKTIEBOLAG)</ns1:LegalEntityName>
+        <ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:OrganizationName>
+                    <ns1:OrganizationStandardName>MYSQL AB</ns1:OrganizationStandardName>
+                </ns1:OrganizationName>
+            </ns1:Name>
+            <ns1:PostalAddressBag>
+                <ns1:PostalAddress>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">BOX 6434</ns1:PostalAddressText>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">113 82 STOCKHOLM, SWEDEN</ns1:PostalAddressText>
+                </ns1:PostalAddress>
+            </ns1:PostalAddressBag>
+        </ns1:Contact>
+    </ns2:Assignee>
+</ns2:AssigneeBag>
+<ns2:Registrant>
+    <ns1:Contact>
+        <ns1:Name>
+            <ns1:EntityName>MySQL AB</ns1:EntityName>
+        </ns1:Name>
+    </ns1:Contact>
+</ns2:Registrant>
+<ns2:NationalRepresentative/>
+<ns2:NationalCorrespondent>
+    <ns1:CommentText ns1:sequenceNumber="1">Correspondent</ns1:CommentText>
+    <ns1:Contact>
+        <ns1:Name>
+            <ns1:EntityName>WHITEFORD, TAYLOR &amp; PRESTON</ns1:EntityName>
+        </ns1:Name>
+        <ns1:PostalAddressBag>
+            <ns1:PostalAddress>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">DANA O. LYNCH</ns1:PostalAddressText>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">7 SAINT PAUL STREET</ns1:PostalAddressText>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">BALTIMORE, MD 21202</ns1:PostalAddressText>
+            </ns1:PostalAddress>
+        </ns1:PostalAddressBag>
+    </ns1:Contact>
+</ns2:NationalCorrespondent>
+<ns2:AssignmentGroupCategory>Ownership and Name Change</ns2:AssignmentGroupCategory>
+<ns2:AssignmentDocumentBag>
+    <ns2:TrademarkDocument>
+        <ns2:DocumentCreatedDate>2001-12-27</ns2:DocumentCreatedDate>
+        <ns2:TrademarkDocumentDescriptionText>http://assignments.uspto.gov/assignments/assignment-tm-2417-0910.pdf</ns2:TrademarkDocumentDescriptionText>
+        <ns1:PageTotalQuantity>4</ns1:PageTotalQuantity>
+        <ns1:DocumentIdentifier>http://assignments.uspto.gov/assignments/assignment-tm-2417-0910.pdf</ns1:DocumentIdentifier>
+    </ns2:TrademarkDocument>
+</ns2:AssignmentDocumentBag>
+                            </ns2:Assignment>
+                            <ns2:Assignment>
+<ns2:AssignmentIdentifier>24250448</ns2:AssignmentIdentifier>
+<ns2:AssignmentConveyanceCategory>CHANGE OF NAME</ns2:AssignmentConveyanceCategory>
+<ns1:PageTotalQuantity>3</ns1:PageTotalQuantity>
+<ns2:AssignmentReceivedDate>2002-01-15</ns2:AssignmentReceivedDate>
+<ns2:AssignmentMailedDate>2002-03-11</ns2:AssignmentMailedDate>
+<ns2:AssignmentRecordedDate>2002-01-03</ns2:AssignmentRecordedDate>
+<ns2:AssignmentExecutedDate>2001-10-03</ns2:AssignmentExecutedDate>
+<ns2:AssignorBag>
+    <ns2:Assignor>
+        <ns1:LegalEntityName>A SWEDISH COMPANY (AN &quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+        <ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:OrganizationName>
+                    <ns1:OrganizationStandardName>OPEN OCEAN AB</ns1:OrganizationStandardName>
+                </ns1:OrganizationName>
+            </ns1:Name>
+        </ns1:Contact>
+    </ns2:Assignor>
+</ns2:AssignorBag>
+<ns2:AssigneeBag>
+    <ns2:Assignee>
+        <ns1:LegalEntityName>A SWEDISH COMPANY (AN &quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+        <ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:OrganizationName>
+                    <ns1:OrganizationStandardName>MYSQL AB</ns1:OrganizationStandardName>
+                </ns1:OrganizationName>
+            </ns1:Name>
+            <ns1:PostalAddressBag>
+                <ns1:PostalAddress>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">C/O ERIK GRANSTROM</ns1:PostalAddressText>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">TRUNSTABERG 1</ns1:PostalAddressText>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">741 90, KNIVSTA, SWEDEN</ns1:PostalAddressText>
+                </ns1:PostalAddress>
+            </ns1:PostalAddressBag>
+        </ns1:Contact>
+    </ns2:Assignee>
+</ns2:AssigneeBag>
+<ns2:Registrant>
+    <ns1:Contact>
+        <ns1:Name>
+            <ns1:EntityName>MySQL AB</ns1:EntityName>
+        </ns1:Name>
+    </ns1:Contact>
+</ns2:Registrant>
+<ns2:NationalRepresentative/>
+<ns2:NationalCorrespondent>
+    <ns1:CommentText ns1:sequenceNumber="1">Correspondent</ns1:CommentText>
+    <ns1:Contact>
+        <ns1:Name>
+            <ns1:EntityName>WHITEFORD, TAYLOR &amp; PRESTON</ns1:EntityName>
+        </ns1:Name>
+        <ns1:PostalAddressBag>
+            <ns1:PostalAddress>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">DANA O. LYNCH</ns1:PostalAddressText>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">7 SAINT PAUL STREET</ns1:PostalAddressText>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">BALTIMORE, MARYLAND 21202</ns1:PostalAddressText>
+            </ns1:PostalAddress>
+        </ns1:PostalAddressBag>
+    </ns1:Contact>
+</ns2:NationalCorrespondent>
+<ns2:AssignmentGroupCategory>Ownership and Name Change</ns2:AssignmentGroupCategory>
+<ns2:AssignmentDocumentBag>
+    <ns2:TrademarkDocument>
+        <ns2:DocumentCreatedDate>2002-01-03</ns2:DocumentCreatedDate>
+        <ns2:TrademarkDocumentDescriptionText></ns2:TrademarkDocumentDescriptionText>
+        <ns1:PageTotalQuantity>3</ns1:PageTotalQuantity>
+        <ns1:DocumentIdentifier></ns1:DocumentIdentifier>
+    </ns2:TrademarkDocument>
+</ns2:AssignmentDocumentBag>
+                            </ns2:Assignment>
+                            <ns2:Assignment>
+<ns2:AssignmentIdentifier>24320600</ns2:AssignmentIdentifier>
+<ns2:AssignmentConveyanceCategory>CHANGE OF NAME</ns2:AssignmentConveyanceCategory>
+<ns1:PageTotalQuantity>2</ns1:PageTotalQuantity>
+<ns2:AssignmentReceivedDate>2002-01-30</ns2:AssignmentReceivedDate>
+<ns2:AssignmentMailedDate>2002-03-23</ns2:AssignmentMailedDate>
+<ns2:AssignmentRecordedDate>2002-01-02</ns2:AssignmentRecordedDate>
+<ns2:AssignmentExecutedDate>2001-10-03</ns2:AssignmentExecutedDate>
+<ns2:AssignorBag>
+    <ns2:Assignor>
+        <ns1:LegalEntityName>COMPANY (AN &quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+        <ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+        <ns1:IncorporationCountryCode>SE</ns1:IncorporationCountryCode>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:OrganizationName>
+                    <ns1:OrganizationStandardName>AKTIEBOLAGET GRUDSTENEN 92817</ns1:OrganizationStandardName>
+                </ns1:OrganizationName>
+            </ns1:Name>
+        </ns1:Contact>
+    </ns2:Assignor>
+</ns2:AssignorBag>
+<ns2:AssigneeBag>
+    <ns2:Assignee>
+        <ns1:LegalEntityName>A COMPANY (AN &quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+        <ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+        <ns1:IncorporationCountryCode>SE</ns1:IncorporationCountryCode>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:OrganizationName>
+                    <ns1:OrganizationStandardName>OPEN OCEAN AB</ns1:OrganizationStandardName>
+                </ns1:OrganizationName>
+            </ns1:Name>
+            <ns1:PostalAddressBag>
+                <ns1:PostalAddress>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">C/O ERIK GRANSTROM</ns1:PostalAddressText>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">TRUNSTABERG 1, 741 90 KNIVSTA, SWEDEN</ns1:PostalAddressText>
+                </ns1:PostalAddress>
+            </ns1:PostalAddressBag>
+        </ns1:Contact>
+    </ns2:Assignee>
+</ns2:AssigneeBag>
+<ns2:Registrant>
+    <ns1:Contact>
+        <ns1:Name>
+            <ns1:EntityName>MySQL AB</ns1:EntityName>
+        </ns1:Name>
+    </ns1:Contact>
+</ns2:Registrant>
+<ns2:NationalRepresentative/>
+<ns2:NationalCorrespondent>
+    <ns1:CommentText ns1:sequenceNumber="1">Correspondent</ns1:CommentText>
+    <ns1:Contact>
+        <ns1:Name>
+            <ns1:EntityName>WHITEFORD, TAYLOR &amp; PRESTON</ns1:EntityName>
+        </ns1:Name>
+        <ns1:PostalAddressBag>
+            <ns1:PostalAddress>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">DANA O. LYNCH</ns1:PostalAddressText>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">7 SAINT PAUL STREET</ns1:PostalAddressText>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">BALTIMORE, MD  21202</ns1:PostalAddressText>
+            </ns1:PostalAddress>
+        </ns1:PostalAddressBag>
+    </ns1:Contact>
+</ns2:NationalCorrespondent>
+<ns2:AssignmentGroupCategory>Ownership and Name Change</ns2:AssignmentGroupCategory>
+<ns2:AssignmentDocumentBag>
+    <ns2:TrademarkDocument>
+        <ns2:DocumentCreatedDate>2002-01-02</ns2:DocumentCreatedDate>
+        <ns2:TrademarkDocumentDescriptionText>http://assignments.uspto.gov/assignments/assignment-tm-2432-0600.pdf</ns2:TrademarkDocumentDescriptionText>
+        <ns1:PageTotalQuantity>2</ns1:PageTotalQuantity>
+        <ns1:DocumentIdentifier>http://assignments.uspto.gov/assignments/assignment-tm-2432-0600.pdf</ns1:DocumentIdentifier>
+    </ns2:TrademarkDocument>
+</ns2:AssignmentDocumentBag>
+                            </ns2:Assignment>
+                            <ns2:Assignment>
+<ns2:AssignmentIdentifier>24230556</ns2:AssignmentIdentifier>
+<ns2:AssignmentConveyanceCategory>ASSIGNS THE ENTIRE INTEREST</ns2:AssignmentConveyanceCategory>
+<ns1:PageTotalQuantity>4</ns1:PageTotalQuantity>
+<ns2:AssignmentReceivedDate>2002-01-15</ns2:AssignmentReceivedDate>
+<ns2:AssignmentMailedDate>2002-03-07</ns2:AssignmentMailedDate>
+<ns2:AssignmentRecordedDate>2001-12-28</ns2:AssignmentRecordedDate>
+<ns2:AssignmentExecutedDate>2001-10-04</ns2:AssignmentExecutedDate>
+<ns2:AssignorBag>
+    <ns2:Assignor>
+        <ns1:LegalEntityName>A SWEDISH COMPANY (AN'AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+        <ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:OrganizationName>
+                    <ns1:OrganizationStandardName>MYSQL AB (FORMERLY T.C.X. DATAKONSULT AB)</ns1:OrganizationStandardName>
+                </ns1:OrganizationName>
+            </ns1:Name>
+        </ns1:Contact>
+    </ns2:Assignor>
+</ns2:AssignorBag>
+<ns2:AssigneeBag>
+    <ns2:Assignee>
+        <ns1:LegalEntityName>A SWEDISH COMPANY (AN &quot;AKTIEBOLAG&quot;)</ns1:LegalEntityName>
+        <ns1:NationalLegalEntityCode>99</ns1:NationalLegalEntityCode>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:OrganizationName>
+                    <ns1:OrganizationStandardName>AKTIEBOLAGET GRUNDSTENEN 92817</ns1:OrganizationStandardName>
+                </ns1:OrganizationName>
+            </ns1:Name>
+            <ns1:PostalAddressBag>
+                <ns1:PostalAddress>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">C/O ERIK GRANSTROM</ns1:PostalAddressText>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">TRUNSTABERG 1</ns1:PostalAddressText>
+                    <ns1:PostalAddressText ns1:sequenceNumber="1">741 90, KNIVSTA, SWEDEN</ns1:PostalAddressText>
+                </ns1:PostalAddress>
+            </ns1:PostalAddressBag>
+        </ns1:Contact>
+    </ns2:Assignee>
+</ns2:AssigneeBag>
+<ns2:Registrant>
+    <ns1:Contact>
+        <ns1:Name>
+            <ns1:EntityName>MySQL AB</ns1:EntityName>
+        </ns1:Name>
+    </ns1:Contact>
+</ns2:Registrant>
+<ns2:NationalRepresentative/>
+<ns2:NationalCorrespondent>
+    <ns1:CommentText ns1:sequenceNumber="1">Correspondent</ns1:CommentText>
+    <ns1:Contact>
+        <ns1:Name>
+            <ns1:EntityName>WHITEFORD, TAYLOR &amp; PRESTON</ns1:EntityName>
+        </ns1:Name>
+        <ns1:PostalAddressBag>
+            <ns1:PostalAddress>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">DANA O. LYNCH</ns1:PostalAddressText>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">7 SAINT PAUL STREET</ns1:PostalAddressText>
+                <ns1:PostalAddressText ns1:sequenceNumber="1">BALTIMORE, MD 21202</ns1:PostalAddressText>
+            </ns1:PostalAddress>
+        </ns1:PostalAddressBag>
+    </ns1:Contact>
+</ns2:NationalCorrespondent>
+<ns2:AssignmentGroupCategory>Ownership and Name Change</ns2:AssignmentGroupCategory>
+<ns2:AssignmentDocumentBag>
+    <ns2:TrademarkDocument>
+        <ns2:DocumentCreatedDate>2001-12-28</ns2:DocumentCreatedDate>
+        <ns2:TrademarkDocumentDescriptionText>http://assignments.uspto.gov/assignments/assignment-tm-2423-0556.pdf</ns2:TrademarkDocumentDescriptionText>
+        <ns1:PageTotalQuantity>4</ns1:PageTotalQuantity>
+        <ns1:DocumentIdentifier>http://assignments.uspto.gov/assignments/assignment-tm-2423-0556.pdf</ns1:DocumentIdentifier>
+    </ns2:TrademarkDocument>
+</ns2:AssignmentDocumentBag>
+                            </ns2:Assignment>
+                            <ns2:NationalAssignmentTotalQuantity>4</ns2:NationalAssignmentTotalQuantity>
+                        </ns2:AssignmentBag>
+                        <ns2:LegalProceedingsBag>
+                            <ns2:LegalProceedings>
+<ns2:OppositionProceedingBag>
+    <ns1:OppositionIdentifier>91192463</ns1:OppositionIdentifier>
+    <ns1:OppositionDate>2009-10-28</ns1:OppositionDate>
+    <ns2:ProceedingStatus>
+        <ns2:NationalStatusCategory>National trademark status</ns2:NationalStatusCategory>
+        <ns2:NationalStatusCode>9</ns2:NationalStatusCode>
+        <ns2:NationalStatusDate>2010-02-09</ns2:NationalStatusDate>
+        <ns2:NationalStatusExternalDescriptionText>Terminated</ns2:NationalStatusExternalDescriptionText>
+    </ns2:ProceedingStatus>
+    <ns2:Plaintiff>
+        <ns2:Correspondent>
+            <ns1:Contact>
+                <ns1:Name>
+                    <ns1:PersonName>
+                        <ns1:PersonFullName>Sally M. Abel, Esq.</ns1:PersonFullName>
+                    </ns1:PersonName>
+                    <ns1:OrganizationName>
+                        <ns1:OrganizationStandardName>Fenwick &amp; West, LLP</ns1:OrganizationStandardName>
+                    </ns1:OrganizationName>
+                </ns1:Name>
+                <ns1:PostalAddressBag>
+                    <ns1:PostalAddress>
+                        <ns1:PostalStructuredAddress>
+                            <ns1:AddressLineText ns1:sequenceNumber="1">801 California Street  Silicon Valley Center</ns1:AddressLineText>
+                            <ns1:AddressLineText ns1:sequenceNumber="2"></ns1:AddressLineText>
+                            <ns1:CityName>Mountain View</ns1:CityName>
+                            <ns1:GeographicRegionName>CA</ns1:GeographicRegionName>
+                            <ns1:CountryCode>UNITED STATES</ns1:CountryCode>
+                            <ns1:PostalCode>94041</ns1:PostalCode>
+                        </ns1:PostalStructuredAddress>
+                    </ns1:PostalAddress>
+                </ns1:PostalAddressBag>
+                <ns1:EmailAddressBag>
+                    <ns1:EmailAddressText>trademarks@fenwick.com</ns1:EmailAddressText>
+                </ns1:EmailAddressBag>
+            </ns1:Contact>
+        </ns2:Correspondent>
+        <ns2:AssociatedMarkBag>
+            <ns2:AssociatedMark>
+                <ns2:AssociationCategory>Trademark related to legal proceeding</ns2:AssociationCategory>
+                <ns2:WordMarkSpecification>
+                    <ns2:MarkVerbalElementText>MYSQL</ns2:MarkVerbalElementText>
+                </ns2:WordMarkSpecification>
+                <ns2:NationalRegistrationNumber>2713476</ns2:NationalRegistrationNumber>
+                <ns2:NationalApplicationNumber>
+                    <ns1:ApplicationNumberText>78002299</ns1:ApplicationNumberText>
+                </ns2:NationalApplicationNumber>
+                <ns2:NationalStatus>
+                    <ns2:NationalStatusCategory>National trademark status</ns2:NationalStatusCategory>
+                    <ns2:NationalStatusCode>800</ns2:NationalStatusCode>
+                    <ns2:NationalStatusExternalDescriptionText>Renewed</ns2:NationalStatusExternalDescriptionText>
+                </ns2:NationalStatus>
+            </ns2:AssociatedMark>
+            <ns2:AssociatedMark>
+                <ns2:AssociationCategory>Trademark related to legal proceeding</ns2:AssociationCategory>
+                <ns2:WordMarkSpecification>
+                    <ns2:MarkVerbalElementText>MYSQL</ns2:MarkVerbalElementText>
+                </ns2:WordMarkSpecification>
+                <ns2:NationalRegistrationNumber>2792127</ns2:NationalRegistrationNumber>
+                <ns2:NationalApplicationNumber>
+                    <ns1:ApplicationNumberText>76281385</ns1:ApplicationNumberText>
+                </ns2:NationalApplicationNumber>
+                <ns2:NationalStatus>
+                    <ns2:NationalStatusCategory>National trademark status</ns2:NationalStatusCategory>
+                    <ns2:NationalStatusCode>800</ns2:NationalStatusCode>
+                    <ns2:NationalStatusExternalDescriptionText>Renewed</ns2:NationalStatusExternalDescriptionText>
+                </ns2:NationalStatus>
+            </ns2:AssociatedMark>
+            <ns2:AssociatedMark>
+                <ns2:AssociationCategory>Trademark related to legal proceeding</ns2:AssociationCategory>
+                <ns2:WordMarkSpecification>
+                    <ns2:MarkVerbalElementText>MYSQL</ns2:MarkVerbalElementText>
+                </ns2:WordMarkSpecification>
+                <ns2:NationalRegistrationNumber>2948540</ns2:NationalRegistrationNumber>
+                <ns2:NationalApplicationNumber>
+                    <ns1:ApplicationNumberText>76253509</ns1:ApplicationNumberText>
+                </ns2:NationalApplicationNumber>
+                <ns2:NationalStatus>
+                    <ns2:NationalStatusCategory>National trademark status</ns2:NationalStatusCategory>
+                    <ns2:NationalStatusCode>800</ns2:NationalStatusCode>
+                    <ns2:NationalStatusExternalDescriptionText>Renewed</ns2:NationalStatusExternalDescriptionText>
+                </ns2:NationalStatus>
+            </ns2:AssociatedMark>
+            <ns2:AssociatedMark>
+                <ns2:AssociationCategory>Trademark related to legal proceeding</ns2:AssociationCategory>
+                <ns2:WordMarkSpecification>
+                    <ns2:MarkVerbalElementText>MYSQL ENTERPRISE</ns2:MarkVerbalElementText>
+                </ns2:WordMarkSpecification>
+                <ns2:NationalRegistrationNumber>3305883</ns2:NationalRegistrationNumber>
+                <ns2:NationalApplicationNumber>
+                    <ns1:ApplicationNumberText>77073425</ns1:ApplicationNumberText>
+                </ns2:NationalApplicationNumber>
+                <ns2:NationalStatus>
+                    <ns2:NationalStatusCategory>National trademark status</ns2:NationalStatusCategory>
+                    <ns2:NationalStatusCode>702</ns2:NationalStatusCode>
+                    <ns2:NationalStatusExternalDescriptionText>Section 8 and 15 - Accepted and Acknowledged</ns2:NationalStatusExternalDescriptionText>
+                </ns2:NationalStatus>
+            </ns2:AssociatedMark>
+            <ns2:AssociatedMark>
+                <ns2:AssociationCategory>Trademark related to legal proceeding</ns2:AssociationCategory>
+                <ns2:WordMarkSpecification>
+                    <ns2:MarkVerbalElementText>MYSQL ENTERPRISE</ns2:MarkVerbalElementText>
+                </ns2:WordMarkSpecification>
+                <ns2:NationalRegistrationNumber>3305884</ns2:NationalRegistrationNumber>
+                <ns2:NationalApplicationNumber>
+                    <ns1:ApplicationNumberText>77073431</ns1:ApplicationNumberText>
+                </ns2:NationalApplicationNumber>
+                <ns2:NationalStatus>
+                    <ns2:NationalStatusCategory>National trademark status</ns2:NationalStatusCategory>
+                    <ns2:NationalStatusCode>710</ns2:NationalStatusCode>
+                    <ns2:NationalStatusExternalDescriptionText>Cancelled - Section 8</ns2:NationalStatusExternalDescriptionText>
+                </ns2:NationalStatus>
+            </ns2:AssociatedMark>
+            <ns2:AssociatedMark>
+                <ns2:AssociationCategory>Trademark related to legal proceeding</ns2:AssociationCategory>
+                <ns2:WordMarkSpecification>
+                    <ns2:MarkVerbalElementText>MYSQL</ns2:MarkVerbalElementText>
+                </ns2:WordMarkSpecification>
+                <ns2:NationalRegistrationNumber>3397122</ns2:NationalRegistrationNumber>
+                <ns2:NationalApplicationNumber>
+                    <ns1:ApplicationNumberText>77058039</ns1:ApplicationNumberText>
+                </ns2:NationalApplicationNumber>
+                <ns2:NationalStatus>
+                    <ns2:NationalStatusCategory>National trademark status</ns2:NationalStatusCategory>
+                    <ns2:NationalStatusCode>702</ns2:NationalStatusCode>
+                    <ns2:NationalStatusExternalDescriptionText>Section 8 and 15 - Accepted and Acknowledged</ns2:NationalStatusExternalDescriptionText>
+                </ns2:NationalStatus>
+            </ns2:AssociatedMark>
+        </ns2:AssociatedMarkBag>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:EntityName>MySQL AB</ns1:EntityName>
+            </ns1:Name>
+        </ns1:Contact>
+    </ns2:Plaintiff>
+    <ns2:Defendant>
+        <ns2:Correspondent>
+            <ns1:Contact>
+                <ns1:Name>
+                    <ns1:PersonName>
+                        <ns1:PersonFullName>DALIAH SAPER</ns1:PersonFullName>
+                    </ns1:PersonName>
+                    <ns1:OrganizationName>
+                        <ns1:OrganizationStandardName>SAPER LAW OFFICES, LLC</ns1:OrganizationStandardName>
+                    </ns1:OrganizationName>
+                </ns1:Name>
+                <ns1:PostalAddressBag>
+                    <ns1:PostalAddress>
+                        <ns1:PostalStructuredAddress>
+                            <ns1:AddressLineText ns1:sequenceNumber="1">500 N DEARBORN ST STE 1200</ns1:AddressLineText>
+                            <ns1:AddressLineText ns1:sequenceNumber="2"></ns1:AddressLineText>
+                            <ns1:CityName>CHICAGO</ns1:CityName>
+                            <ns1:GeographicRegionName>IL</ns1:GeographicRegionName>
+                            <ns1:CountryCode>UNITED STATES</ns1:CountryCode>
+                            <ns1:PostalCode>60654-3347</ns1:PostalCode>
+                        </ns1:PostalStructuredAddress>
+                    </ns1:PostalAddress>
+                </ns1:PostalAddressBag>
+                <ns1:EmailAddressBag>
+                    <ns1:EmailAddressText>dsaper@saperlaw.com</ns1:EmailAddressText>
+                </ns1:EmailAddressBag>
+            </ns1:Contact>
+        </ns2:Correspondent>
+        <ns2:AssociatedMarkBag>
+            <ns2:AssociatedMark>
+                <ns2:AssociationCategory>Trademark related to legal proceeding</ns2:AssociationCategory>
+                <ns2:WordMarkSpecification>
+                    <ns2:MarkVerbalElementText>MYSQOOL</ns2:MarkVerbalElementText>
+                </ns2:WordMarkSpecification>
+                <ns2:NationalApplicationNumber>
+                    <ns1:ApplicationNumberText>77681662</ns1:ApplicationNumberText>
+                </ns2:NationalApplicationNumber>
+                <ns2:NationalStatus>
+                    <ns2:NationalStatusCategory>National trademark status</ns2:NationalStatusCategory>
+                    <ns2:NationalStatusCode>604</ns2:NationalStatusCode>
+                    <ns2:NationalStatusExternalDescriptionText>Abandoned - After Inter-Partes Decision</ns2:NationalStatusExternalDescriptionText>
+                </ns2:NationalStatus>
+            </ns2:AssociatedMark>
+        </ns2:AssociatedMarkBag>
+        <ns1:Contact>
+            <ns1:Name>
+                <ns1:EntityName>Dogwhistle, Inc.</ns1:EntityName>
+            </ns1:Name>
+        </ns1:Contact>
+    </ns2:Defendant>
+    <ns2:ProceedingEventBag>
+        <ns2:ProceedingEvent>
+            <ns2:MarkEventCategory>National board proceeding history entry</ns2:MarkEventCategory>
+            <ns2:NationalMarkEvent>
+                <ns2:MarkEventCode>998</ns2:MarkEventCode>
+                <ns2:MarkEventDescriptionText>TERMINATED</ns2:MarkEventDescriptionText>
+                <ns2:MarkEventEntryNumber>6</ns2:MarkEventEntryNumber>
+                <ns2:MarkEventDocumentIdentifier></ns2:MarkEventDocumentIdentifier>
+            </ns2:NationalMarkEvent>
+            <ns2:MarkEventDate>2010-02-09</ns2:MarkEventDate>
+        </ns2:ProceedingEvent>
+        <ns2:ProceedingEvent>
+            <ns2:MarkEventCategory>National board proceeding history entry</ns2:MarkEventCategory>
+            <ns2:NationalMarkEvent>
+                <ns2:MarkEventCode>809</ns2:MarkEventCode>
+                <ns2:MarkEventDescriptionText>BOARD'S DECISION: SUSTAINED</ns2:MarkEventDescriptionText>
+                <ns2:MarkEventEntryNumber>5</ns2:MarkEventEntryNumber>
+                <ns2:MarkEventDocumentIdentifier>http://ttabvue.uspto.gov/ttabvue/ttabvue-91192463-OPP-5.pdf</ns2:MarkEventDocumentIdentifier>
+            </ns2:NationalMarkEvent>
+            <ns2:MarkEventDate>2010-02-09</ns2:MarkEventDate>
+        </ns2:ProceedingEvent>
+        <ns2:ProceedingEvent>
+            <ns2:MarkEventCategory>National board proceeding history entry</ns2:MarkEventCategory>
+            <ns2:NationalMarkEvent>
+                <ns2:MarkEventCode>144</ns2:MarkEventCode>
+                <ns2:MarkEventDescriptionText>NOTICE OF DEFAULT</ns2:MarkEventDescriptionText>
+                <ns2:MarkEventEntryNumber>4</ns2:MarkEventEntryNumber>
+                <ns2:MarkEventDocumentIdentifier>http://ttabvue.uspto.gov/ttabvue/ttabvue-91192463-OPP-4.pdf</ns2:MarkEventDocumentIdentifier>
+            </ns2:NationalMarkEvent>
+            <ns2:MarkEventDate>2009-12-26</ns2:MarkEventDate>
+        </ns2:ProceedingEvent>
+        <ns2:ProceedingEvent>
+            <ns2:MarkEventCategory>National board proceeding history entry</ns2:MarkEventCategory>
+            <ns2:NationalMarkEvent>
+                <ns2:MarkEventCode>128</ns2:MarkEventCode>
+                <ns2:MarkEventDescriptionText>PENDING, INSTITUTED</ns2:MarkEventDescriptionText>
+                <ns2:MarkEventEntryNumber>3</ns2:MarkEventEntryNumber>
+                <ns2:MarkEventDocumentIdentifier></ns2:MarkEventDocumentIdentifier>
+            </ns2:NationalMarkEvent>
+            <ns2:MarkEventDate>2009-10-28</ns2:MarkEventDate>
+        </ns2:ProceedingEvent>
+        <ns2:ProceedingEvent>
+            <ns2:MarkEventCategory>National board proceeding history entry</ns2:MarkEventCategory>
+            <ns2:NationalMarkEvent>
+                <ns2:MarkEventCode>707</ns2:MarkEventCode>
+                <ns2:MarkEventDescriptionText>NOTICE AND TRIAL DATES SENT;  ANSWER DUE:</ns2:MarkEventDescriptionText>
+                <ns2:MarkEventEntryNumber>2</ns2:MarkEventEntryNumber>
+                <ns2:MarkEventDocumentIdentifier>http://ttabvue.uspto.gov/ttabvue/ttabvue-91192463-OPP-2.pdf</ns2:MarkEventDocumentIdentifier>
+                <ns1:CommentText>Due Date - 2009-12-07</ns1:CommentText>
+            </ns2:NationalMarkEvent>
+            <ns2:MarkEventDate>2009-10-28</ns2:MarkEventDate>
+        </ns2:ProceedingEvent>
+        <ns2:ProceedingEvent>
+            <ns2:MarkEventCategory>National board proceeding history entry</ns2:MarkEventCategory>
+            <ns2:NationalMarkEvent>
+                <ns2:MarkEventCode>124</ns2:MarkEventCode>
+                <ns2:MarkEventDescriptionText>FILED AND FEE</ns2:MarkEventDescriptionText>
+                <ns2:MarkEventEntryNumber>1</ns2:MarkEventEntryNumber>
+                <ns2:MarkEventDocumentIdentifier>http://ttabvue.uspto.gov/ttabvue/ttabvue-91192463-OPP-1.pdf</ns2:MarkEventDocumentIdentifier>
+            </ns2:NationalMarkEvent>
+            <ns2:MarkEventDate>2009-10-28</ns2:MarkEventDate>
+        </ns2:ProceedingEvent>
+    </ns2:ProceedingEventBag>
+    <ns2:ProceedingDocumentBag/>
+    <ns1:StaffBag>
+        <ns1:Staff>
+            <ns1:OfficialTitleText>Interlocutory Attorney</ns1:OfficialTitleText>
+            <ns1:StaffName>FRANCES S WOLFSON</ns1:StaffName>
+            <ns1:PartyIdentifier>72009</ns1:PartyIdentifier>
+        </ns1:Staff>
+    </ns1:StaffBag>
+</ns2:OppositionProceedingBag>
+                            </ns2:LegalProceedings>
+                        </ns2:LegalProceedingsBag>
+                        <ns2:NationalTrademarkInformation>
+                            <ns2:RegisterCategory>Primary</ns2:RegisterCategory>
+                            <ns2:AmendedPrincipalRegisterIndicator>false</ns2:AmendedPrincipalRegisterIndicator>
+                            <ns2:AmendedSupplementalRegisterIndicator>false</ns2:AmendedSupplementalRegisterIndicator>
+                            <ns2:MarkCurrentStatusExternalDescriptionText>The registration has been renewed.</ns2:MarkCurrentStatusExternalDescriptionText>
+                            <ns2:PreviouslyRegisteredMarkPublicationIndicator>false</ns2:PreviouslyRegisteredMarkPublicationIndicator>
+                            <ns2:FiledAsPlusApplicationIndicator>false</ns2:FiledAsPlusApplicationIndicator>
+                            <ns2:CurrentlyPlusApplicationIndicator>false</ns2:CurrentlyPlusApplicationIndicator>
+                            <ns2:RegistrationChangeIndicator>false</ns2:RegistrationChangeIndicator>
+                            <ns2:RenewalDate>2013-05-06</ns2:RenewalDate>
+                            <ns2:MaintenanceFilingBag>
+<ns2:MaintenanceFiling>
+    <ns2:SectionText>8</ns2:SectionText>
+    <ns2:SectionDescriptionText>Affidavit of Continued Use</ns2:SectionDescriptionText>
+    <ns2:DecisionStatusCategory>Accepted</ns2:DecisionStatusCategory>
+</ns2:MaintenanceFiling>
+<ns2:MaintenanceFiling>
+    <ns2:SectionText>15</ns2:SectionText>
+    <ns2:SectionDescriptionText>Affidavit of Incontestability</ns2:SectionDescriptionText>
+    <ns2:DecisionStatusCategory>Accepted</ns2:DecisionStatusCategory>
+</ns2:MaintenanceFiling>
+                            </ns2:MaintenanceFilingBag>
+                            <ns2:NationalCaseLocation>
+<ns2:LawOfficeAssignedText>LAW OFFICE 102</ns2:LawOfficeAssignedText>
+<ns2:LawOfficeAssignedDescriptionCode>L20</ns2:LawOfficeAssignedDescriptionCode>
+<ns2:CurrentLocationText>GENERIC WEB UPDATE</ns2:CurrentLocationText>
+<ns2:CurrentLocationCode>XXX</ns2:CurrentLocationCode>
+<ns2:CurrentLocationDate>2013-03-23-04:00</ns2:CurrentLocationDate>
+<ns2:ChargeToLocation>900 - FILE REPOSITORY (FRANCONIA)</ns2:ChargeToLocation>
+<ns2:PhysicalLocation>900 - FILE REPOSITORY (FRANCONIA)</ns2:PhysicalLocation>
+<ns2:PhysicalLocationDate>2008-04-04-04:00</ns2:PhysicalLocationDate>
+                            </ns2:NationalCaseLocation>
+                            <ns3:FiledAsReducedFeeApplicationIndicator>false</ns3:FiledAsReducedFeeApplicationIndicator>
+                            <ns3:CurrentlyReducedFeeApplicationIndicator>false</ns3:CurrentlyReducedFeeApplicationIndicator>
+                        </ns2:NationalTrademarkInformation>
+                        <ns2:NationalGoodsServices>
+                            <ns2:ActiveClassTotalQuantity>1</ns2:ActiveClassTotalQuantity>
+                            <ns2:NationalClassTotalQuantity>5</ns2:NationalClassTotalQuantity>
+                        </ns2:NationalGoodsServices>
+                        <ns2:NationalFilingBasis>
+                            <ns2:FilingBasis>
+<ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+<ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+<ns2:BasisUseIndicator>true</ns2:BasisUseIndicator>
+<ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+<ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
+<ns2:BasisInternationalRegistrationIndicator>false</ns2:BasisInternationalRegistrationIndicator>
+                            </ns2:FilingBasis>
+                            <ns2:CurrentBasis>
+<ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+<ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+<ns2:BasisUseIndicator>true</ns2:BasisUseIndicator>
+<ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+<ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
+<ns2:BasisInternationalRegistrationIndicator>false</ns2:BasisInternationalRegistrationIndicator>
+                            </ns2:CurrentBasis>
+                            <ns2:AmendedBasis>
+<ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+<ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+<ns2:BasisUseIndicator>false</ns2:BasisUseIndicator>
+<ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+                            </ns2:AmendedBasis>
+                        </ns2:NationalFilingBasis>
+                    </ns2:Trademark>
+                </ns2:TrademarkBag>
+            </ns2:TransactionData>
+        </ns2:TransactionContentBag>
+    </ns2:TrademarkTransactionBody>
+</ns2:TrademarkTransaction>

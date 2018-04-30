@@ -1,0 +1,2 @@
+RegistrationDate,"1998-08-04-04:00"
+RegistrationDateTruncated,"1998-08-04"

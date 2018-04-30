@@ -1,0 +1,2 @@
+ApplicationDate,"2000-04-03-04:00"
+ApplicationDateTruncated,"2000-04-03"
