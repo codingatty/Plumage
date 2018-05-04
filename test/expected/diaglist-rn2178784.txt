@@ -1,0 +1,3 @@
+BeginRepeatedField,"Diagnostics"
+DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"
+DiagnosticInfoXSLTLocation,"$XSLTLOCATION$"

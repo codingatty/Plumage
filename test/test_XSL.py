@@ -77,6 +77,10 @@ class TestUM(unittest.TestCase):
 
     def test_B004_reg_date_only(self): # ST.96 does not use time  
         self.confirm_content(["regdatesonly"], ["rn2178784", "rn2713476"], XSLformats=["ST96"]) 
+
+    def test_B005_disg_multi(self):
+        self.confirm_content(["diaglist"], ["rn2178784", "rn2713476"])
+
        
 if __name__ == '__main__':
     unittest.main(verbosity=5)

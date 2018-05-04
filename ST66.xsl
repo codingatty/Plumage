@@ -31,14 +31,15 @@
 </xsl:template>
 
 <xsl:template match="tm:TradeMark">
-<xsl:text/>DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"<xsl:text/>
+<xsl:text/>BeginRepeatedField,"Diagnostics"<xsl:text/>
+DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"<xsl:text/>
 DiagnosticInfoXSLTLocation,"$XSLTLOCATION$"<xsl:text/>
-DiagnosticInfoXSLTVersion,"1.1.1"<xsl:text/>
-DiagnosticInfoXSLTDate,"2017-03-15"<xsl:text/>
+DiagnosticInfoXSLTVersion,"1.1.4"<xsl:text/>
+DiagnosticInfoXSLTDate,"2018-05-04"<xsl:text/>
 DiagnosticInfoXSLTFormat,"ST.66"<xsl:text/>
 DiagnosticInfoXSLTAuthor,"Terry Carroll"<xsl:text/>
 DiagnosticInfoXSLTURL,"https://github.com/codingatty/Plumage"<xsl:text/>
-DiagnosticInfoXSLTCopyright,"Copyright 2014-2017 Terry Carroll"<xsl:text/>
+DiagnosticInfoXSLTCopyright,"Copyright 2014-2018 Terry Carroll"<xsl:text/>
 DiagnosticInfoXSLTLicense,"Apache License, version 2.0 (January 2004)"<xsl:text/>
 DiagnosticInfoXSLTSPDXLicenseIdentifier,"Apache-2.0"<xsl:text/>
 DiagnosticInfoXSLTLicenseURL,"http://www.apache.org/licenses/LICENSE-2.0"<xsl:text/>
@@ -56,6 +57,7 @@ DiagnosticInfoXMLSource,"$XMLSOURCE$"<xsl:text/>
 DiagnosticInfoXSLProcessorVersion,"<xsl:value-of select="system-property('xsl:version')"/>"<xsl:text/>
 DiagnosticInfoXSLProcessorVendor,"<xsl:value-of select="system-property('xsl:vendor')"/>"<xsl:text/>
 DiagnosticInfoXSLProcessorVendorURL,"<xsl:value-of select="system-property('xsl:vendor-url')"/>"<xsl:text/>
+EndRepeatedField,"Diagnostics"<xsl:text/>
 MarkCurrentStatusDate,"<xsl:value-of select="tm:MarkCurrentStatusDate"/>"<xsl:text/>
 MarkCurrentStatusDateTruncated,"<xsl:value-of select="substring(tm:MarkCurrentStatusDate,1,10)"/>"<xsl:text/>
 ApplicationNumber,"<xsl:value-of select="tm:ApplicationNumber"/>"<xsl:text/>
