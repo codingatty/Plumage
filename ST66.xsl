@@ -28,35 +28,35 @@
 <xsl:apply-templates select=".//tm:Applicant"/>
 <xsl:apply-templates select=".//tm:MarkEvent"/>
 <xsl:apply-templates select=".//tm:AssignmentBagExt"/>
+DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"
+DiagnosticInfoXSLTLocation,"$XSLTLOCATION$"
+DiagnosticInfoXSLTVersion,"1.1.1"
+DiagnosticInfoXSLTDate,"2018-08-21"
+DiagnosticInfoXSLTFormat,"ST.66"
+DiagnosticInfoXSLTAuthor,"Terry Carroll"
+DiagnosticInfoXSLTURL,"https://github.com/codingatty/Plumage"
+DiagnosticInfoXSLTCopyright,"Copyright 2014-2017 Terry Carroll"
+DiagnosticInfoXSLTLicense,"Apache License, version 2.0 (January 2004)"
+DiagnosticInfoXSLTSPDXLicenseIdentifier,"Apache-2.0"
+DiagnosticInfoXSLTLicenseURL,"http://www.apache.org/licenses/LICENSE-2.0"
+DiagnosticInfoImplementationName,"$IMPLEMENTATIONNAME$"
+DiagnosticInfoImplementationVersion,"$IMPLEMENTATIONVERSION$"
+DiagnosticInfoImplementationDate,"$IMPLEMENTATIONDATE$"
+DiagnosticInfoImplementationAuthor,"$IMPLEMENTATIONAUTHOR$"
+DiagnosticInfoImplementationURL,"$IMPLEMENTATIONURL$"
+DiagnosticInfoImplementationCopyright,"$IMPLEMENTATIONCOPYRIGHT$"
+DiagnosticInfoImplementationLicense,"$IMPLEMENTATIONLICENSE$"
+DiagnosticInfoImplementationSPDXLicenseIdentifier,"$IMPLEMENTATIONSPDXLID$"
+DiagnosticInfoImplementationLicenseURL,"$IMPLEMENTATIONLICENSEURL$"
+DiagnosticInfoExecutionDateTime,"$EXECUTIONDATETIME$"
+DiagnosticInfoXMLSource,"$XMLSOURCE$"
+DiagnosticInfoXSLProcessorVersion,"<xsl:value-of select="system-property('xsl:version')"/>"
+DiagnosticInfoXSLProcessorVendor,"<xsl:value-of select="system-property('xsl:vendor')"/>"
+DiagnosticInfoXSLProcessorVendorURL,"<xsl:value-of select="system-property('xsl:vendor-url')"/>"
 </xsl:template>
 
 <xsl:template match="tm:TradeMark">
-<xsl:text/>DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"<xsl:text/>
-DiagnosticInfoXSLTLocation,"$XSLTLOCATION$"<xsl:text/>
-DiagnosticInfoXSLTVersion,"1.1.1"<xsl:text/>
-DiagnosticInfoXSLTDate,"2017-03-15"<xsl:text/>
-DiagnosticInfoXSLTFormat,"ST.66"<xsl:text/>
-DiagnosticInfoXSLTAuthor,"Terry Carroll"<xsl:text/>
-DiagnosticInfoXSLTURL,"https://github.com/codingatty/Plumage"<xsl:text/>
-DiagnosticInfoXSLTCopyright,"Copyright 2014-2017 Terry Carroll"<xsl:text/>
-DiagnosticInfoXSLTLicense,"Apache License, version 2.0 (January 2004)"<xsl:text/>
-DiagnosticInfoXSLTSPDXLicenseIdentifier,"Apache-2.0"<xsl:text/>
-DiagnosticInfoXSLTLicenseURL,"http://www.apache.org/licenses/LICENSE-2.0"<xsl:text/>
-DiagnosticInfoImplementationName,"$IMPLEMENTATIONNAME$"<xsl:text/>
-DiagnosticInfoImplementationVersion,"$IMPLEMENTATIONVERSION$"<xsl:text/>
-DiagnosticInfoImplementationDate,"$IMPLEMENTATIONDATE$"<xsl:text/>
-DiagnosticInfoImplementationAuthor,"$IMPLEMENTATIONAUTHOR$"<xsl:text/>
-DiagnosticInfoImplementationURL,"$IMPLEMENTATIONURL$"<xsl:text/>
-DiagnosticInfoImplementationCopyright,"$IMPLEMENTATIONCOPYRIGHT$"<xsl:text/>
-DiagnosticInfoImplementationLicense,"$IMPLEMENTATIONLICENSE$"<xsl:text/>
-DiagnosticInfoImplementationSPDXLicenseIdentifier,"$IMPLEMENTATIONSPDXLID$"<xsl:text/>
-DiagnosticInfoImplementationLicenseURL,"$IMPLEMENTATIONLICENSEURL$"<xsl:text/>
-DiagnosticInfoExecutionDateTime,"$EXECUTIONDATETIME$"<xsl:text/>
-DiagnosticInfoXMLSource,"$XMLSOURCE$"<xsl:text/>
-DiagnosticInfoXSLProcessorVersion,"<xsl:value-of select="system-property('xsl:version')"/>"<xsl:text/>
-DiagnosticInfoXSLProcessorVendor,"<xsl:value-of select="system-property('xsl:vendor')"/>"<xsl:text/>
-DiagnosticInfoXSLProcessorVendorURL,"<xsl:value-of select="system-property('xsl:vendor-url')"/>"<xsl:text/>
-MarkCurrentStatusDate,"<xsl:value-of select="tm:MarkCurrentStatusDate"/>"<xsl:text/>
+<xsl:text/>MarkCurrentStatusDate,"<xsl:value-of select="tm:MarkCurrentStatusDate"/>"<xsl:text/>
 MarkCurrentStatusDateTruncated,"<xsl:value-of select="substring(tm:MarkCurrentStatusDate,1,10)"/>"<xsl:text/>
 ApplicationNumber,"<xsl:value-of select="tm:ApplicationNumber"/>"<xsl:text/>
 ApplicationDate,"<xsl:value-of select="tm:ApplicationDate"/>"<xsl:text/>
