@@ -5,3 +5,7 @@ test/working
 
 # executables in utilities
 test/utils/*.exe
+
+#dummy files for occasional hand-testing
+test/dummy*
+
