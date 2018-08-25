@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+##[1.x.x]
+- Diagnostic information items have been moved from the top of the of the CSV to the bottom; information you're more likely to care about is now at the top.
+- Final line in CSV now terminates in NEWLINE. This is consistent with CSV treatment in major spreadsheet programs (e.g. LibreOffice, Apache OpenOffice & Microsoft Excel). Note this requires the "XSL relaxation: accept and ignore blank or empty lines" that was added in Plumage-py 1.2.0 and Plumage-dotnet 1.2.0.
+- The use of the <xsl:text/> (used to prevent the insertion of blank lines) has been trimmed back, to keep the XSL files more readable 
+
 ## [1.1.0](https://github.com/codingatty/Plumage/releases/tag/V1.1.0) - 2016-05-23 (*The Big Sky*)
 - Support for ST.96 V 2.2.1 (adopted by the US PTO on May 6, 2016)
 

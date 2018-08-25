@@ -1,0 +1,12 @@
+For next release:
+
+___ Clean up namespace naming 
+___ Unit test for InternationalApplicationNumber and InternationalRegistrationNumber 
+    (and verify <xsl:text/> use is correct)
+___ Unit test for StaffName and StaffOfficialTitle
+    (and verify <xsl:text/> use is correct)
+___ Omit Staff in ST66 where there is none
+___ Class support
+_X_ Clean up excessive use of <xsl:text/> 
+_X_ Diagnostic info moved to end
+_X_ Note Newline at end (consistent with CSVs saved by most spreadsheet programs (excel, libreoffice, OpenOffice)
