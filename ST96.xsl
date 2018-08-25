@@ -54,41 +54,6 @@ DiagnosticInfoXSLProcessorVendorURL,"<xsl:value-of select="system-property('xsl:
 </xsl:template>
 
 <xsl:template match="ns2:Trademark">
-<<<<<<< HEAD
-<xsl:text/>DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"<xsl:text/>
-DiagnosticInfoXSLTLocation,"$XSLTLOCATION$"<xsl:text/>
-DiagnosticInfoXSLTVersion,"1.1.1"<xsl:text/>
-DiagnosticInfoXSLTDate,"2017-03-15"<xsl:text/>
-DiagnosticInfoXSLTFormat,"ST.96"<xsl:text/>
-DiagnosticInfoXSLTAuthor,"Terry Carroll"<xsl:text/>
-DiagnosticInfoXSLTURL,"https://github.com/codingatty/Plumage"<xsl:text/>
-DiagnosticInfoXSLTCopyright,"Copyright 2014-2017 Terry Carroll"<xsl:text/>
-DiagnosticInfoXSLTLicense,"Apache License, version 2.0 (January 2004)"<xsl:text/>
-DiagnosticInfoXSLTSPDXLicenseIdentifier,"Apache-2.0"<xsl:text/>
-DiagnosticInfoXSLTLicenseURL,"http://www.apache.org/licenses/LICENSE-2.0"<xsl:text/>
-DiagnosticInfoImplementationName,"$IMPLEMENTATIONNAME$"<xsl:text/>
-DiagnosticInfoImplementationVersion,"$IMPLEMENTATIONVERSION$"<xsl:text/>
-DiagnosticInfoImplementationDate,"$IMPLEMENTATIONDATE$"<xsl:text/>
-DiagnosticInfoImplementationAuthor,"$IMPLEMENTATIONAUTHOR$"<xsl:text/>
-DiagnosticInfoImplementationURL,"$IMPLEMENTATIONURL$"<xsl:text/>
-DiagnosticInfoImplementationCopyright,"$IMPLEMENTATIONCOPYRIGHT$"<xsl:text/>
-DiagnosticInfoImplementationSPDXLicenseIdentifier,"$IMPLEMENTATIONSPDXLID$"<xsl:text/>
-DiagnosticInfoImplementationLicense,"$IMPLEMENTATIONLICENSE$"<xsl:text/>
-DiagnosticInfoImplementationLicenseURL,"$IMPLEMENTATIONLICENSEURL$"<xsl:text/>
-DiagnosticInfoExecutionDateTime,"$EXECUTIONDATETIME$"<xsl:text/>
-DiagnosticInfoXMLSource,"$XMLSOURCE$"<xsl:text/>
-DiagnosticInfoXSLProcessorVersion,"<xsl:value-of select="system-property('xsl:version')"/>"<xsl:text/>
-DiagnosticInfoXSLProcessorVendor,"<xsl:value-of select="system-property('xsl:vendor')"/>"<xsl:text/>
-DiagnosticInfoXSLProcessorVendorURL,"<xsl:value-of select="system-property('xsl:vendor-url')"/>"<xsl:text/>
-MarkCurrentStatusDate,"<xsl:value-of select="ns2:MarkCurrentStatusDate"/>"<xsl:text/>
-MarkCurrentStatusDateTruncated,"<xsl:value-of select="substring(ns2:MarkCurrentStatusDate,1,10)"/>"<xsl:text/>
-ApplicationNumber,"<xsl:value-of select="ns1:ApplicationNumber/ns1:ApplicationNumberText"/>"<xsl:text/>
-ApplicationDate,"<xsl:value-of select="ns2:ApplicationDate"/>"<xsl:text/>
-ApplicationDateTruncated,"<xsl:value-of select="substring(ns2:ApplicationDate,1,10)"/>"<xsl:text/>
-RegistrationNumber,"<xsl:value-of select="ns1:RegistrationNumber"/>"<xsl:text/>
-RegistrationDate,"<xsl:value-of select="ns1:RegistrationDate"/>"<xsl:text/>
-RegistrationDateTruncated,"<xsl:value-of select="substring(ns1:RegistrationDate,1,10)"/>"<xsl:text/>
-=======
 <xsl:text/>MarkCurrentStatusDate,"<xsl:value-of select="ns2:MarkCurrentStatusDate"/>"
 MarkCurrentStatusDateTruncated,"<xsl:value-of select="substring(ns2:MarkCurrentStatusDate,1,10)"/>"
 ApplicationNumber,"<xsl:value-of select="ns1:ApplicationNumber/ns1:ApplicationNumberText"/>"
@@ -97,7 +62,6 @@ ApplicationDateTruncated,"<xsl:value-of select="substring(ns2:ApplicationDate,1,
 RegistrationNumber,"<xsl:value-of select="ns1:RegistrationNumber"/>"
 RegistrationDate,"<xsl:value-of select="ns1:RegistrationDate"/>"
 RegistrationDateTruncated,"<xsl:value-of select="substring(ns1:RegistrationDate,1,10)"/>"
->>>>>>> DiagTable
 <xsl:apply-templates select="ns2:MarkRepresentation/ns2:MarkReproduction/ns2:WordMarkSpecification"/>
 <xsl:apply-templates select="ns2:NationalTrademarkInformation"/>
 <xsl:apply-templates select="ns2:AssociatedMarkBag/ns2:AssociatedMark"/>
