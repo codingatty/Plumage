@@ -170,8 +170,12 @@ CorrespondentEmailAddress,"<xsl:value-of select="tm:Email"/>"
 </xsl:template>
 
 <xsl:template match="tm:StaffDetails">
-<xsl:text/>StaffName,"<xsl:value-of select="tm:Staff/tm:StaffName"/>"
-StaffOfficialTitle,"<xsl:value-of select="tm:Staff/tm:OfficialTitle"/>"
+<xsl:if test="tm:Staff/tm:StaffName != ''">
+    <xsl:text/>StaffName,"<xsl:value-of select="tm:Staff/tm:StaffName"/>"
+</xsl:if>
+<xsl:if test="tm:Staff/tm:OfficialTitle != ''">
+    <xsl:text/>StaffOfficialTitle,"<xsl:value-of select="tm:Staff/tm:OfficialTitle"/>"
+</xsl:if>
 </xsl:template>
 
 <xsl:template match="tm:AssignmentBagExt">
