@@ -98,21 +98,20 @@ RenewalDateTruncated,"<xsl:value-of select="substring(ns2:RenewalDate,1,10)"/>"
 CurrentLocationCode,"<xsl:value-of select="ns2:CurrentLocationCode"/>"
 CurrentLocationText,"<xsl:value-of select="ns2:CurrentLocationText"/>"
 CurrentLocationDate,"<xsl:value-of select="ns2:CurrentLocationDate"/>"
-CurrentLocationDateTruncated,"<xsl:value-of select="substring(ns2:CurrentLocationDate,1,10)"/>
+CurrentLocationDateTruncated,"<xsl:value-of select="substring(ns2:CurrentLocationDate,1,10)"/>"<xsl:text/>
 </xsl:template>
 
 <xsl:template match="ns2:AssociatedMarkBag/ns2:AssociatedMark">
+<!-- This is odd, but, yes, the *registration* number is stored under "InternationalApplicationNumber". 
+     This is a change from ST96 1_D3 to ST96 2.2.1 -->
 <xsl:if test="ns2:AssociationCategory = 'International application or registration'">
-InternationalApplicationNumber,"<xsl:value-of select="ns1:ApplicationNumber/ns1:ApplicationNumberText"/>"<!--
-     This is odd, but, yes, the *registration* number is stored under "InternationalApplicationNumber". 
-     This is a change from ST96 1_D3 to ST96 2.2.1 
-	 -->
+InternationalApplicationNumber,"<xsl:value-of select="ns1:ApplicationNumber/ns1:ApplicationNumberText"/>"
 InternationalRegistrationNumber,"<xsl:value-of select="ns2:InternationalApplicationNumber/ns1:ApplicationNumberText"/>"<xsl:text/>
 </xsl:if>
 </xsl:template>
 
-<xsl:template match="ns2:PublicationBag/ns2:Publication">"
-<xsl:text/>PublicationDate,"<xsl:value-of select="ns1:PublicationDate"/>"
+<xsl:template match="ns2:PublicationBag/ns2:Publication">
+PublicationDate,"<xsl:value-of select="ns1:PublicationDate"/>"
 PublicationDateTruncated,"<xsl:value-of select="substring(ns1:PublicationDate,1,10)"/>"
 </xsl:template>
 

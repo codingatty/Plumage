@@ -1,7 +1,7 @@
 For next release:
 
 ___ Clean up namespace naming 
-___ Unit test for InternationalApplicationNumber and InternationalRegistrationNumber 
+_X_ Unit test for InternationalApplicationNumber and InternationalRegistrationNumber 
     (and verify <xsl:text/> use is correct)
 _X_ Unit test for StaffName and StaffOfficialTitle
     (and verify <xsl:text/> use is correct)

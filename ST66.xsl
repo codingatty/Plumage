@@ -81,10 +81,10 @@ RegisterCategory,"<xsl:value-of select="pto:RegisterCategory"/>"
 RenewalDate,"<xsl:value-of select="pto:AdditionalMarkDetails/pto:RenewalDate"/>"
 RenewalDateTruncated,"<xsl:value-of select="substring(pto:AdditionalMarkDetails/pto:RenewalDate,1,10)"/>"
 <xsl:if test="pto:RelatedMarkDetails/pto:InternationalApplicationNumber != ''">
-InternationalApplicationNumber,"<xsl:value-of select="pto:RelatedMarkDetails/pto:InternationalApplicationNumber"/>"
+    <xsl:text/>InternationalApplicationNumber,"<xsl:value-of select="pto:RelatedMarkDetails/pto:InternationalApplicationNumber"/>"
 </xsl:if>
 <xsl:if test="pto:RelatedMarkDetails/pto:InternationalRegistrationNumber != ''">
-InternationalRegistrationNumber,"<xsl:value-of select="pto:RelatedMarkDetails/pto:InternationalRegistrationNumber"/>"
+    <xsl:text/>InternationalRegistrationNumber,"<xsl:value-of select="pto:RelatedMarkDetails/pto:InternationalRegistrationNumber"/>"
 </xsl:if>
 <xsl:apply-templates select="pto:OfficeDetails"/>
 </xsl:template>
