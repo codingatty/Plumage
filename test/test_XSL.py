@@ -19,7 +19,8 @@ class TestUM(unittest.TestCase):
         shutil.rmtree(WORKING, ignore_errors=True)
         os.makedirs(WORKING)
         test_tms= ["rn2713476",     # MySQL
-                   "rn2178784"]     # Java
+                   "rn2178784",     # Java
+                   "sn87881347"]    # Burger Addict
         XSLs = ["ST66", "ST96"]
         for tm in test_tms:
             CSVs={}
@@ -77,6 +78,10 @@ class TestUM(unittest.TestCase):
 
     def test_B004_reg_date_only(self): # ST.96 does not use time  
         self.confirm_content(["regdatesonly"], ["rn2178784", "rn2713476"], XSLformats=["ST96"]) 
+
+    def test_B005_staff(self):  
+        self.confirm_content(["staff"], ["sn87881347"]) 
+ 
        
 if __name__ == '__main__':
     unittest.main(verbosity=5)
