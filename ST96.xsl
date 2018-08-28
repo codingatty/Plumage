@@ -67,8 +67,8 @@ RegistrationDateTruncated,"<xsl:value-of select="substring(ns1:RegistrationDate,
 <xsl:apply-templates select="ns2:AssociatedMarkBag/ns2:AssociatedMark"/>
 <xsl:apply-templates select="ns2:PublicationBag/ns2:Publication"/>
 <xsl:apply-templates select="ns2:NationalCorrespondent/ns1:Contact"/>
-<xsl:apply-templates select="ns2:ApplicantBag/ns2:Applicant"/>
 <xsl:apply-templates select="ns1:StaffBag/ns1:Staff"/>
+<xsl:apply-templates select="ns2:ApplicantBag/ns2:Applicant"/>
 <xsl:apply-templates select="ns2:MarkEventBag/ns2:MarkEvent"/>
 <xsl:apply-templates select="ns2:AssignmentBag/ns2:Assignment"/>
 </xsl:template>

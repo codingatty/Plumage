@@ -164,7 +164,7 @@ CorrespondentCountryCode,"<xsl:value-of select="normalize-space(tm:FormattedAddr
 </xsl:template>
 
 <xsl:template match="tm:ContactInformationDetails">
-<xsl:text/>CorrespondentPhoneNumber,"<xsl:value-of select="tm:Phone"/>"
+CorrespondentPhoneNumber,"<xsl:value-of select="tm:Phone"/>"
 CorrespondentFaxNumber,"<xsl:value-of select="tm:Fax"/>"
 CorrespondentEmailAddress,"<xsl:value-of select="tm:Email"/>"
 </xsl:template>
