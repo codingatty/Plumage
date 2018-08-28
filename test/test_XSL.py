@@ -20,7 +20,8 @@ class TestUM(unittest.TestCase):
         os.makedirs(WORKING)
         test_tms= ["rn2713476",     # MySQL
                    "rn2178784",     # Java
-                   "sn87881347"]    # Burger Addict
+                   "sn87881347",    # Burger Addict
+                   "sn85334015"]    # Ultrabook
         XSLs = ["ST66", "ST96"]
         for tm in test_tms:
             CSVs={}
@@ -81,7 +82,9 @@ class TestUM(unittest.TestCase):
 
     def test_B005_staff(self):  
         self.confirm_content(["staff"], ["sn87881347"]) 
- 
+
+    def test_B006_international(self):  
+        self.confirm_content(["international"], ["sn85334015"]) 
        
 if __name__ == '__main__':
     unittest.main(verbosity=5)
