@@ -12,6 +12,7 @@ MSXML_filename = os.path.join(UTILS, "MSXSL.exe")
 CMD_TEMPLATE = "{cmd} {{xmlfile}} {{xslfile}} -o {{outfile}}".format(cmd=MSXML_filename)
 
 CSV_file_info = {}
+all_CSV_filenames = []
 
 class TestUM(unittest.TestCase):
 
@@ -40,6 +41,7 @@ class TestUM(unittest.TestCase):
                 stdout.close()
                 stderr.close()
                 CSVs[xsl] = csv_filename
+                all_CSV_filenames.append(csv_filename)
             CSV_file_info[tm] = CSVs            
 
     def confirm_extract(self, field, tm, XSLformats=None):
@@ -64,26 +66,60 @@ class TestUM(unittest.TestCase):
         for field in field_list:
             for tm in tmlist:
                 self.confirm_extract(field, tm, XSLformats=XSLformats)
+
+    def split_csv(self, csvfilename):
+        with open(csvfilename) as CSV_file:
+            CSV_content = CSV_file.read()
+            lines = CSV_content.split("\n")
+            last_line=lines.pop()
+            return(lines, last_line)
+    
     # Group A tests: basic
     def test_A000_dummy(self):
         pass
 
+    # Group B tests: format-only
+
+    def test_B001_final_line_zero_length(self):
+        for fn in all_CSV_filenames:
+            (lines, lastline) = self.split_csv(fn)
+            self.assertEqual(lastline, "",
+                             msg="Non-blank last line \"{line}\" in file {fn}".format(
+                                 line=lastline, fn=fn))
+
+    @unittest.skip
+    def test_B099_dummy(self):
+        all_CSV_filenames = []
+        for file_info_entry in CSV_file_info.values():
+            print(file_info_entry)
+            print(file_info_entry.values())
+            all_CSV_filenames.append(file_info_entry.values())
+        print(CSV_file_info)
+        print(all_CSV_filenames)
+
+
     # Group C tests: content-based
+    @unittest.skip("temporarily disabled while developing Group-B tests")
     def test_C001_ID_numbers(self):
         self.confirm_content(["appno", "regno"], ["rn2178784", "rn2713476"])
 
+    @unittest.skip("temporarily disabled while developing Group-B tests")
     def test_C002_app_dates(self):
         self.confirm_content(["appdates"], ["rn2178784", "rn2713476"])
 
+    @unittest.skip("temporarily disabled while developing Group-B tests")
     def test_C003_reg_date_times(self): # Only ST.66 uses time on reg date
         self.confirm_content(["regdatetimes"], ["rn2178784", "rn2713476"], XSLformats=["ST66"])
 
+    @unittest.skip("temporarily disabled while developing Group-B tests")
     def test_C004_reg_date_only(self): # ST.96 does not use time  
         self.confirm_content(["regdatesonly"], ["rn2178784", "rn2713476"], XSLformats=["ST96"]) 
 
+    @unittest.skip("temporarily disabled while developing Group-B tests")
     def test_C005_staff(self):  
         self.confirm_content(["staff"], ["sn87881347"]) 
 
+    @unittest.skip("temporarily disabled while developing Group-B tests")
     def test_C006_international(self):  
         self.confirm_content(["international"], ["sn85334015"]) 
        
