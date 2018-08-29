@@ -12,7 +12,7 @@ _X_ Diagnostic info moved to end
 _X_ Note Newline at end (consistent with CSVs saved by most spreadsheet programs (excel, libreoffice, OpenOffice)
 ___ Add unit tests to confirm facially satisfactory XSL transformation on all test data:
     _X_ ends with single newline
-    ___ No blank/whitespace/null lines
+    _X_ No blank/whitespace/null lines
     ___ Each line:
         ___ in the format [START-OF-LINE]KEYNAME,"VALUE"[END-OF-LINE]
         ___ KEYNAME consists only of letters (A-Z, a-z) and digits (0-9);

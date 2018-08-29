@@ -86,6 +86,15 @@ class TestUM(unittest.TestCase):
             self.assertEqual(lastline, "",
                              msg="Non-blank last line \"{line}\" in file {fn}".format(
                                  line=lastline, fn=fn))
+    def test_B002_no_blank_lines(self):
+        for fn in all_CSV_filenames:
+            (lines, lastline) = self.split_csv(fn)
+            for i in range(0,len(lines)):
+                self.assertFalse(
+                    (lines[i].isspace() or lines[i] == ""),
+                    msg="Blank or empty line \"{line}\" in file {fn}, line no. {linenumber}".format(
+                        line=lines[i], fn=fn, linenumber=i+1))
+    
 
     @unittest.skip
     def test_B099_dummy(self):
