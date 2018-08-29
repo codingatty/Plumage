@@ -64,26 +64,27 @@ class TestUM(unittest.TestCase):
         for field in field_list:
             for tm in tmlist:
                 self.confirm_extract(field, tm, XSLformats=XSLformats)
-
+    # Group A tests: basic
     def test_A000_dummy(self):
         pass
 
-    def test_B001_ID_numbers(self):
+    # Group C tests: content-based
+    def test_C001_ID_numbers(self):
         self.confirm_content(["appno", "regno"], ["rn2178784", "rn2713476"])
 
-    def test_B002_app_dates(self):
+    def test_C002_app_dates(self):
         self.confirm_content(["appdates"], ["rn2178784", "rn2713476"])
 
-    def test_B003_reg_date_times(self): # Only ST.66 uses time on reg date
+    def test_C003_reg_date_times(self): # Only ST.66 uses time on reg date
         self.confirm_content(["regdatetimes"], ["rn2178784", "rn2713476"], XSLformats=["ST66"])
 
-    def test_B004_reg_date_only(self): # ST.96 does not use time  
+    def test_C004_reg_date_only(self): # ST.96 does not use time  
         self.confirm_content(["regdatesonly"], ["rn2178784", "rn2713476"], XSLformats=["ST96"]) 
 
-    def test_B005_staff(self):  
+    def test_C005_staff(self):  
         self.confirm_content(["staff"], ["sn87881347"]) 
 
-    def test_B006_international(self):  
+    def test_C006_international(self):  
         self.confirm_content(["international"], ["sn85334015"]) 
        
 if __name__ == '__main__':
