@@ -1,6 +1,6 @@
 For next release:
 
-___ Clean up namespace naming 
+_X_ Clean up namespace naming in ST66
 _X_ Unit test for InternationalApplicationNumber and InternationalRegistrationNumber 
     (and verify <xsl:text/> use is correct)
 _X_ Unit test for StaffName and StaffOfficialTitle
