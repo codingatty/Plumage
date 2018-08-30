@@ -2,6 +2,7 @@ import unittest
 import subprocess
 import os, os.path
 import shutil
+import string
 
 WORKING="working"
 UTILS="utils"
@@ -21,8 +22,8 @@ class TestUM(unittest.TestCase):
         os.makedirs(WORKING)
         test_tms= ["rn2713476",     # MySQL
                    "rn2178784",     # Java
-                   "sn87881347",    # Burger Addict
-                   "sn85334015"]    # Ultrabook
+                   "sn87881347",    # Burger Addict (not yet registered; has staff info)
+                   "sn85334015"]    # Ultrabook (has international info)
         XSLs = ["ST66", "ST96"]
         for tm in test_tms:
             CSVs={}
@@ -73,8 +74,22 @@ class TestUM(unittest.TestCase):
             lines = CSV_content.split("\n")
             last_line=lines.pop()
             return(lines, last_line)
+
+    def validate_key(self, k, line, fn, lineoffset):
+        valid_key_chars = set(string.ascii_letters + string.digits)
+        self.assertTrue(set(k).issubset(valid_key_chars),
+                       msg="Invalid character in key <{key}> in line <{line}>, file {fn} line no. {lineno}".format(
+                                 key=k, line=line, fn=fn, lineno = lineoffset+1))
+
+    def validate_value(self, v, line, fn, lineoffset):
+        #remove first and last characters (quote-marks) and put them back on; should be unchanged 
+        reconstituted_v = '"' + v[1:-1] + '"'
+        self.assertEqual(v, reconstituted_v,
+                         msg="Improperly quoted value <{value}> in line <{line}>, file {fn} line no. {lineno}".format(
+                                 value=v, line=line, fn=fn, lineno = lineoffset+1))
     
     # Group A tests: basic
+    
     def test_A000_dummy(self):
         pass
 
@@ -84,52 +99,51 @@ class TestUM(unittest.TestCase):
         for fn in all_CSV_filenames:
             (lines, lastline) = self.split_csv(fn)
             self.assertEqual(lastline, "",
-                             msg="Non-blank last line \"{line}\" in file {fn}".format(
+                             msg="Non-blank last line <{line}> in file {fn}".format(
                                  line=lastline, fn=fn))
+            
     def test_B002_no_blank_lines(self):
         for fn in all_CSV_filenames:
             (lines, lastline) = self.split_csv(fn)
             for i in range(0,len(lines)):
                 self.assertFalse(
                     (lines[i].isspace() or lines[i] == ""),
-                    msg="Blank or empty line \"{line}\" in file {fn}, line no. {linenumber}".format(
+                    msg="Blank or empty line <{line}> in file {fn}, line no. {linenumber}".format(
                         line=lines[i], fn=fn, linenumber=i+1))
-    
 
-    @unittest.skip
-    def test_B099_dummy(self):
-        all_CSV_filenames = []
-        for file_info_entry in CSV_file_info.values():
-            print(file_info_entry)
-            print(file_info_entry.values())
-            all_CSV_filenames.append(file_info_entry.values())
-        print(CSV_file_info)
-        print(all_CSV_filenames)
-
+    def test_B003_format_check(self):
+        for fn in all_CSV_filenames:
+            (lines, lastline) = self.split_csv(fn)
+            for i in range(0,len(lines)):
+                line = lines[i]
+                self.assertEqual(line[-1], '"',
+                                 msg="extraneous or missing data at end of line <{line}>, in file {fn}, line no. {linenumber}".format(
+                        line=line, fn=fn, linenumber=i+1))
+                chunks = line.split(',', 1)  # split into key/value pairs
+                self.assertEqual(len(chunks), 2,
+                        msg="line <{line}> not in KEY,VALUE format, in file {fn}, line no. {linenumber}".format(
+                        line=line, fn=fn, linenumber=i+1))
+                self.validate_key(chunks[0], line, fn, i)
+                self.validate_value(chunks[1], line, fn, i)
 
     # Group C tests: content-based
-    @unittest.skip("temporarily disabled while developing Group-B tests")
+    
     def test_C001_ID_numbers(self):
         self.confirm_content(["appno", "regno"], ["rn2178784", "rn2713476"])
 
-    @unittest.skip("temporarily disabled while developing Group-B tests")
     def test_C002_app_dates(self):
         self.confirm_content(["appdates"], ["rn2178784", "rn2713476"])
 
-    @unittest.skip("temporarily disabled while developing Group-B tests")
     def test_C003_reg_date_times(self): # Only ST.66 uses time on reg date
         self.confirm_content(["regdatetimes"], ["rn2178784", "rn2713476"], XSLformats=["ST66"])
 
-    @unittest.skip("temporarily disabled while developing Group-B tests")
     def test_C004_reg_date_only(self): # ST.96 does not use time  
         self.confirm_content(["regdatesonly"], ["rn2178784", "rn2713476"], XSLformats=["ST96"]) 
 
-    @unittest.skip("temporarily disabled while developing Group-B tests")
-    def test_C005_staff(self):  
+    def test_C005_staff(self):  #87/881,347 still in prosecution when data captured; has staff info
         self.confirm_content(["staff"], ["sn87881347"]) 
 
-    @unittest.skip("temporarily disabled while developing Group-B tests")
-    def test_C006_international(self):  
+    def test_C006_international(self):  #85/334,015 has international application info
         self.confirm_content(["international"], ["sn85334015"]) 
        
 if __name__ == '__main__':

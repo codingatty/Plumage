@@ -10,11 +10,11 @@ ___ Class support
 _X_ Clean up excessive use of <xsl:text/> 
 _X_ Diagnostic info moved to end
 _X_ Note Newline at end (consistent with CSVs saved by most spreadsheet programs (excel, libreoffice, OpenOffice)
-___ Add unit tests to confirm facially satisfactory XSL transformation on all test data:
+_X__ Add unit tests to confirm facially satisfactory XSL transformation on all test data:
     _X_ ends with single newline
     _X_ No blank/whitespace/null lines
-    ___ Each line:
-        ___ in the format [START-OF-LINE]KEYNAME,"VALUE"[END-OF-LINE]
-        ___ KEYNAME consists only of letters (A-Z, a-z) and digits (0-9);
-        ___ VALUE is enclosed in double-quotes;
-        ___ No spaces or other whitespace anywhere except in VALUE
+    _X__ Each line:
+        _X_ in the format [START-OF-LINE]KEYNAME,"VALUE"[END-OF-LINE]
+        _X_ KEYNAME consists only of letters (A-Z, a-z) and digits (0-9);
+        _X_ VALUE is enclosed in double-quotes;
+
