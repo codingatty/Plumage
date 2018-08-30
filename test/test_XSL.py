@@ -23,7 +23,8 @@ class TestUM(unittest.TestCase):
         test_tms= ["rn2713476",     # MySQL
                    "rn2178784",     # Java
                    "sn87881347",    # Burger Addict (not yet registered; has staff info)
-                   "sn85334015"]    # Ultrabook (has international info)
+                   "sn85334015",    # Ultrabook (has international info)
+                   "sn77478018"]    # Mardi Gras dog (lots of classes)  
         XSLs = ["ST66", "ST96"]
         for tm in test_tms:
             CSVs={}
