@@ -9,6 +9,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - The use of the <xsl:text/> (used to prevent the insertion of blank lines) has been trimmed back, to keep the XSL files more readable 
 - Cleaned up Staff info and international application and reg nos. handling
 - Improved unit tests
+- Change namespace IDs in ST66 to match PTO XML files ("default" for the unnamed one). See discussion at https://github.com/codingatty/Plumage-py/issues/1
 
 ## [1.1.0](https://github.com/codingatty/Plumage/releases/tag/V1.1.0) - 2016-05-23 (*The Big Sky*)
 - Support for ST.96 V 2.2.1 (adopted by the US PTO on May 6, 2016)
