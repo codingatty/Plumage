@@ -149,8 +149,7 @@ class TestUM(unittest.TestCase):
 
     def test_C007_international_classes(self):
         self.confirm_content(["international-classes"],
-                             ["rn2713476", "sn77478018"],
-                             XSLformats=["ST66"]) 
+                             ["rn2713476", "sn77478018"]) 
 
 if __name__ == '__main__':
     unittest.main(verbosity=5)
