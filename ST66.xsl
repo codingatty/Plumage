@@ -66,6 +66,7 @@ RegistrationDate,"<xsl:value-of select="default:RegistrationDate"/>"
 RegistrationDateTruncated,"<xsl:value-of select="substring(default:RegistrationDate,1,10)"/>"
 <xsl:apply-templates select="default:WordMarkSpecification"/>
 <xsl:apply-templates select="default:TradeMarkExt"/>
+<xsl:apply-templates select="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription"/>
 <xsl:apply-templates select="default:PublicationDetails"/>
 <xsl:apply-templates select="default:RepresentativeDetails"/>
 <xsl:apply-templates select="default:StaffDetails"/>
@@ -129,6 +130,13 @@ MarkEventDateTruncated,"<xsl:value-of select="substring(default:MarkEventDate,1,
 MarkEventDescription,"<xsl:value-of select="default:MarkEventExt/ns2:MarkEventInternalDescriptionText"/>"
 MarkEventEntryNumber,"<xsl:value-of select="default:MarkEventExt/ns2:MarkEventEntryNumber"/>"
 EndRepeatedField,"MarkEvent"
+</xsl:template>
+
+<xsl:template match="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription">
+<xsl:text/>BeginRepeatedField,"ClassDescription"
+ClassNumber,"<xsl:value-of select="default:ClassNumber"/>"
+GoodsServicesDescription,"<xsl:value-of select="default:GoodsServicesDescription"/>"
+EndRepeatedField,"ClassDescription"
 </xsl:template>
 
 <xsl:template match="default:PublicationDetails">

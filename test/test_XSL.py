@@ -144,8 +144,13 @@ class TestUM(unittest.TestCase):
     def test_C005_staff(self):  #87/881,347 still in prosecution when data captured; has staff info
         self.confirm_content(["staff"], ["sn87881347"]) 
 
-    def test_C006_international(self):  #85/334,015 has international application info
-        self.confirm_content(["international"], ["sn85334015"]) 
-       
+    def test_C006_international_numbers(self):  #85/334,015 has international application info
+        self.confirm_content(["international-numbers"], ["sn85334015"]) 
+
+    def test_C007_international_classes(self):
+        self.confirm_content(["international-classes"],
+                             ["rn2713476", "sn77478018"],
+                             XSLformats=["ST66"]) 
+
 if __name__ == '__main__':
     unittest.main(verbosity=5)
