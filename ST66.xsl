@@ -133,10 +133,10 @@ EndRepeatedField,"MarkEvent"
 </xsl:template>
 
 <xsl:template match="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription">
-<xsl:text/>BeginRepeatedField,"ClassDescription"
-ClassNumber,"<xsl:value-of select="default:ClassNumber"/>"
+<xsl:text/>BeginRepeatedField,"InternationalClassDescription"
+InternationalClassNumber,"<xsl:value-of select="default:ClassNumber"/>"
 GoodsServicesDescription,"<xsl:value-of select="default:GoodsServicesDescription"/>"
-EndRepeatedField,"ClassDescription"
+EndRepeatedField,"InternationalClassDescription"
 </xsl:template>
 
 <xsl:template match="default:PublicationDetails">

@@ -115,10 +115,10 @@ InternationalRegistrationNumber,"<xsl:value-of select="ns2:InternationalApplicat
 <!-- ST96 has two types of ClassDescription nodes; one with the class number and description; and one with a NationalStatusBag node. We process only the first type. -->
 <xsl:template match="ns2:GoodsServicesBag/ns2:GoodsServices/ns2:ClassDescriptionBag/ns2:ClassDescription">
 <xsl:if test="ns2:ClassNumber != ''">
-<xsl:text/>BeginRepeatedField,"ClassDescription"
-ClassNumber,"<xsl:value-of select="ns2:ClassNumber"/>"
+<xsl:text/>BeginRepeatedField,"InternationalClassDescription"
+InternationalClassNumber,"<xsl:value-of select="ns2:ClassNumber"/>"
 GoodsServicesDescription,"<xsl:value-of select="ns2:GoodsServicesDescriptionText"/>"
-EndRepeatedField,"ClassDescription"
+EndRepeatedField,"InternationalClassDescription"
 </xsl:if>
 </xsl:template>
 
