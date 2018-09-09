@@ -19,7 +19,7 @@
 
 -->
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:default="http://www.wipo.int/standards/XMLSchema/trademarks" xmlns:ns2="urn:us:gov:doc:usns2:trademark:status">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:default="http://www.wipo.int/standards/XMLSchema/trademarks" xmlns:ns2="urn:us:gov:doc:uspto:trademark:status">
 <xsl:output method="text" encoding="utf-8"/>
 <xsl:variable name='NL'><xsl:text>&#10;</xsl:text></xsl:variable><!-- NL = newline character X'0A' -->
 
