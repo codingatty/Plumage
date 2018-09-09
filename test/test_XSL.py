@@ -60,7 +60,7 @@ class TestUM(unittest.TestCase):
                 CSVfilename = CSV_file_table[xsl_format]
                 with open(CSVfilename) as CSV_file:
                     CSV_content = CSV_file.read()
-            self.assertTrue(extract in CSV_content,
+                self.assertTrue(extract in CSV_content,
                             msg="Content for field \"{field}\" does not match in CSV file {tm}/{format}".format(
                                 field=field, tm=tm, format=xsl_format))
 
@@ -153,8 +153,16 @@ class TestUM(unittest.TestCase):
         
     def test_C008_domestic_classes(self):
         self.confirm_content(["domestic-classes"],
-                             ["rn2713476", "sn77478018"], ["ST96"]) 
+                             ["rn2713476", "sn77478018"], ["ST96"])
 
+    def test_C002a_register_category(self):
+        self.confirm_content(["register-cat"],
+                             ["rn2178784", "rn2713476"])
+    
+    def test_C002b_renewal_date(self):
+        self.confirm_content(["renewal-date"],
+                             ["rn2178784", "rn2713476"])
+    
 
 if __name__ == '__main__':
     unittest.main(verbosity=5)
