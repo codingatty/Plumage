@@ -6,7 +6,8 @@ _X_ Unit test for InternationalApplicationNumber and InternationalRegistrationNu
 _X_ Unit test for StaffName and StaffOfficialTitle
     (and verify <xsl:text/> use is correct)
 _X_ Omit Staff in ST66 where there is none
-___ Class support
+_X_ Class support
+___ Report first-use info, correlated to int'l class; ST66: FirstUseDateNumber & FirstUseInCommerceDate; ST96: FirstUsedDate & FirstUsedCommerceDate
 _X_ Clean up excessive use of <xsl:text/> 
 _X_ Diagnostic info moved to end
 _X_ Note Newline at end (consistent with CSVs saved by most spreadsheet programs (excel, libreoffice, OpenOffice)
