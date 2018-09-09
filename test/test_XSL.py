@@ -135,34 +135,33 @@ class TestUM(unittest.TestCase):
     def test_C002_app_dates(self):
         self.confirm_content(["appdates"], ["rn2178784", "rn2713476"])
 
-    def test_C003_reg_date_times(self): # Only ST.66 uses time on reg date
-        self.confirm_content(["regdatetimes"], ["rn2178784", "rn2713476"], XSLformats=["ST66"])
-
-    def test_C004_reg_date_only(self): # ST.96 does not use time  
-        self.confirm_content(["regdatesonly"], ["rn2178784", "rn2713476"], XSLformats=["ST96"]) 
-
-    def test_C005_staff(self):  #87/881,347 still in prosecution when data captured; has staff info
-        self.confirm_content(["staff"], ["sn87881347"]) 
-
-    def test_C006_international_numbers(self):  #85/334,015 has international application info
-        self.confirm_content(["international-numbers"], ["sn85334015"]) 
-
-    def test_C007_international_classes(self):
-        self.confirm_content(["international-classes"],
-                             ["rn2713476", "sn77478018"])
-        
-    def test_C008_domestic_classes(self):
-        self.confirm_content(["domestic-classes"],
-                             ["rn2713476", "sn77478018"], ["ST96"])
-
-    def test_C002a_register_category(self):
+    def test_C003_register_category(self):
         self.confirm_content(["register-cat"],
                              ["rn2178784", "rn2713476"])
     
-    def test_C002b_renewal_date(self):
+    def test_C004_renewal_date(self):
         self.confirm_content(["renewal-date"],
                              ["rn2178784", "rn2713476"])
-    
+
+    def test_C005_reg_date_times(self): # Only ST.66 uses time on reg date
+        self.confirm_content(["regdatetimes"], ["rn2178784", "rn2713476"], XSLformats=["ST66"])
+
+    def test_C006_reg_date_only(self): # ST.96 does not use time  
+        self.confirm_content(["regdatesonly"], ["rn2178784", "rn2713476"], XSLformats=["ST96"]) 
+
+    def test_C007_staff(self):  #87/881,347 still in prosecution when data captured; has staff info
+        self.confirm_content(["staff"], ["sn87881347"]) 
+
+    def test_C008_international_numbers(self):  #85/334,015 has international application info
+        self.confirm_content(["international-numbers"], ["sn85334015"]) 
+
+    def test_C009_international_classes(self):
+        self.confirm_content(["international-classes"],
+                             ["rn2713476", "sn77478018"])
+        
+    def test_C010_domestic_classes(self):
+        self.confirm_content(["domestic-classes"],
+                             ["rn2713476", "sn77478018"], ["ST96"])
 
 if __name__ == '__main__':
     unittest.main(verbosity=5)
