@@ -65,6 +65,8 @@ RegistrationDateTruncated,"<xsl:value-of select="substring(ns1:RegistrationDate,
 <xsl:apply-templates select="ns2:MarkRepresentation/ns2:MarkReproduction/ns2:WordMarkSpecification"/>
 <xsl:apply-templates select="ns2:NationalTrademarkInformation"/>
 <xsl:apply-templates select="ns2:AssociatedMarkBag/ns2:AssociatedMark"/>
+<xsl:apply-templates select="ns2:GoodsServicesBag/ns2:GoodsServices/ns2:ClassDescriptionBag/ns2:ClassDescription"/>
+<xsl:apply-templates select="ns2:GoodsServicesBag/ns2:GoodsServices/ns2:GoodsServicesClassificationBag/ns2:GoodsServicesClassification"/>
 <xsl:apply-templates select="ns2:PublicationBag/ns2:Publication"/>
 <xsl:apply-templates select="ns2:NationalCorrespondent/ns1:Contact"/>
 <xsl:apply-templates select="ns1:StaffBag/ns1:Staff"/>
@@ -98,20 +100,47 @@ RenewalDateTruncated,"<xsl:value-of select="substring(ns2:RenewalDate,1,10)"/>"
 CurrentLocationCode,"<xsl:value-of select="ns2:CurrentLocationCode"/>"
 CurrentLocationText,"<xsl:value-of select="ns2:CurrentLocationText"/>"
 CurrentLocationDate,"<xsl:value-of select="ns2:CurrentLocationDate"/>"
-CurrentLocationDateTruncated,"<xsl:value-of select="substring(ns2:CurrentLocationDate,1,10)"/>"<xsl:text/>
+CurrentLocationDateTruncated,"<xsl:value-of select="substring(ns2:CurrentLocationDate,1,10)"/>"
 </xsl:template>
 
-<xsl:template match="ns2:AssociatedMarkBag/ns2:AssociatedMark">
 <!-- This is odd, but, yes, the *registration* number is stored under "InternationalApplicationNumber". 
      This is a change from ST96 1_D3 to ST96 2.2.1 -->
+<xsl:template match="ns2:AssociatedMarkBag/ns2:AssociatedMark">
 <xsl:if test="ns2:AssociationCategory = 'International application or registration'">
-InternationalApplicationNumber,"<xsl:value-of select="ns1:ApplicationNumber/ns1:ApplicationNumberText"/>"
-InternationalRegistrationNumber,"<xsl:value-of select="ns2:InternationalApplicationNumber/ns1:ApplicationNumberText"/>"<xsl:text/>
+<xsl:text/>InternationalApplicationNumber,"<xsl:value-of select="ns1:ApplicationNumber/ns1:ApplicationNumberText"/>"
+InternationalRegistrationNumber,"<xsl:value-of select="ns2:InternationalApplicationNumber/ns1:ApplicationNumberText"/>"
+</xsl:if>
+</xsl:template>
+
+<!-- ST96 has two types of ClassDescription nodes; one with the class number and description; and one with a NationalStatusBag node. We process only the first type. -->
+<xsl:template match="ns2:GoodsServicesBag/ns2:GoodsServices/ns2:ClassDescriptionBag/ns2:ClassDescription">
+<xsl:if test="ns2:ClassNumber != ''">
+<xsl:text/>BeginRepeatedField,"InternationalClassDescription"
+InternationalClassNumber,"<xsl:value-of select="ns2:ClassNumber"/>"
+GoodsServicesDescription,"<xsl:value-of select="ns2:GoodsServicesDescriptionText"/>"
+EndRepeatedField,"InternationalClassDescription"
+</xsl:if>
+</xsl:template>
+
+<xsl:template match="ns2:GoodsServicesBag/ns2:GoodsServices/ns2:GoodsServicesClassificationBag/ns2:GoodsServicesClassification">
+<xsl:if test="ns2:ClassificationKindCode = 'Domestic'">
+<xsl:text/>BeginRepeatedField,"DomesticClassDescription"
+<xsl:for-each select="../ns2:GoodsServicesClassification">
+<xsl:if test="ns2:ClassificationKindCode = 'Primary'">
+<xsl:text/>PrimaryClassNumber,"<xsl:value-of select="ns2:ClassNumber"/>"
+</xsl:if>
+<xsl:if test="ns2:ClassificationKindCode = 'Nice'">
+<xsl:text/>NiceClassNumber,"<xsl:value-of select="ns2:ClassNumber"/>"
+</xsl:if>
+</xsl:for-each>
+<xsl:text/>ClassificationKindCode,"<xsl:value-of select="ns2:ClassificationKindCode"/>"
+NationalClassNumber,"<xsl:value-of select="ns2:NationalClassNumber"/>"
+<xsl:text/>EndRepeatedField,"DomesticClassDescription"
 </xsl:if>
 </xsl:template>
 
 <xsl:template match="ns2:PublicationBag/ns2:Publication">
-PublicationDate,"<xsl:value-of select="ns1:PublicationDate"/>"
+<xsl:text/>PublicationDate,"<xsl:value-of select="ns1:PublicationDate"/>"
 PublicationDateTruncated,"<xsl:value-of select="substring(ns1:PublicationDate,1,10)"/>"
 </xsl:template>
 

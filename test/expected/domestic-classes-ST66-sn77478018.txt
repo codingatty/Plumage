@@ -1,0 +1,4 @@
+BeginRepeatedField,"DomesticClassDescription"
+PrimaryClassNumber,"030"
+NationalClassNumber,"046"
+EndRepeatedField,"DomesticClassDescription"

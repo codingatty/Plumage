@@ -1,0 +1,4 @@
+BeginRepeatedField,"InternationalClassDescription"
+InternationalClassNumber,"009"
+GoodsServicesDescription,"COMPUTER SOFTWARE FOR INFORMATION PROCESSING, NAMELY, DATABASE MANAGEMENT AND DEVELOPMENT, ALL FOR GENERAL USE, AND USER MANUALS DISTRIBUTED AS A UNIT THEREWITH"
+EndRepeatedField,"InternationalClassDescription"

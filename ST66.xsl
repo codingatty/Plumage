@@ -19,7 +19,7 @@
 
 -->
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:default="http://www.wipo.int/standards/XMLSchema/trademarks" xmlns:ns2="urn:us:gov:doc:usns2:trademark:status">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:default="http://www.wipo.int/standards/XMLSchema/trademarks" xmlns:ns2="urn:us:gov:doc:uspto:trademark:status">
 <xsl:output method="text" encoding="utf-8"/>
 <xsl:variable name='NL'><xsl:text>&#10;</xsl:text></xsl:variable><!-- NL = newline character X'0A' -->
 
@@ -66,6 +66,8 @@ RegistrationDate,"<xsl:value-of select="default:RegistrationDate"/>"
 RegistrationDateTruncated,"<xsl:value-of select="substring(default:RegistrationDate,1,10)"/>"
 <xsl:apply-templates select="default:WordMarkSpecification"/>
 <xsl:apply-templates select="default:TradeMarkExt"/>
+<xsl:apply-templates select="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription"/>
+<xsl:apply-templates select="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription/default:ClassDescriptionExt/ns2:DomesticClassNumbers"/>
 <xsl:apply-templates select="default:PublicationDetails"/>
 <xsl:apply-templates select="default:RepresentativeDetails"/>
 <xsl:apply-templates select="default:StaffDetails"/>
@@ -130,6 +132,21 @@ MarkEventDescription,"<xsl:value-of select="default:MarkEventExt/ns2:MarkEventIn
 MarkEventEntryNumber,"<xsl:value-of select="default:MarkEventExt/ns2:MarkEventEntryNumber"/>"
 EndRepeatedField,"MarkEvent"
 </xsl:template>
+
+<xsl:template match="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription">
+<xsl:text/>BeginRepeatedField,"InternationalClassDescription"
+InternationalClassNumber,"<xsl:value-of select="default:ClassNumber"/>"
+GoodsServicesDescription,"<xsl:value-of select="default:GoodsServicesDescription"/>"
+EndRepeatedField,"InternationalClassDescription"
+</xsl:template>
+
+<xsl:template match="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription/default:ClassDescriptionExt/ns2:DomesticClassNumbers">
+<xsl:text/>BeginRepeatedField,"DomesticClassDescription"
+PrimaryClassNumber,"<xsl:value-of select="../ns2:PrimeClassText"/>"
+NationalClassNumber,"<xsl:value-of select="."/>"
+EndRepeatedField,"DomesticClassDescription"
+</xsl:template>
+
 
 <xsl:template match="default:PublicationDetails">
 <xsl:text/>PublicationDate,"<xsl:value-of select="default:Publication/default:PublicationDate"/>"
