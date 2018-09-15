@@ -67,6 +67,7 @@ RegistrationDateTruncated,"<xsl:value-of select="substring(ns1:RegistrationDate,
 <xsl:apply-templates select="ns2:AssociatedMarkBag/ns2:AssociatedMark"/>
 <xsl:apply-templates select="ns2:GoodsServicesBag/ns2:GoodsServices/ns2:ClassDescriptionBag/ns2:ClassDescription"/>
 <xsl:apply-templates select="ns2:GoodsServicesBag/ns2:GoodsServices/ns2:GoodsServicesClassificationBag/ns2:GoodsServicesClassification"/>
+<xsl:apply-templates select="ns2:GoodsServicesBag/ns2:GoodsServices/ns2:NationalFilingBasis"/>
 <xsl:apply-templates select="ns2:PublicationBag/ns2:Publication"/>
 <xsl:apply-templates select="ns2:NationalCorrespondent/ns1:Contact"/>
 <xsl:apply-templates select="ns1:StaffBag/ns1:Staff"/>
@@ -137,6 +138,21 @@ EndRepeatedField,"InternationalClassDescription"
 NationalClassNumber,"<xsl:value-of select="ns2:NationalClassNumber"/>"
 <xsl:text/>EndRepeatedField,"DomesticClassDescription"
 </xsl:if>
+</xsl:template>
+
+<xsl:template match="ns2:GoodsServicesBag/ns2:GoodsServices/ns2:NationalFilingBasis">
+<xsl:text/>BeginRepeatedField,"FirstUseDates"
+<xsl:for-each select="../ns2:GoodsServicesClassificationBag/ns2:GoodsServicesClassification">
+<xsl:if test="ns2:ClassificationKindCode = 'Primary'">
+<xsl:text/>PrimaryClassNumber,"<xsl:value-of select="ns2:ClassNumber"/>"
+</xsl:if>
+<xsl:if test="ns2:ClassificationKindCode = 'Nice'">
+<xsl:text/>NiceClassNumber,"<xsl:value-of select="ns2:ClassNumber"/>"
+</xsl:if>
+</xsl:for-each>
+<xsl:text/>FirstUseDateNumber,"<xsl:value-of select="ns2:FirstUsedDate"/>"
+FirstUseInCommerceDate,"<xsl:value-of select="ns2:FirstUsedCommerceDate"/>"
+<xsl:text/>EndRepeatedField,"FirstUseDates"
 </xsl:template>
 
 <xsl:template match="ns2:PublicationBag/ns2:Publication">

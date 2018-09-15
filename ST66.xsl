@@ -68,6 +68,7 @@ RegistrationDateTruncated,"<xsl:value-of select="substring(default:RegistrationD
 <xsl:apply-templates select="default:TradeMarkExt"/>
 <xsl:apply-templates select="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription"/>
 <xsl:apply-templates select="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription/default:ClassDescriptionExt/ns2:DomesticClassNumbers"/>
+<xsl:apply-templates select="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription/default:ClassDescriptionExt/ns2:FilingBasisDetails"/>
 <xsl:apply-templates select="default:PublicationDetails"/>
 <xsl:apply-templates select="default:RepresentativeDetails"/>
 <xsl:apply-templates select="default:StaffDetails"/>
@@ -147,6 +148,13 @@ NationalClassNumber,"<xsl:value-of select="."/>"
 EndRepeatedField,"DomesticClassDescription"
 </xsl:template>
 
+<xsl:template match="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription/default:ClassDescriptionExt/ns2:FilingBasisDetails">
+<xsl:text/>BeginRepeatedField,"FirstUseDates"
+PrimaryClassNumber,"<xsl:value-of select="../ns2:PrimeClassText"/>"
+FirstUseDateNumber,"<xsl:value-of select="ns2:FirstUseDateNumber"/>"
+FirstUseInCommerceDate,"<xsl:value-of select="ns2:FirstUseInCommerceDate"/>"
+EndRepeatedField,"FirstUseDates"
+</xsl:template>
 
 <xsl:template match="default:PublicationDetails">
 <xsl:text/>PublicationDate,"<xsl:value-of select="default:Publication/default:PublicationDate"/>"

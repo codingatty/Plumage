@@ -1,0 +1,6 @@
+BeginRepeatedField,"FirstUseDates"
+PrimaryClassNumber,"009"
+NiceClassNumber,"009"
+FirstUseDateNumber,"19961130"
+FirstUseInCommerceDate,"19961130"
+EndRepeatedField,"FirstUseDates"
