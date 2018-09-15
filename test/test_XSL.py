@@ -129,33 +129,26 @@ class TestUM(unittest.TestCase):
 
     # Group C tests: content-based
 
-    @unittest.skip("temp skip")
     def test_C001_ID_numbers(self):
         self.confirm_content(["appno", "regno"], ["rn2178784", "rn2713476"])
 
-    @unittest.skip("temp skip")
     def test_C002_app_dates(self):
         self.confirm_content(["appdates"], ["rn2178784", "rn2713476"])
 
-    @unittest.skip("temp skip")
     def test_C003_register_category(self):
         self.confirm_content(["register-cat"],
                              ["rn2178784", "rn2713476"])
     
-    @unittest.skip("temp skip")
     def test_C004_renewal_date(self):
         self.confirm_content(["renewal-date"],
                              ["rn2178784", "rn2713476"])
 
-    @unittest.skip("temp skip")
     def test_C005_reg_date_times(self): # Only ST.66 uses time on reg date
         self.confirm_content(["regdatetimes"], ["rn2178784", "rn2713476"], XSLformats=["ST66"])
 
-    @unittest.skip("temp skip")
     def test_C006_reg_date_only(self): # ST.96 does not use time  
         self.confirm_content(["regdatesonly"], ["rn2178784", "rn2713476"], XSLformats=["ST96"]) 
 
-    @unittest.skip("temp skip")
     def test_C007_staff(self):  #87/881,347 still in prosecution when data captured; has staff info
         self.confirm_content(["staff"], ["sn87881347"]) 
 
@@ -174,6 +167,13 @@ class TestUM(unittest.TestCase):
         self.confirm_content(["domestic-classes-ST96"],
                              ["rn2713476", "sn77478018"], ["ST96"])
 
+    def test_C012_first_used_dates_ST66(self):
+        self.confirm_content(["first-used-dates-ST66"],
+                             ["rn2713476", "sn77478018"], ["ST66"])
+
+    def test_C013_first_used_dates_ST96(self):
+        self.confirm_content(["first-used-dates-ST96"],
+                             ["rn2713476", "sn77478018"], ["ST96"])
 
 if __name__ == '__main__':
     unittest.main(verbosity=5)
