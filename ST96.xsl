@@ -6,8 +6,8 @@
    https://github.com/codingatty/Plumage
    
    ST96.xsl - ST.96 transform
-   Version 1.1.1, 2016-05-21
-   Copyright 2014-2016 Terry Carroll
+   Version 1.2.0 (pre-release), 2018-09-25
+   Copyright 2014-2018 Terry Carroll
    carroll@tjc.com
 
    This program is licensed under Apache License, version 2.0 (January 2004),
@@ -28,12 +28,12 @@
 <xsl:apply-templates select=".//ns2:TrademarkBag/ns2:Trademark"/>
 <xsl:text/>DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"
 DiagnosticInfoXSLTLocation,"$XSLTLOCATION$"
-DiagnosticInfoXSLTVersion,"1.1.1"
-DiagnosticInfoXSLTDate,"2018-08-21"
+DiagnosticInfoXSLTVersion,"1.2.0-pre"
+DiagnosticInfoXSLTDate,"2018-09-25"
 DiagnosticInfoXSLTFormat,"ST.96"
 DiagnosticInfoXSLTAuthor,"Terry Carroll"
 DiagnosticInfoXSLTURL,"https://github.com/codingatty/Plumage"
-DiagnosticInfoXSLTCopyright,"Copyright 2014-2017 Terry Carroll"
+DiagnosticInfoXSLTCopyright,"Copyright 2014-2018 Terry Carroll"
 DiagnosticInfoXSLTLicense,"Apache License, version 2.0 (January 2004)"
 DiagnosticInfoXSLTSPDXLicenseIdentifier,"Apache-2.0"
 DiagnosticInfoXSLTLicenseURL,"http://www.apache.org/licenses/LICENSE-2.0"

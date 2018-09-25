@@ -6,8 +6,8 @@
    https://github.com/codingatty/Plumage
    
    ST66.xsl - ST.66 transform
-   Version 1.1.1, 2017-03-15
-   Copyright 2014-2017 Terry Carroll
+   Version 1.2.0 (pre-release), 2018-09-25
+   Copyright 2014-2018 Terry Carroll
    carroll@tjc.com
 
    This program is licensed under Apache License, version 2.0 (January 2004);
@@ -30,12 +30,12 @@
 <xsl:apply-templates select=".//default:AssignmentBagExt"/>
 <xsl:text/>DiagnosticInfoXSLTFilename,"$XSLTFILENAME$"
 DiagnosticInfoXSLTLocation,"$XSLTLOCATION$"
-DiagnosticInfoXSLTVersion,"1.1.1"
-DiagnosticInfoXSLTDate,"2018-08-21"
+DiagnosticInfoXSLTVersion,"1.2.0-pre"
+DiagnosticInfoXSLTDate,"2018-09-25"
 DiagnosticInfoXSLTFormat,"ST.66"
 DiagnosticInfoXSLTAuthor,"Terry Carroll"
 DiagnosticInfoXSLTURL,"https://github.com/codingatty/Plumage"
-DiagnosticInfoXSLTCopyright,"Copyright 2014-2017 Terry Carroll"
+DiagnosticInfoXSLTCopyright,"Copyright 2014-2018 Terry Carroll"
 DiagnosticInfoXSLTLicense,"Apache License, version 2.0 (January 2004)"
 DiagnosticInfoXSLTSPDXLicenseIdentifier,"Apache-2.0"
 DiagnosticInfoXSLTLicenseURL,"http://www.apache.org/licenses/LICENSE-2.0"
