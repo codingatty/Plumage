@@ -18,13 +18,17 @@ all_CSV_filenames = []
 class TestUM(unittest.TestCase):
 
     def setUp(self):
-        shutil.rmtree(WORKING, ignore_errors=True)
-        os.makedirs(WORKING)
+
+        # Clean up the working directory, delete all files
+        for filename in os.listdir(WORKING):
+            full_path = os.path.join(WORKING, filename)
+            os.unlink(full_path)
+            
         test_tms= ["rn2713476",     # MySQL
                    "rn2178784",     # Java
                    "sn87881347",    # Burger Addict (not yet registered; has staff info)
                    "sn85334015",    # Ultrabook (has international info)
-                   "rn3756727"]     # Bluebook (multiple classes)  
+                   "rn3886986"]     # Bluebook (multiple classes)  
         XSLs = ["ST66", "ST96"]
         for tm in test_tms:
             CSVs={}
@@ -157,23 +161,23 @@ class TestUM(unittest.TestCase):
 
     def test_C009_international_classes(self):
         self.confirm_content(["international-classes"],
-                             ["rn2713476", "rn3756727"])
+                             ["rn2713476", "rn3886986"])
         
     def test_C010_domestic_classes_ST66(self):
         self.confirm_content(["domestic-classes-ST66"],
-                             ["rn2713476", "rn3756727"], ["ST66"])
+                             ["rn2713476", "rn3886986"], ["ST66"])
 
     def test_C011_domestic_classes_ST96(self):
         self.confirm_content(["domestic-classes-ST96"],
-                             ["rn2713476", "rn3756727"], ["ST96"])
+                             ["rn2713476", "rn3886986"], ["ST96"])
 
     def test_C012_first_used_dates_ST66(self):
         self.confirm_content(["first-used-dates-ST66"],
-                             ["rn2713476", "rn3756727"], ["ST66"])
+                             ["rn2713476", "rn3886986"], ["ST66"])
 
     def test_C013_first_used_dates_ST96(self):
         self.confirm_content(["first-used-dates-ST96"],
-                             ["rn2713476", "rn3756727"], ["ST96"])
+                             ["rn2713476", "rn3886986"], ["ST96"])
 
 if __name__ == '__main__':
     unittest.main(verbosity=5)

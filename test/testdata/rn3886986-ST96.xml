@@ -9,29 +9,29 @@
                         <ns1:RegistrationOfficeCode>US</ns1:RegistrationOfficeCode>
                         <ns1:ApplicationNumber>
                             <ns1:IPOfficeCode>US</ns1:IPOfficeCode>
-                            <ns1:ApplicationNumberText>77658658</ns1:ApplicationNumberText>
+                            <ns1:ApplicationNumberText>77658723</ns1:ApplicationNumberText>
                         </ns1:ApplicationNumber>
-                        <ns1:RegistrationNumber>3756727</ns1:RegistrationNumber>
+                        <ns1:RegistrationNumber>3886986</ns1:RegistrationNumber>
                         <ns2:ApplicationDate>2009-01-28-05:00</ns2:ApplicationDate>
-                        <ns1:RegistrationDate>2010-03-09</ns1:RegistrationDate>
+                        <ns1:RegistrationDate>2010-12-07</ns1:RegistrationDate>
                         <ns1:FilingPlace>US</ns1:FilingPlace>
                         <ns2:MarkCurrentStatusCode>702</ns2:MarkCurrentStatusCode>
-                        <ns2:MarkCurrentStatusDate>2016-01-09</ns2:MarkCurrentStatusDate>
+                        <ns2:MarkCurrentStatusDate>2016-06-15</ns2:MarkCurrentStatusDate>
                         <ns2:AssociatedMarkBag/>
                         <ns2:MarkCategory>Trademark</ns2:MarkCategory>
                         <ns2:MarkCategory>Service mark</ns2:MarkCategory>
                         <ns2:MarkRepresentation>
                             <ns2:MarkReproduction>
 <ns2:WordMarkSpecification>
-    <ns2:MarkVerbalElementText>THE BLUEBOOK</ns2:MarkVerbalElementText>
-    <ns2:MarkSignificantVerbalElementText>THE BLUEBOOK</ns2:MarkSignificantVerbalElementText>
+    <ns2:MarkVerbalElementText>THE BLUEBOOK A UNIFORM SYSTEM OF CITATION</ns2:MarkVerbalElementText>
+    <ns2:MarkSignificantVerbalElementText>THE BLUEBOOK A UNIFORM SYSTEM OF CITATION</ns2:MarkSignificantVerbalElementText>
     <ns2:MarkTranslationText ns1:sequenceNumber="1"/>
     <ns2:MarkTransliteration/>
     <ns2:MarkStandardCharacterIndicator>true</ns2:MarkStandardCharacterIndicator>
 </ns2:WordMarkSpecification>
 <ns2:MarkImageBag>
     <ns2:MarkImage>
-        <ns1:FileName>77658658.png</ns1:FileName>
+        <ns1:FileName>77658723.png</ns1:FileName>
         <ns2:MarkImageColourClaimedText ns1:sequenceNumber="1"/>
         <ns2:MarkImageColourPartClaimedText ns1:sequenceNumber="1"/>
         <ns2:NationalDesignSearchCodeBag/>
@@ -50,7 +50,7 @@
                             </ns2:MarkDescriptionBag>
                         </ns2:MarkRepresentation>
                         <ns2:MarkDisclaimerBag>
-                            <ns2:MarkDisclaimerText ns1:sequenceNumber="1"/>
+                            <ns2:MarkDisclaimerText ns1:sequenceNumber="1">&quot;A UNIFORM SYSTEM OF CITATION&quot;</ns2:MarkDisclaimerText>
                         </ns2:MarkDisclaimerBag>
                         <ns2:GoodsServicesBag>
                             <ns2:GoodsServices>
@@ -84,8 +84,8 @@
         <ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
         <ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
     </ns2:CurrentBasis>
-    <ns2:FirstUsedDate>20080215</ns2:FirstUsedDate>
-    <ns2:FirstUsedCommerceDate>20080215</ns2:FirstUsedCommerceDate>
+    <ns2:FirstUsedDate>20100915</ns2:FirstUsedDate>
+    <ns2:FirstUsedCommerceDate>20100915</ns2:FirstUsedCommerceDate>
 </ns2:NationalFilingBasis>
 <ns2:ClassDescriptionBag>
     <ns2:ClassDescription>
@@ -177,7 +177,7 @@
                         <ns2:PublicationBag>
                             <ns2:Publication>
 <ns1:PublicationIdentifier>USPTO Official Gazette for Trademarks (OG)</ns1:PublicationIdentifier>
-<ns1:PublicationDate>2009-12-22</ns1:PublicationDate>
+<ns1:PublicationDate>2010-01-19</ns1:PublicationDate>
                             </ns2:Publication>
                         </ns2:PublicationBag>
                         <ns2:ApplicantBag>
@@ -248,7 +248,7 @@
     <ns1:PostalAddressBag>
         <ns1:PostalAddress>
             <ns1:PostalStructuredAddress>
-                <ns1:AddressLineText ns1:sequenceNumber="1">3400 Chestnut Street</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="1">3501 Sansom Street</ns1:AddressLineText>
                 <ns1:AddressLineText ns1:sequenceNumber="2"/>
                 <ns1:CityName>Philadelphia</ns1:CityName>
                 <ns1:GeographicRegionName>PENNSYLVANIA</ns1:GeographicRegionName>
@@ -557,7 +557,7 @@
     </ns1:PersonName>
 </ns1:Name>
                             </ns1:Contact>
-                            <ns2:DocketText>HLRC-T-002</ns2:DocketText>
+                            <ns2:DocketText>HLRC-T-001</ns2:DocketText>
                             <ns1:CommentText ns1:sequenceNumber="1">Attorney of Record</ns1:CommentText>
                         </ns2:RecordAttorney>
                         <ns1:StaffBag/>
@@ -567,70 +567,220 @@
 <ns2:NationalMarkEvent>
     <ns2:MarkEventCode>NA85E</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>NOTICE OF ACCEPTANCE OF SEC. 8 &amp; 15 - E-MAILED</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>19</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventEntryNumber>34</ns2:MarkEventEntryNumber>
     <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2016-01-09</ns2:MarkEventDate>
+<ns2:MarkEventDate>2016-06-15</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
 <ns2:NationalMarkEvent>
     <ns2:MarkEventCode>C15AO</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>REGISTERED - SEC. 8 (6-YR) ACCEPTED &amp; SEC. 15 ACK.</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>18</ns2:MarkEventEntryNumber>
-    <ns2:MarkEventAdditionalText>70132</ns2:MarkEventAdditionalText>
+    <ns2:MarkEventEntryNumber>33</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>64591</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2016-01-09</ns2:MarkEventDate>
+<ns2:MarkEventDate>2016-06-15</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
 <ns2:NationalMarkEvent>
     <ns2:MarkEventCode>APREA</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>CASE ASSIGNED TO POST REGISTRATION PARALEGAL</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>17</ns2:MarkEventEntryNumber>
-    <ns2:MarkEventAdditionalText>70132</ns2:MarkEventAdditionalText>
+    <ns2:MarkEventEntryNumber>32</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>64591</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2016-01-08</ns2:MarkEventDate>
+<ns2:MarkEventDate>2016-06-15</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
 <ns2:NationalMarkEvent>
     <ns2:MarkEventCode>E815I</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>TEAS SECTION 8 &amp; 15 RECEIVED</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>16</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventEntryNumber>31</ns2:MarkEventEntryNumber>
     <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2015-11-04</ns2:MarkEventDate>
+<ns2:MarkEventDate>2016-04-07</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
 <ns2:NationalMarkEvent>
     <ns2:MarkEventCode>R.PRA</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>REGISTERED-PRINCIPAL REGISTER</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>15</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventEntryNumber>30</ns2:MarkEventEntryNumber>
     <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2010-03-09</ns2:MarkEventDate>
+<ns2:MarkEventDate>2010-12-07</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>SUNAE</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NOTICE OF ACCEPTANCE OF STATEMENT OF USE E-MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>29</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-11-02</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>REGVO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>LAW OFFICE REGISTRATION REVIEW COMPLETED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>28</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>73296</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-11-01</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>EXRAE</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NOTICE OF APPROVAL OF EXTENSION REQUEST E-MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>27</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-29</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNPRP</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ALLOWED PRINCIPAL REGISTER - SOU ACCEPTED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>26</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-28</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>SUPCI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>STATEMENT OF USE PROCESSING COMPLETE</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>25</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>76985</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-28</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>IUAFS</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>USE AMENDMENT FILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>24</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>76985</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-13</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>EX1GS</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>EXTENSION 1 GRANTED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>23</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>76985</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-28</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>EXT1S</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>EXTENSION 1 FILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>22</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>76985</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-13</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>AITUA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CASE ASSIGNED TO INTENT TO USE PARALEGAL</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>21</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>76985</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-28</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>EEXTI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS EXTENSION RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>20</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-13</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>EISUI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS STATEMENT OF USE RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>19</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-13</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>TCCAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS CHANGE OF CORRESPONDENCE RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>18</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-13</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>TCCAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS CHANGE OF CORRESPONDENCE RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>17</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-10-13</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>NOAMO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NOA MAILED - SOU REQUIRED FROM APPLICANT</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>16</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-04-13</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
 <ns2:NationalMarkEvent>
     <ns2:MarkEventCode>PUBOA</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>PUBLISHED FOR OPPOSITION</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>14</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventEntryNumber>15</ns2:MarkEventEntryNumber>
     <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2009-12-22</ns2:MarkEventDate>
+<ns2:MarkEventDate>2010-01-19</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
 <ns2:NationalMarkEvent>
     <ns2:MarkEventCode>NPUBO</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>NOTICE OF PUBLICATION</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>13</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventEntryNumber>14</ns2:MarkEventEntryNumber>
     <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2009-12-02</ns2:MarkEventDate>
+<ns2:MarkEventDate>2009-12-30</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>PBCRZ</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>WITHDRAWN FROM PUB - OG REVIEW QUERY</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>13</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>61844</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-11-16</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
@@ -638,49 +788,49 @@
     <ns2:MarkEventCode>PREVO</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>LAW OFFICE PUBLICATION REVIEW COMPLETED</ns2:MarkEventDescriptionText>
     <ns2:MarkEventEntryNumber>12</ns2:MarkEventEntryNumber>
-    <ns2:MarkEventAdditionalText>66213</ns2:MarkEventAdditionalText>
+    <ns2:MarkEventAdditionalText>73296</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2009-11-13</ns2:MarkEventDate>
+<ns2:MarkEventDate>2009-11-05</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
 <ns2:NationalMarkEvent>
-    <ns2:MarkEventCode>ALIEA</ns2:MarkEventCode>
-    <ns2:MarkEventDescriptionText>ASSIGNED TO LIE</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>11</ns2:MarkEventEntryNumber>
-    <ns2:MarkEventAdditionalText>66213</ns2:MarkEventAdditionalText>
-</ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2009-11-13</ns2:MarkEventDate>
-                            </ns2:MarkEvent>
-                            <ns2:MarkEvent>
-<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
-<ns2:NationalMarkEvent>
-    <ns2:MarkEventCode>CNSAO</ns2:MarkEventCode>
+    <ns2:MarkEventCode>CNSAP</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>APPROVED FOR PUB - PRINCIPAL REGISTER</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>10</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventEntryNumber>11</ns2:MarkEventEntryNumber>
     <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2009-10-29</ns2:MarkEventDate>
+<ns2:MarkEventDate>2009-11-04</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
 <ns2:NationalMarkEvent>
     <ns2:MarkEventCode>TEMEI</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>TEAS/EMAIL CORRESPONDENCE ENTERED</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>9</ns2:MarkEventEntryNumber>
-    <ns2:MarkEventAdditionalText>88889</ns2:MarkEventAdditionalText>
+    <ns2:MarkEventEntryNumber>10</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>73296</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2009-10-19</ns2:MarkEventDate>
+<ns2:MarkEventDate>2009-10-27</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
 <ns2:NationalMarkEvent>
     <ns2:MarkEventCode>CRFAI</ns2:MarkEventCode>
     <ns2:MarkEventDescriptionText>CORRESPONDENCE RECEIVED IN LAW OFFICE</ns2:MarkEventDescriptionText>
-    <ns2:MarkEventEntryNumber>8</ns2:MarkEventEntryNumber>
-    <ns2:MarkEventAdditionalText>88889</ns2:MarkEventAdditionalText>
+    <ns2:MarkEventEntryNumber>9</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>73296</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2009-10-17</ns2:MarkEventDate>
+<ns2:MarkEventDate>2009-10-27</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>ALIEA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ASSIGNED TO LIE</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>8</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>73296</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-10-22</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
@@ -690,7 +840,7 @@
     <ns2:MarkEventEntryNumber>7</ns2:MarkEventEntryNumber>
     <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2009-10-17</ns2:MarkEventDate>
+<ns2:MarkEventDate>2009-10-14</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
@@ -700,7 +850,7 @@
     <ns2:MarkEventEntryNumber>6</ns2:MarkEventEntryNumber>
     <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2009-04-17</ns2:MarkEventDate>
+<ns2:MarkEventDate>2009-04-14</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
@@ -710,7 +860,7 @@
     <ns2:MarkEventEntryNumber>5</ns2:MarkEventEntryNumber>
     <ns2:MarkEventAdditionalText>82438</ns2:MarkEventAdditionalText>
 </ns2:NationalMarkEvent>
-<ns2:MarkEventDate>2009-04-17</ns2:MarkEventDate>
+<ns2:MarkEventDate>2009-04-14</ns2:MarkEventDate>
                             </ns2:MarkEvent>
                             <ns2:MarkEvent>
 <ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
@@ -770,6 +920,7 @@
                             <ns2:FiledAsPlusApplicationIndicator>false</ns2:FiledAsPlusApplicationIndicator>
                             <ns2:CurrentlyPlusApplicationIndicator>false</ns2:CurrentlyPlusApplicationIndicator>
                             <ns2:RegistrationChangeIndicator>false</ns2:RegistrationChangeIndicator>
+                            <ns2:AllowanceNoticeDate>2010-04-13</ns2:AllowanceNoticeDate>
                             <ns2:MaintenanceFilingBag>
 <ns2:MaintenanceFiling>
     <ns2:SectionText>8</ns2:SectionText>
@@ -787,7 +938,7 @@
 <ns2:LawOfficeAssignedDescriptionCode>L30</ns2:LawOfficeAssignedDescriptionCode>
 <ns2:CurrentLocationText>TMEG LAW OFFICE 103</ns2:CurrentLocationText>
 <ns2:CurrentLocationCode>L30</ns2:CurrentLocationCode>
-<ns2:CurrentLocationDate>2016-01-09-05:00</ns2:CurrentLocationDate>
+<ns2:CurrentLocationDate>2016-06-15-04:00</ns2:CurrentLocationDate>
 <ns2:ChargeToLocation>900 - FILE REPOSITORY (FRANCONIA)</ns2:ChargeToLocation>
 <ns2:PhysicalLocation>MADCD</ns2:PhysicalLocation>
 <ns2:PhysicalLocationDate>2009-02-06-05:00</ns2:PhysicalLocationDate>
@@ -820,7 +971,7 @@
 <ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
 <ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
 <ns2:BasisUseIndicator>false</ns2:BasisUseIndicator>
-<ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+<ns2:BasisIntentToUseIndicator>true</ns2:BasisIntentToUseIndicator>
                             </ns2:AmendedBasis>
                         </ns2:NationalFilingBasis>
                     </ns2:Trademark>
