@@ -17,7 +17,8 @@ all_CSV_filenames = []
 
 class TestUM(unittest.TestCase):
 
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
 
         # Clean up the working directory, delete all files
         for filename in os.listdir(WORKING):
