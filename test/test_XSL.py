@@ -24,7 +24,7 @@ class TestUM(unittest.TestCase):
                    "rn2178784",     # Java
                    "sn87881347",    # Burger Addict (not yet registered; has staff info)
                    "sn85334015",    # Ultrabook (has international info)
-                   "sn77478018"]    # Mardi Gras dog (lots of classes)  
+                   "rn3756727"]     # Bluebook (multiple classes)  
         XSLs = ["ST66", "ST96"]
         for tm in test_tms:
             CSVs={}
@@ -157,23 +157,23 @@ class TestUM(unittest.TestCase):
 
     def test_C009_international_classes(self):
         self.confirm_content(["international-classes"],
-                             ["rn2713476", "sn77478018"])
+                             ["rn2713476", "rn3756727"])
         
     def test_C010_domestic_classes_ST66(self):
         self.confirm_content(["domestic-classes-ST66"],
-                             ["rn2713476", "sn77478018"], ["ST66"])
+                             ["rn2713476", "rn3756727"], ["ST66"])
 
     def test_C011_domestic_classes_ST96(self):
         self.confirm_content(["domestic-classes-ST96"],
-                             ["rn2713476", "sn77478018"], ["ST96"])
+                             ["rn2713476", "rn3756727"], ["ST96"])
 
     def test_C012_first_used_dates_ST66(self):
         self.confirm_content(["first-used-dates-ST66"],
-                             ["rn2713476", "sn77478018"], ["ST66"])
+                             ["rn2713476", "rn3756727"], ["ST66"])
 
     def test_C013_first_used_dates_ST96(self):
         self.confirm_content(["first-used-dates-ST96"],
-                             ["rn2713476", "sn77478018"], ["ST96"])
+                             ["rn2713476", "rn3756727"], ["ST96"])
 
 if __name__ == '__main__':
     unittest.main(verbosity=5)

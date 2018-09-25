@@ -1,6 +1,0 @@
-BeginRepeatedField,"DomesticClassDescription"
-PrimaryClassNumber,"030"
-NiceClassNumber,"030"
-ClassificationKindCode,"Domestic"
-NationalClassNumber,"046"
-EndRepeatedField,"DomesticClassDescription"

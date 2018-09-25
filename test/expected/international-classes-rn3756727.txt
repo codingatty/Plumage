@@ -1,0 +1,8 @@
+BeginRepeatedField,"InternationalClassDescription"
+InternationalClassNumber,"041"
+GoodsServicesDescription,"Providing an on-line publication in the nature of a manual in the field of style for legal citation"
+EndRepeatedField,"InternationalClassDescription"
+BeginRepeatedField,"InternationalClassDescription"
+InternationalClassNumber,"016"
+GoodsServicesDescription,"Style manual for legal citation"
+EndRepeatedField,"InternationalClassDescription"

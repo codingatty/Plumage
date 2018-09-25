@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:TrademarkTransaction xmlns:ns1="http://www.wipo.int/standards/XMLSchema/ST96/Common" xmlns:ns2="http://www.wipo.int/standards/XMLSchema/ST96/Trademark" xmlns:ns3="urn:us:gov:doc:uspto:trademark">
+    <ns2:TrademarkTransactionBody>
+        <ns2:TransactionContentBag>
+            <ns1:TransactionCategory>National trademark registration</ns1:TransactionCategory>
+            <ns2:TransactionData>
+                <ns2:TrademarkBag>
+                    <ns2:Trademark>
+                        <ns1:RegistrationOfficeCode>US</ns1:RegistrationOfficeCode>
+                        <ns1:ApplicationNumber>
+                            <ns1:IPOfficeCode>US</ns1:IPOfficeCode>
+                            <ns1:ApplicationNumberText>77658658</ns1:ApplicationNumberText>
+                        </ns1:ApplicationNumber>
+                        <ns1:RegistrationNumber>3756727</ns1:RegistrationNumber>
+                        <ns2:ApplicationDate>2009-01-28-05:00</ns2:ApplicationDate>
+                        <ns1:RegistrationDate>2010-03-09</ns1:RegistrationDate>
+                        <ns1:FilingPlace>US</ns1:FilingPlace>
+                        <ns2:MarkCurrentStatusCode>702</ns2:MarkCurrentStatusCode>
+                        <ns2:MarkCurrentStatusDate>2016-01-09</ns2:MarkCurrentStatusDate>
+                        <ns2:AssociatedMarkBag/>
+                        <ns2:MarkCategory>Trademark</ns2:MarkCategory>
+                        <ns2:MarkCategory>Service mark</ns2:MarkCategory>
+                        <ns2:MarkRepresentation>
+                            <ns2:MarkReproduction>
+<ns2:WordMarkSpecification>
+    <ns2:MarkVerbalElementText>THE BLUEBOOK</ns2:MarkVerbalElementText>
+    <ns2:MarkSignificantVerbalElementText>THE BLUEBOOK</ns2:MarkSignificantVerbalElementText>
+    <ns2:MarkTranslationText ns1:sequenceNumber="1"/>
+    <ns2:MarkTransliteration/>
+    <ns2:MarkStandardCharacterIndicator>true</ns2:MarkStandardCharacterIndicator>
+</ns2:WordMarkSpecification>
+<ns2:MarkImageBag>
+    <ns2:MarkImage>
+        <ns1:FileName>77658658.png</ns1:FileName>
+        <ns2:MarkImageColourClaimedText ns1:sequenceNumber="1"/>
+        <ns2:MarkImageColourPartClaimedText ns1:sequenceNumber="1"/>
+        <ns2:NationalDesignSearchCodeBag/>
+        <ns1:ColourIndicator>false</ns1:ColourIndicator>
+    </ns2:MarkImage>
+</ns2:MarkImageBag>
+<ns2:MarkSoundBag>
+    <ns2:MarkSound/>
+</ns2:MarkSoundBag>
+                            </ns2:MarkReproduction>
+                            <ns2:MarkDescriptionBag>
+<ns2:MarkDescriptionText/>
+<ns2:NationalMarkDescription>
+    <ns2:MarkFeatureCode>4</ns2:MarkFeatureCode>
+</ns2:NationalMarkDescription>
+                            </ns2:MarkDescriptionBag>
+                        </ns2:MarkRepresentation>
+                        <ns2:MarkDisclaimerBag>
+                            <ns2:MarkDisclaimerText ns1:sequenceNumber="1"/>
+                        </ns2:MarkDisclaimerBag>
+                        <ns2:GoodsServicesBag>
+                            <ns2:GoodsServices>
+<ns2:GoodsServicesClassificationBag>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Primary</ns2:ClassificationKindCode>
+        <ns2:ClassNumber>041</ns2:ClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Nice</ns2:ClassificationKindCode>
+        <ns2:ClassNumber>041</ns2:ClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>100</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>101</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>107</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+</ns2:GoodsServicesClassificationBag>
+<ns2:NationalFilingBasis>
+    <ns2:CurrentBasis>
+        <ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+        <ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+        <ns2:BasisUseIndicator>false</ns2:BasisUseIndicator>
+        <ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+        <ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
+    </ns2:CurrentBasis>
+    <ns2:FirstUsedDate>20080215</ns2:FirstUsedDate>
+    <ns2:FirstUsedCommerceDate>20080215</ns2:FirstUsedCommerceDate>
+</ns2:NationalFilingBasis>
+<ns2:ClassDescriptionBag>
+    <ns2:ClassDescription>
+        <ns2:ClassNumber>041</ns2:ClassNumber>
+        <ns2:GoodsServicesDescriptionText ns1:sequenceNumber="1">Providing an on-line publication in the nature of a manual in the field of style for legal citation</ns2:GoodsServicesDescriptionText>
+    </ns2:ClassDescription>
+    <ns2:ClassDescription>
+        <ns2:NationalStatusBag>
+            <ns2:NationalStatus>
+                <ns2:NationalStatusCategory>National class status</ns2:NationalStatusCategory>
+                <ns2:NationalStatusCode>6</ns2:NationalStatusCode>
+                <ns2:NationalStatusExternalDescriptionText>ACTIVE</ns2:NationalStatusExternalDescriptionText>
+            </ns2:NationalStatus>
+        </ns2:NationalStatusBag>
+    </ns2:ClassDescription>
+</ns2:ClassDescriptionBag>
+                            </ns2:GoodsServices>
+                            <ns2:GoodsServices>
+<ns2:GoodsServicesClassificationBag>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Primary</ns2:ClassificationKindCode>
+        <ns2:ClassNumber>016</ns2:ClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Nice</ns2:ClassificationKindCode>
+        <ns2:ClassNumber>016</ns2:ClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>002</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>005</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>022</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>023</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>029</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>037</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>038</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+    <ns2:GoodsServicesClassification>
+        <ns2:ClassificationKindCode>Domestic</ns2:ClassificationKindCode>
+        <ns2:NationalClassNumber>050</ns2:NationalClassNumber>
+    </ns2:GoodsServicesClassification>
+</ns2:GoodsServicesClassificationBag>
+<ns2:NationalFilingBasis>
+    <ns2:CurrentBasis>
+        <ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+        <ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+        <ns2:BasisUseIndicator>false</ns2:BasisUseIndicator>
+        <ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+        <ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
+    </ns2:CurrentBasis>
+    <ns2:FirstUsedDate>19911231</ns2:FirstUsedDate>
+    <ns2:FirstUsedCommerceDate>19911231</ns2:FirstUsedCommerceDate>
+</ns2:NationalFilingBasis>
+<ns2:ClassDescriptionBag>
+    <ns2:ClassDescription>
+        <ns2:ClassNumber>016</ns2:ClassNumber>
+        <ns2:GoodsServicesDescriptionText ns1:sequenceNumber="1">Style manual for legal citation</ns2:GoodsServicesDescriptionText>
+    </ns2:ClassDescription>
+    <ns2:ClassDescription>
+        <ns2:NationalStatusBag>
+            <ns2:NationalStatus>
+                <ns2:NationalStatusCategory>National class status</ns2:NationalStatusCategory>
+                <ns2:NationalStatusCode>6</ns2:NationalStatusCode>
+                <ns2:NationalStatusExternalDescriptionText>ACTIVE</ns2:NationalStatusExternalDescriptionText>
+            </ns2:NationalStatus>
+        </ns2:NationalStatusBag>
+    </ns2:ClassDescription>
+</ns2:ClassDescriptionBag>
+                            </ns2:GoodsServices>
+                        </ns2:GoodsServicesBag>
+                        <ns2:PublicationBag>
+                            <ns2:Publication>
+<ns1:PublicationIdentifier>USPTO Official Gazette for Trademarks (OG)</ns1:PublicationIdentifier>
+<ns1:PublicationDate>2009-12-22</ns1:PublicationDate>
+                            </ns2:Publication>
+                        </ns2:PublicationBag>
+                        <ns2:ApplicantBag>
+                            <ns2:Applicant ns1:sequenceNumber="30">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>NY</ns1:IncorporationState>
+<ns1:Version>
+    <ns1:CommentText ns1:sequenceNumber="1">ORIGINAL REGISTRANT</ns1:CommentText>
+</ns1:Version>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:EntityName>COLUMBIA LAW REVIEW ASSOCIATION, INC.</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">435 West 116th Street</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>New York</ns1:CityName>
+                <ns1:GeographicRegionName>NEW YORK</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>10027</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="30">
+<ns1:LegalEntityName>UNINCORPORATED ASSOCIATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>7</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>MA</ns1:IncorporationState>
+<ns1:Version>
+    <ns1:CommentText ns1:sequenceNumber="1">ORIGINAL REGISTRANT</ns1:CommentText>
+</ns1:Version>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:EntityName>HARVARD LAW REVIEW ASSOCIATION</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">1511 Massachusetts Avenue</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>Cambridge</ns1:CityName>
+                <ns1:GeographicRegionName>MASSACHUSETTS</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>02138</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="30">
+<ns1:LegalEntityName>UNINCORPORATED ASSOCIATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>7</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>PA</ns1:IncorporationState>
+<ns1:Version>
+    <ns1:CommentText ns1:sequenceNumber="1">ORIGINAL REGISTRANT</ns1:CommentText>
+</ns1:Version>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:EntityName>UNIVERSITY OF PENNSYLVANIA LAW REVIEW</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">3400 Chestnut Street</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>Philadelphia</ns1:CityName>
+                <ns1:GeographicRegionName>PENNSYLVANIA</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>191046204</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="30">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>CT</ns1:IncorporationState>
+<ns1:Version>
+    <ns1:CommentText ns1:sequenceNumber="1">ORIGINAL REGISTRANT</ns1:CommentText>
+</ns1:Version>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:EntityName>THE YALE LAW JOURNAL</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">P.O. Box 208215</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>New Haven</ns1:CityName>
+                <ns1:GeographicRegionName>CONNECTICUT</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>065208215</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="20">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>NY</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">OWNER AT PUBLICATION</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>COLUMBIA LAW REVIEW ASSOCIATION, INC.</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>COLUMBIA LAW REVIEW ASSOCIATION, INC.</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">435 West 116th Street</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>New York</ns1:CityName>
+                <ns1:GeographicRegionName>NEW YORK</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>10027</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="20">
+<ns1:LegalEntityName>UNINCORPORATED ASSOCIATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>7</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>MA</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">OWNER AT PUBLICATION</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>HARVARD LAW REVIEW ASSOCIATION</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>HARVARD LAW REVIEW ASSOCIATION</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">1511 Massachusetts Avenue</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>Cambridge</ns1:CityName>
+                <ns1:GeographicRegionName>MASSACHUSETTS</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>02138</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="20">
+<ns1:LegalEntityName>UNINCORPORATED ASSOCIATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>7</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>PA</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">OWNER AT PUBLICATION</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>UNIVERSITY OF PENNSYLVANIA LAW REVIEW</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>UNIVERSITY OF PENNSYLVANIA LAW REVIEW</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">3400 Chestnut Street</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>Philadelphia</ns1:CityName>
+                <ns1:GeographicRegionName>PENNSYLVANIA</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>191046204</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="20">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>CT</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">OWNER AT PUBLICATION</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>THE YALE LAW JOURNAL</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>THE YALE LAW JOURNAL</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">P.O. Box 208215</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>New Haven</ns1:CityName>
+                <ns1:GeographicRegionName>CONNECTICUT</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>065208215</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="10">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>NY</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">ORIGINAL APPLICANT</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>COLUMBIA LAW REVIEW ASSOCIATION, INC.</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>COLUMBIA LAW REVIEW ASSOCIATION, INC.</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">435 West 116th Street</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>New York</ns1:CityName>
+                <ns1:GeographicRegionName>NEW YORK</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>10027</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="10">
+<ns1:LegalEntityName>UNINCORPORATED ASSOCIATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>7</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>MA</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">ORIGINAL APPLICANT</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>HARVARD LAW REVIEW ASSOCIATION</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>HARVARD LAW REVIEW ASSOCIATION</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">1511 Massachusetts Avenue</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>Cambridge</ns1:CityName>
+                <ns1:GeographicRegionName>MASSACHUSETTS</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>02138</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="10">
+<ns1:LegalEntityName>UNINCORPORATED ASSOCIATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>7</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>PA</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">ORIGINAL APPLICANT</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>UNIVERSITY OF PENNSYLVANIA LAW REVIEW</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>UNIVERSITY OF PENNSYLVANIA LAW REVIEW</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">3400 Chestnut Street</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>Philadelphia</ns1:CityName>
+                <ns1:GeographicRegionName>PENNSYLVANIA</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>191046204</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                            <ns2:Applicant ns1:sequenceNumber="10">
+<ns1:LegalEntityName>CORPORATION</ns1:LegalEntityName>
+<ns1:NationalLegalEntityCode>3</ns1:NationalLegalEntityCode>
+<ns1:IncorporationCountryCode>US</ns1:IncorporationCountryCode>
+<ns1:IncorporationState>CT</ns1:IncorporationState>
+<ns1:CommentText ns1:sequenceNumber="1">ORIGINAL APPLICANT</ns1:CommentText>
+<ns1:Contact>
+    <ns1:Name>
+        <ns1:OrganizationName>
+            <ns1:OrganizationStandardName>THE YALE LAW JOURNAL</ns1:OrganizationStandardName>
+        </ns1:OrganizationName>
+        <ns1:EntityName>THE YALE LAW JOURNAL</ns1:EntityName>
+    </ns1:Name>
+    <ns1:PostalAddressBag>
+        <ns1:PostalAddress>
+            <ns1:PostalStructuredAddress>
+                <ns1:AddressLineText ns1:sequenceNumber="1">P.O. Box 208215</ns1:AddressLineText>
+                <ns1:AddressLineText ns1:sequenceNumber="2"/>
+                <ns1:CityName>New Haven</ns1:CityName>
+                <ns1:GeographicRegionName>CONNECTICUT</ns1:GeographicRegionName>
+                <ns1:CountryCode>US</ns1:CountryCode>
+                <ns1:PostalCode>065208215</ns1:PostalCode>
+            </ns1:PostalStructuredAddress>
+        </ns1:PostalAddress>
+    </ns1:PostalAddressBag>
+</ns1:Contact>
+                            </ns2:Applicant>
+                        </ns2:ApplicantBag>
+                        <ns2:NationalRepresentative>
+                            <ns1:Contact>
+<ns1:Name>
+    <ns1:PersonName/>
+</ns1:Name>
+<ns1:FaxNumberBag>
+    <ns1:FaxNumber/>
+</ns1:FaxNumberBag>
+<ns1:EmailAddressBag/>
+<ns1:PhoneNumberBag>
+    <ns1:PhoneNumber/>
+</ns1:PhoneNumberBag>
+                            </ns1:Contact>
+                        </ns2:NationalRepresentative>
+                        <ns2:NationalCorrespondent>
+                            <ns1:Contact>
+<ns1:Name>
+    <ns1:PersonName>
+        <ns1:PersonFullName>Emilia F. Cannella</ns1:PersonFullName>
+    </ns1:PersonName>
+    <ns1:OrganizationName>
+        <ns1:OrganizationStandardName>ROPES &amp; GRAY LLP</ns1:OrganizationStandardName>
+    </ns1:OrganizationName>
+</ns1:Name>
+<ns1:PostalAddressBag>
+    <ns1:PostalAddress>
+        <ns1:PostalStructuredAddress>
+            <ns1:AddressLineText ns1:sequenceNumber="1">800 Boylston Street</ns1:AddressLineText>
+            <ns1:AddressLineText ns1:sequenceNumber="2">Prudential Tower</ns1:AddressLineText>
+            <ns1:CityName>BOSTON</ns1:CityName>
+            <ns1:GeographicRegionName>MASSACHUSETTS</ns1:GeographicRegionName>
+            <ns1:CountryCode>US</ns1:CountryCode>
+            <ns1:PostalCode>02199-3600</ns1:PostalCode>
+        </ns1:PostalStructuredAddress>
+    </ns1:PostalAddress>
+</ns1:PostalAddressBag>
+<ns1:FaxNumberBag>
+    <ns1:FaxNumber>617.235.9493</ns1:FaxNumber>
+</ns1:FaxNumberBag>
+<ns1:EmailAddressBag>
+    <ns1:EmailAddressText ns1:emailAddressPurposeCategory="Main">trademarks@ropesgray.com</ns1:EmailAddressText>
+</ns1:EmailAddressBag>
+<ns1:PhoneNumberBag>
+    <ns1:PhoneNumber>617.951.7000</ns1:PhoneNumber>
+</ns1:PhoneNumberBag>
+                            </ns1:Contact>
+                        </ns2:NationalCorrespondent>
+                        <ns2:RecordAttorney>
+                            <ns1:Contact>
+<ns1:Name>
+    <ns1:PersonName>
+        <ns1:PersonFullName>Emilia F. Cannella</ns1:PersonFullName>
+    </ns1:PersonName>
+</ns1:Name>
+                            </ns1:Contact>
+                            <ns2:DocketText>HLRC-T-002</ns2:DocketText>
+                            <ns1:CommentText ns1:sequenceNumber="1">Attorney of Record</ns1:CommentText>
+                        </ns2:RecordAttorney>
+                        <ns1:StaffBag/>
+                        <ns2:MarkEventBag>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>NA85E</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NOTICE OF ACCEPTANCE OF SEC. 8 &amp; 15 - E-MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>19</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2016-01-09</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>C15AO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED - SEC. 8 (6-YR) ACCEPTED &amp; SEC. 15 ACK.</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>18</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>70132</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2016-01-09</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>APREA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CASE ASSIGNED TO POST REGISTRATION PARALEGAL</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>17</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>70132</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2016-01-08</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>E815I</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS SECTION 8 &amp; 15 RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>16</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2015-11-04</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>R.PRA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>REGISTERED-PRINCIPAL REGISTER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>15</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2010-03-09</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>PUBOA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>PUBLISHED FOR OPPOSITION</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>14</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-12-22</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>NPUBO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NOTICE OF PUBLICATION</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>13</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-12-02</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>PREVO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>LAW OFFICE PUBLICATION REVIEW COMPLETED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>12</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>66213</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-11-13</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>ALIEA</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ASSIGNED TO LIE</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>11</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>66213</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-11-13</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNSAO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>APPROVED FOR PUB - PRINCIPAL REGISTER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>10</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-10-29</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>TEMEI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS/EMAIL CORRESPONDENCE ENTERED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>9</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>88889</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-10-19</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CRFAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>CORRESPONDENCE RECEIVED IN LAW OFFICE</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>8</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>88889</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-10-17</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>TROAI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>TEAS RESPONSE TO OFFICE ACTION RECEIVED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>7</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-10-17</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNRTF</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NON-FINAL ACTION MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>6</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-04-17</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>CNRTR</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NON-FINAL ACTION  WRITTEN</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>5</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>82438</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-04-17</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>DOCKD</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>ASSIGNED TO EXAMINER</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>4</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>82438</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-04-10</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>MPMKO</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NOTICE OF PSEUDO MARK MAILED</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>3</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-02-03</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>NWOSI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NEW APPLICATION OFFICE SUPPLIED DATA ENTERED IN TRAM</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>2</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-02-02</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                            <ns2:MarkEvent>
+<ns2:MarkEventCategory>National prosecution history entry</ns2:MarkEventCategory>
+<ns2:NationalMarkEvent>
+    <ns2:MarkEventCode>NWAPI</ns2:MarkEventCode>
+    <ns2:MarkEventDescriptionText>NEW APPLICATION ENTERED IN TRAM</ns2:MarkEventDescriptionText>
+    <ns2:MarkEventEntryNumber>1</ns2:MarkEventEntryNumber>
+    <ns2:MarkEventAdditionalText>0</ns2:MarkEventAdditionalText>
+</ns2:NationalMarkEvent>
+<ns2:MarkEventDate>2009-01-31</ns2:MarkEventDate>
+                            </ns2:MarkEvent>
+                        </ns2:MarkEventBag>
+                        <ns2:AssignmentBag>
+                            <ns2:NationalAssignmentTotalQuantity>0</ns2:NationalAssignmentTotalQuantity>
+                        </ns2:AssignmentBag>
+                        <ns2:LegalProceedingsBag>
+                            <ns2:LegalProceedings/>
+                        </ns2:LegalProceedingsBag>
+                        <ns2:NationalTrademarkInformation>
+                            <ns2:RegisterCategory>Primary</ns2:RegisterCategory>
+                            <ns2:AmendedPrincipalRegisterIndicator>false</ns2:AmendedPrincipalRegisterIndicator>
+                            <ns2:AmendedSupplementalRegisterIndicator>false</ns2:AmendedSupplementalRegisterIndicator>
+                            <ns2:MarkCurrentStatusExternalDescriptionText>A Sections 8 and 15 combined declaration has been accepted and acknowledged.</ns2:MarkCurrentStatusExternalDescriptionText>
+                            <ns2:PreviouslyRegisteredMarkPublicationIndicator>false</ns2:PreviouslyRegisteredMarkPublicationIndicator>
+                            <ns2:TradeDistinctivenessScopeText>In-Total</ns2:TradeDistinctivenessScopeText>
+                            <ns2:RestrictionStatementText>The 2(f) claim is restricted to class(es) 016 only.</ns2:RestrictionStatementText>
+                            <ns2:FiledAsPlusApplicationIndicator>false</ns2:FiledAsPlusApplicationIndicator>
+                            <ns2:CurrentlyPlusApplicationIndicator>false</ns2:CurrentlyPlusApplicationIndicator>
+                            <ns2:RegistrationChangeIndicator>false</ns2:RegistrationChangeIndicator>
+                            <ns2:MaintenanceFilingBag>
+<ns2:MaintenanceFiling>
+    <ns2:SectionText>8</ns2:SectionText>
+    <ns2:SectionDescriptionText>Affidavit of Continued Use</ns2:SectionDescriptionText>
+    <ns2:DecisionStatusCategory>Accepted</ns2:DecisionStatusCategory>
+</ns2:MaintenanceFiling>
+<ns2:MaintenanceFiling>
+    <ns2:SectionText>15</ns2:SectionText>
+    <ns2:SectionDescriptionText>Affidavit of Incontestability</ns2:SectionDescriptionText>
+    <ns2:DecisionStatusCategory>Accepted</ns2:DecisionStatusCategory>
+</ns2:MaintenanceFiling>
+                            </ns2:MaintenanceFilingBag>
+                            <ns2:NationalCaseLocation>
+<ns2:LawOfficeAssignedText>LAW OFFICE 103</ns2:LawOfficeAssignedText>
+<ns2:LawOfficeAssignedDescriptionCode>L30</ns2:LawOfficeAssignedDescriptionCode>
+<ns2:CurrentLocationText>TMEG LAW OFFICE 103</ns2:CurrentLocationText>
+<ns2:CurrentLocationCode>L30</ns2:CurrentLocationCode>
+<ns2:CurrentLocationDate>2016-01-09-05:00</ns2:CurrentLocationDate>
+<ns2:ChargeToLocation>900 - FILE REPOSITORY (FRANCONIA)</ns2:ChargeToLocation>
+<ns2:PhysicalLocation>MADCD</ns2:PhysicalLocation>
+<ns2:PhysicalLocationDate>2009-02-06-05:00</ns2:PhysicalLocationDate>
+                            </ns2:NationalCaseLocation>
+                            <ns3:FiledAsReducedFeeApplicationIndicator>false</ns3:FiledAsReducedFeeApplicationIndicator>
+                            <ns3:CurrentlyReducedFeeApplicationIndicator>false</ns3:CurrentlyReducedFeeApplicationIndicator>
+                        </ns2:NationalTrademarkInformation>
+                        <ns2:NationalGoodsServices>
+                            <ns2:ActiveClassTotalQuantity>2</ns2:ActiveClassTotalQuantity>
+                            <ns2:NationalClassTotalQuantity>8</ns2:NationalClassTotalQuantity>
+                        </ns2:NationalGoodsServices>
+                        <ns2:NationalFilingBasis>
+                            <ns2:FilingBasis>
+<ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+<ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+<ns2:BasisUseIndicator>true</ns2:BasisUseIndicator>
+<ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+<ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
+<ns2:BasisInternationalRegistrationIndicator>false</ns2:BasisInternationalRegistrationIndicator>
+                            </ns2:FilingBasis>
+                            <ns2:CurrentBasis>
+<ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+<ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+<ns2:BasisUseIndicator>true</ns2:BasisUseIndicator>
+<ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+<ns2:NoBasisIndicator>false</ns2:NoBasisIndicator>
+<ns2:BasisInternationalRegistrationIndicator>false</ns2:BasisInternationalRegistrationIndicator>
+                            </ns2:CurrentBasis>
+                            <ns2:AmendedBasis>
+<ns2:BasisForeignApplicationIndicator>false</ns2:BasisForeignApplicationIndicator>
+<ns2:BasisForeignRegistrationIndicator>false</ns2:BasisForeignRegistrationIndicator>
+<ns2:BasisUseIndicator>false</ns2:BasisUseIndicator>
+<ns2:BasisIntentToUseIndicator>false</ns2:BasisIntentToUseIndicator>
+                            </ns2:AmendedBasis>
+                        </ns2:NationalFilingBasis>
+                    </ns2:Trademark>
+                </ns2:TrademarkBag>
+            </ns2:TransactionData>
+        </ns2:TransactionContentBag>
+    </ns2:TrademarkTransactionBody>
+</ns2:TrademarkTransaction>
