@@ -18,4 +18,4 @@ _X__ Add unit tests to confirm facially satisfactory XSL transformation on all t
         _X_ in the format [START-OF-LINE]KEYNAME,"VALUE"[END-OF-LINE]
         _X_ KEYNAME consists only of letters (A-Z, a-z) and digits (0-9);
         _X_ VALUE is enclosed in double-quotes;
-
+__X_ Relabel Diag to Meta and organize better
