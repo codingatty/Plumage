@@ -11,11 +11,15 @@ _X_ Report first-use info, correlated to int'l class; ST66: FirstUseDateNumber &
 _X_ Clean up excessive use of <xsl:text/> 
 _X_ Diagnostic info moved to end
 _X_ Note Newline at end (consistent with CSVs saved by most spreadsheet programs (excel, libreoffice, OpenOffice)
-_X__ Add unit tests to confirm facially satisfactory XSL transformation on all test data:
+_X_ Add unit tests to confirm facially satisfactory XSL transformation on all test data:
     _X_ ends with single newline
     _X_ No blank/whitespace/null lines
-    _X__ Each line:
+    _X_ Each line:
         _X_ in the format [START-OF-LINE]KEYNAME,"VALUE"[END-OF-LINE]
         _X_ KEYNAME consists only of letters (A-Z, a-z) and digits (0-9);
         _X_ VALUE is enclosed in double-quotes;
-__X_ Relabel Diag to Meta and organize better
+_X_ Relabel Diag to Meta and organize better
+_X_ New meta-fields I find I'm in need of:
+    _X_ MetaInfoExecTSDRStartTimestamp : Start time of call to TSDR (to microsecond)
+	_X_ MetaInfoExecTSDRCompleteTimestamp : Completion time of call to TSDR (to microsecond)
+
