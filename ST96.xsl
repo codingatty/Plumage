@@ -145,7 +145,7 @@ NationalClassNumber,"<xsl:value-of select="ns2:NationalClassNumber"/>"
 </xsl:template>
 
 <xsl:template match="ns2:GoodsServicesBag/ns2:GoodsServices/ns2:NationalFilingBasis">
-<xsl:text/>BeginRepeatedField,"FirstUseDates"
+<xsl:text/>BeginRepeatedField,"FirstUseDate"
 <xsl:for-each select="../ns2:GoodsServicesClassificationBag/ns2:GoodsServicesClassification">
 <xsl:if test="ns2:ClassificationKindCode = 'Primary'">
 <xsl:text/>PrimaryClassNumber,"<xsl:value-of select="ns2:ClassNumber"/>"
@@ -156,7 +156,7 @@ NationalClassNumber,"<xsl:value-of select="ns2:NationalClassNumber"/>"
 </xsl:for-each>
 <xsl:text/>FirstUseDateNumber,"<xsl:value-of select="ns2:FirstUsedDate"/>"
 FirstUseInCommerceDate,"<xsl:value-of select="ns2:FirstUsedCommerceDate"/>"
-<xsl:text/>EndRepeatedField,"FirstUseDates"
+<xsl:text/>EndRepeatedField,"FirstUseDate"
 </xsl:template>
 
 <xsl:template match="ns2:PublicationBag/ns2:Publication">

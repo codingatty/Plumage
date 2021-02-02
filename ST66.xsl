@@ -153,11 +153,11 @@ EndRepeatedField,"DomesticClassDescription"
 </xsl:template>
 
 <xsl:template match="default:GoodsServicesDetails/default:GoodsServices/default:ClassDescriptionDetails/default:ClassDescription/default:ClassDescriptionExt/ns2:FilingBasisDetails">
-<xsl:text/>BeginRepeatedField,"FirstUseDates"
+<xsl:text/>BeginRepeatedField,"FirstUseDate"
 PrimaryClassNumber,"<xsl:value-of select="../ns2:PrimeClassText"/>"
 FirstUseDateNumber,"<xsl:value-of select="ns2:FirstUseDateNumber"/>"
 FirstUseInCommerceDate,"<xsl:value-of select="ns2:FirstUseInCommerceDate"/>"
-EndRepeatedField,"FirstUseDates"
+EndRepeatedField,"FirstUseDate"
 </xsl:template>
 
 <xsl:template match="default:PublicationDetails">
