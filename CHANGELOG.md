@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Change namespace IDs in ST66 to match PTO XML files ("default" for the unnamed one). See discussion at https://github.com/codingatty/Plumage-py/issues/1
 - Report international and domestic trademark classes
 - Report first-use dates (on per-class basis)
+- Plumage-XSLT-metadata.json to enable metadata query without TSDR call
 
 ## [1.1.0](https://github.com/codingatty/Plumage/releases/tag/V1.1.0) - 2016-05-23 (*The Big Sky*)
 - Support for ST.96 V 2.2.1 (adopted by the US PTO on May 6, 2016)
