@@ -3,14 +3,11 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.4.0](https://github.com/codingatty/Plumage/releases/tag/V1.4.0) - 2021-02-02 (*Experiment IV*)
-- Final line in CSV now terminates in NEWLINE. This is consistent with CSV treatment in major spreadsheet programs (e.g. LibreOffice, Apache OpenOffice & Microsoft Excel). Note this requires the "XSL relaxation: accept and ignore blank or empty lines" feature that was added in Plumage-py 1.2.0 and Plumage-dotnet 1.2.0.
-- The use of the <xsl:text/> (used to prevent the insertion of blank lines) has been trimmed back, to keep the XSL files more readable 
-- Cleaned up Staff info and international application and reg nos. handling
-- Improved unit tests
-- Change namespace IDs in ST66 to match PTO XML files ("default" for the unnamed one). See discussion at https://github.com/codingatty/Plumage-py/issues/1
-- Report international and domestic trademark classes
-- Report first-use dates (on per-class basis)
-- Plumage-XSLT-metadata.json to enable metadata query without TSDR call
+- Report international and domestic trademark classes.
+- Report first-use dates (on per-class basis).
+- Externalize certain metadata to JSON file to permit metadata queries without a TSDR call.
+- Changes to metadata key names.
+- Other minor changes ([see release notes](https://github.com/codingatty/Plumage/releases/tag/V1.4.0))
 
 ## [1.1.0](https://github.com/codingatty/Plumage/releases/tag/V1.1.0) - 2016-05-23 (*The Big Sky*)
 - Support for ST.96 V 2.2.1 (adopted by the US PTO on May 6, 2016)
